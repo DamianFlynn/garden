@@ -7,6 +7,7 @@ tags:
 title: Obsidian2Hugo
 lastmod: "2022-11-29 11:42:26"
 url: makeitso
+type: article
 ---
 
 My Blog has evolved over the years, initially hosted on Wordpress, but some 6 years back I abandond that plaform for Static Sites, initially with Jekyll and used Github Pages, but that also got sunset in favor of my current generator Hugo.
