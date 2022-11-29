@@ -1,11 +1,11 @@
 ---
 published: true
-date: "2022-11-29 16:17:58"
+date: "2022-11-29 16:43:23"
 tags:
   - test
   - magic
 title: Obsidian2Hugo
-lastmod: "2022-11-29 16:17:58"
+lastmod: "2022-11-29 16:43:23"
 url: makeitso
 ---
 
