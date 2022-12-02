@@ -9,7 +9,6 @@ toc: false
 comments: false 
 ---
 
-# Hugo Modules Introduction
 What are Hugo Modules and should you convert your Hugo site to be one?
 
 The **Hugo Modules** feature was added to Hugo back in [July 2019](https://github.com/gohugoio/hugo/releases/tag/v0.56.0). It enables collecting different pieces of your Hugo site source from different repositories, each piece is a _module_. 

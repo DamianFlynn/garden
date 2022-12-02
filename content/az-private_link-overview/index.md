@@ -9,7 +9,6 @@ toc: false
 comments: false 
 ---
 
-# Azure Private Link
 
 [MS Ignite 2019](conf-microsoft_ignite-2019) Session: #BRK3168
 Presenters: Narayan Annamalai and Sumeet Mittal
@@ -17,7 +16,7 @@ Presenters: Narayan Annamalai and Sumeet Mittal
 > [!note] Generally available
 > This service has exited [Public Preview](Public Preview), and is now published to all regions as General Availability
 
-Additionally today (November 2019) in USWestCentral, USNorth, and USEast the ability to use with *CosmosDB* has been added.
+~~Additionally today (November 2019) in US West Central, US North, and US East the ability to use with *CosmosDB* has been added to this service~~
 
 ## Your Service
 

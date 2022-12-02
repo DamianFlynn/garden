@@ -9,7 +9,6 @@ toc: false
 comments: false 
 ---
 
-# Theming Hugo with Module
 
 To utilize modules in Hugo for our theme, we first must ensure that our site supports [Hugo Modules](sw-ssg-hugo-modules).
 

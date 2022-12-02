@@ -11,7 +11,6 @@ toc: false
 comments: false 
 ---
 
-# OpenSSL seperating a PFX into Public and Private Key Files
 
 Using **OpenSSL** we can extract the private key, and the certificate into independent file's, which is required for most networking devices, and linux services.
 

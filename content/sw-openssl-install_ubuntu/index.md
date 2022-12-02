@@ -11,7 +11,6 @@ toc: false
 comments: false 
 ---
 
-# Installing the Latest OpenSSL release on Ubuntu
 
 Being over 25 years old, OpenSSL can be found on just about any system you work with today; but this does not imply that the version installed is current (or even close).
 

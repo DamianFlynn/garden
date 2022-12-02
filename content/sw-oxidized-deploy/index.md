@@ -10,7 +10,6 @@ toc: false
 comments: false 
 ---
 
-# Change Detection using Oxidized
 
 
 The process is very simple:
@@ -128,15 +127,15 @@ Now, we are ready, we have the configuration all set for this installation
 
 Launching our browser to the oxidized site hosted on `TCP 8888` renders the current status
 
-![Oxidized Web UX](blog/assets/sw-oxidized-deploy-webux.png)
+![Oxidized Web UX](sw-oxidized-deploy-webux.png)
 
 From here we can see all the version changes for the devices configuration
 
-![Change History Log](blog/assets/sw-oxidized-deploy-history.png)
+![Change History Log](sw-oxidized-deploy-history.png)
 
 And even select any one of these change sets, and view the changes which were applied to the configuration
 
-![Actual Changes](blog/assets/sw-oxidized-deploy-diff.png)
+![Actual Changes](sw-oxidized-deploy-diff.png)
 
 > **Closing Thoughts**
 >

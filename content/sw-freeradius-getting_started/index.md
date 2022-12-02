@@ -11,7 +11,6 @@ toc: false
 comments: false 
 ---
 
-# FreeRADIUS Getting Started
 
 FreeRADIUS is an open source, high-performance, modular, scalable and feature-rich RADIUS server. It ships with both server and radius client, development libraries and numerous additional RADIUS related utilities, for Linux
 

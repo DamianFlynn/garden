@@ -10,7 +10,6 @@ toc: false
 comments: false 
 ---
 
-# Hitting Reset
 
 10 Years, It is hard to believe that I have been posting thoughts here that long. And how so much has changed since I begun?
 

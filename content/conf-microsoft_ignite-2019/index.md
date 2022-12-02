@@ -8,5 +8,4 @@ toc: false
 comments: false 
 ---
 
-# Microsoft Ignite 2019
 Orland Florida

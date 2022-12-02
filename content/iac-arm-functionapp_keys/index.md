@@ -10,7 +10,6 @@ toc: false
 comments: false 
 ---
 
-# Get the Function Keys using ARM
 
 Todays conundrum: As I deploy a new [Function Application](iac-arm-functionapp_scaffold), I need a simple methodology to retrieve the Host Keys for the function application so that I validate the deployment has been successful; and potentially pass on the key to related services, for example API Management.
 

@@ -9,7 +9,6 @@ toc: false
 comments: false 
 ---
 
-# Migrating like a Jekyll using Azure DevOps
 
 One of the unspoken truths behind the lack of posts on ths [blog](blog) in recent history was due to a few bugs, which in the end resulted in an experience where from home it appeared that any new content was published and working; but outside this fortress in the real world, there was a large silence echoing.
 

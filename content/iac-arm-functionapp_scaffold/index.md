@@ -11,7 +11,6 @@ toc: false
 comments: false 
 ---
 
-# Deploy Azure Function App with ARM
 
 Most of my time is spent working on Governance in Azure; and while the cloud native plumbing is amzaing, there are still some gaps which need to be filled, and my go-to tool of choice is Azure Functions.
 

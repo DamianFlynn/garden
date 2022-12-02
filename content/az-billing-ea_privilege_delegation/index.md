@@ -10,7 +10,6 @@ toc: false
 comments: false 
 ---
 
-# Azure Enterprise Agreement, Privilages Delegating
 
 Under the Enterprise agreement we have some different Persona's, which have quite different abilities and operations upon which they are permitted to preform. 
 
@@ -58,7 +57,7 @@ The Account Owner also has the privilege's of delegating their responsibility (R
 
 In the [EA Portal](https://ea.azure.com), the _Account_ page for a Department will present a list of established subscription.
 
-![EP Portal](blog/assets/azure-billing-ea_privilege_delegation-EAPortalAccountsView.png)
+![EP Portal](azure-billing-ea_privilege_delegation-EAPortalAccountsView.png)
 
 
 ## Programmatic Subscription Creation
@@ -160,7 +159,7 @@ az ad sp create-for-rbac --name "azGOVSubscriptionProvision"
 
 Assuming no errors with this command, you should be able to locate the new principal in the Azure AD portal, under Enterprise Applications.
 
-![AAD SPN](blog/assets/azure-billing-ea_privilege_delegation-AADServicePrincipal.png)
+![AAD SPN](azure-billing-ea_privilege_delegation-AADServicePrincipal.png)
 
 #### Get the Application ID 
 

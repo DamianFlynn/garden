@@ -11,7 +11,6 @@ toc: false
 comments: false 
 ---
 
-# Streaming Music from USB Turntable
 
 A little known trivia - I was once a [DJ](DJ), and spent a lot of my youth behind the decks, in clubs around the West Of Ireland. Today, I still am the proud owner of a very large collection of Vynil and CD music, which of course deserves to get a second life with my digital streaming audio system powered by [Sonos](Sonos)
 

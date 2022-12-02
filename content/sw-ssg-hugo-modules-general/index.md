@@ -9,7 +9,6 @@ toc: false
 comments: false 
 ---
 
-# Hugo Modules General Usage
 
 Let’s take a look at some examples of site configurations using Hugo modules.
 

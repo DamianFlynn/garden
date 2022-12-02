@@ -10,7 +10,6 @@ toc: false
 comments: false 
 ---
 
-# Exporting Windows Certificates to PFX
 
 A `.pfx` file is in essence an archive which can contain multiple objects, and can also be password protected; The format of this file is known as *PKCS#12*
 

@@ -10,7 +10,6 @@ toc: false
 comments: false 
 ---
 
-# Issuing a Certificate using OpenSSL
 
 It is enevitable, that at some point in time, you will need to issue a certificate for your system. There are a couple of relativly simple steps to acheive this, begining with the creation of a certificate request, then submitting this to an online certificate authority, which will process the request and issue you a certificate with both a Public and Private Key.
 
