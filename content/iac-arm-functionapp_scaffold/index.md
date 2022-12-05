@@ -36,7 +36,7 @@ The function runtime is controlled by a file called `host.json`; and this will c
 }
 ```
  
-THis is accompanised with a file to define the environment variables `local.settings.json`
+This is accompanised with a file to define the environment variables `local.settings.json`
 
 ```json
 {

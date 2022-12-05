@@ -34,7 +34,7 @@ For the purpose of this post we will use a scenario of the recovery vault. At th
 
 With these Tags applied, we will have something similar to the following at the subscription level:
 
-![Subscription Tags](iac-state-azure_tags_2021-07-27-12-38-12.png)
+![Subscription Tags](./iac-state-azure_tags_2021-07-27-12-38-12.png)
 
 In my lab the subscription is `/subscriptions/547d54ea-411b-459e-b6f8-b3cc5e84c535`
 
@@ -44,7 +44,7 @@ And the VM called **p-vm001**, which will represent the resource which we are go
 
 The full resource ID of this VM in the lab is `/subscriptions/547d54ea-411b-459e-b6f8-b3cc5e84c535/resourceGroups/p-vm/providers/Microsoft.Compute/virtualMachines/p-vm001`
 
-![VM with its Tags](iac-state-azure_tags_2021-07-27-12-43-35.png)
+![VM with its Tags](./iac-state-azure_tags_2021-07-27-12-43-35.png)
 
 ## Azure Resource Manager Magic
 
@@ -99,13 +99,13 @@ Using the **Custom Template Deployment** in Azure Portal, paste the sample templ
 ```
 Next, Check your going to deploy to the lab environment subscription, and resource group where we have the test VM which we will check the tag on
 
-![Project Details in Custom Deployment](iac-state-azure_tags_2021-07-27-12-52-12.png)
+![Project Details in Custom Deployment](./iac-state-azure_tags_2021-07-27-12-52-12.png)
 
 Click on the **Review and Create** Button, allow the validation to complete, and then click again on **Create**
 
 As this is simply a reference deployment, it will complete instantly, so next we can check the output from the deployment
 
-![Template Output](iac-state-azure_tags_2021-07-27-12-54-16.png)
+![Template Output](./iac-state-azure_tags_2021-07-27-12-54-16.png)
 
 Now, we should see all the tag values which we set in the lab!
 ## Behind the Scenes - Explain the Template
