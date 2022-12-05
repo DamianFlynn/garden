@@ -57,7 +57,7 @@ The Account Owner also has the privilege's of delegating their responsibility (R
 
 In the [EA Portal](https://ea.azure.com), the _Account_ page for a Department will present a list of established subscription.
 
-![EP Portal](./azure-billing-ea_privilege_delegation-EAPortalAccountsView.png)
+![EP Portal](az-billing-ea_privilege_delegation/azure-billing-ea_privilege_delegation-EAPortalAccountsView.png)
 
 
 ## Programmatic Subscription Creation
@@ -159,7 +159,7 @@ az ad sp create-for-rbac --name "azGOVSubscriptionProvision"
 
 Assuming no errors with this command, you should be able to locate the new principal in the Azure AD portal, under Enterprise Applications.
 
-![AAD SPN](./azure-billing-ea_privilege_delegation-AADServicePrincipal.png)
+![AAD SPN](az-billing-ea_privilege_delegation/azure-billing-ea_privilege_delegation-AADServicePrincipal.png)
 
 #### Get the Application ID 
 
