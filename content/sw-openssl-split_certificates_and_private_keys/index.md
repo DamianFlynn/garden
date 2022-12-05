@@ -3,6 +3,7 @@ title: Extracting Certificates from a PFX
 type: article 
 subtitle: Converting PFX files back to the dependent certificates
 date: 2021-03-05 10:10:09+00:00
+series: Raidus in a Cloud World
 categories: ['IT Pro/DevOps', 'OpenSource', 'Identity']
 tags: ['Linux', 'Networking', 'Azure']
 draft: False

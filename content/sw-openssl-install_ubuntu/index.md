@@ -1,9 +1,9 @@
 ---
-title: Installing the Latest OpenSSL release on Ubuntu
+title: Installing the Latest OpenSSL release
 type: article 
 subtitle: Steps to deploy the latest version of OpenSSL on Ubuntu
 date: 2021-03-02 10:10:09+00:00
-series: Implementing 802.1x with Azure AD
+series: Raidus in a Cloud World
 categories: ['IT Pro/DevOps', 'OpenSource', 'Identity']
 tags: ['Linux', 'Networking', 'Azure']
 draft: False
