@@ -1,5 +1,5 @@
 ---
-title: Extracting Public and Private Certificates from a PFX
+title: Extracting Certificates from a PFX
 type: article 
 subtitle: Converting PFX files back to the dependent certificates
 date: 2021-03-05 10:10:09+00:00
@@ -58,7 +58,7 @@ MAC verified OK
 ### Exporting all cerificates in the chain
 
 When your PFX contains all the certificates in the chain, you can also export all these to the certificate file, `cert.pem` using the following command syntax. 
->
+
 ```bash
 openssl.exe pkcs12 -in filename.pfx -out cert.pem -nodes
 ```
