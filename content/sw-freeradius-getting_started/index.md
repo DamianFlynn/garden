@@ -18,6 +18,8 @@ FreeRADIUS supports request proxying, with fail-over and load balancing, as well
 
 RADIUS, which stands for ***R**emote **A**uthentication **D**ial-**I**n **U**ser **S**ervice*, is a network protocol used for remote user authentication and accounting. It provides AAA services; namely **A**uthorization, **A**uthentication, and **A**ccounting.
 
+{{< series "My New Super Series" >}}
+
 ## FreeRadius
 
 > [!note] Linux OS
