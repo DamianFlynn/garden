@@ -48,9 +48,6 @@ index:
               text: Hit Reset
         /sw-openssl-certificate_issuing:
             - source: /sw-openssl-certificate_issuing
-              target: /Subject Alternate Name
-              text: Subject Alternate Name
-            - source: /sw-openssl-certificate_issuing
               target: /sw-freeradius-getting_started
               text: Linux FreeRadius server
             - source: /sw-openssl-certificate_issuing
@@ -71,6 +68,9 @@ index:
             - source: /sw-openssl-certificate_issuing
               target: /sw-openssl-install_ubuntu
               text: OpenSSL
+            - source: /sw-openssl-certificate_issuing
+              target: /Subject Alternate Name
+              text: Subject Alternate Name
         /sw-openssl-split_certificates_and_private_keys:
             - source: /sw-openssl-split_certificates_and_private_keys
               target: /sw-openssl-install_ubuntu
@@ -81,12 +81,15 @@ index:
               text: Hugo Theme Module
         /sw-ssg-hugo-modules-theme:
             - source: /sw-ssg-hugo-modules-theme
-              target: /git
-              text: git
-            - source: /sw-ssg-hugo-modules-theme
               target: /sw-ssg-hugo-modules
               text: Hugo Modules
+            - source: /sw-ssg-hugo-modules-theme
+              target: /git
+              text: git
         /sw-ssg-jekyll_with_azure_devops:
+            - source: /sw-ssg-jekyll_with_azure_devops
+              target: /Azure DevOps
+              text: Azure DevOps
             - source: /sw-ssg-jekyll_with_azure_devops
               target: /blog
               text: blog
@@ -102,9 +105,6 @@ index:
             - source: /sw-ssg-jekyll_with_azure_devops
               target: /GIT
               text: GIT
-            - source: /sw-ssg-jekyll_with_azure_devops
-              target: /Azure DevOps
-              text: Azure DevOps
     backlinks:
         /ARM:
             - source: /iac-state-azure_tags
@@ -260,9 +260,6 @@ links:
       target: /personal-reflection-2018
       text: Hit Reset
     - source: /sw-openssl-certificate_issuing
-      target: /Subject Alternate Name
-      text: Subject Alternate Name
-    - source: /sw-openssl-certificate_issuing
       target: /sw-freeradius-getting_started
       text: Linux FreeRadius server
     - source: /sw-openssl-certificate_issuing
@@ -283,6 +280,9 @@ links:
     - source: /sw-openssl-certificate_issuing
       target: /sw-openssl-install_ubuntu
       text: OpenSSL
+    - source: /sw-openssl-certificate_issuing
+      target: /Subject Alternate Name
+      text: Subject Alternate Name
     - source: /sw-openssl-split_certificates_and_private_keys
       target: /sw-openssl-install_ubuntu
       text: OpenSSL
@@ -290,11 +290,14 @@ links:
       target: '/sw-ssg-hugo-modules-theme '
       text: Hugo Theme Module
     - source: /sw-ssg-hugo-modules-theme
-      target: /git
-      text: git
-    - source: /sw-ssg-hugo-modules-theme
       target: /sw-ssg-hugo-modules
       text: Hugo Modules
+    - source: /sw-ssg-hugo-modules-theme
+      target: /git
+      text: git
+    - source: /sw-ssg-jekyll_with_azure_devops
+      target: /Azure DevOps
+      text: Azure DevOps
     - source: /sw-ssg-jekyll_with_azure_devops
       target: /blog
       text: blog
@@ -310,6 +313,3 @@ links:
     - source: /sw-ssg-jekyll_with_azure_devops
       target: /GIT
       text: GIT
-    - source: /sw-ssg-jekyll_with_azure_devops
-      target: /Azure DevOps
-      text: Azure DevOps
