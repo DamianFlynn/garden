@@ -48,9 +48,6 @@ index:
               text: Hit Reset
         /sw-openssl-certificate_issuing:
             - source: /sw-openssl-certificate_issuing
-              target: /sw-freeradius-getting_started
-              text: Linux FreeRadius server
-            - source: /sw-openssl-certificate_issuing
               target: /sw-openssl-certificate_issuing
               text: request template
             - source: /sw-openssl-certificate_issuing
@@ -71,6 +68,9 @@ index:
             - source: /sw-openssl-certificate_issuing
               target: /Subject Alternate Name
               text: Subject Alternate Name
+            - source: /sw-openssl-certificate_issuing
+              target: /sw-freeradius-getting_started
+              text: Linux FreeRadius server
         /sw-openssl-split_certificates_and_private_keys:
             - source: /sw-openssl-split_certificates_and_private_keys
               target: /sw-openssl-install_ubuntu
@@ -88,12 +88,6 @@ index:
               text: git
         /sw-ssg-jekyll_with_azure_devops:
             - source: /sw-ssg-jekyll_with_azure_devops
-              target: /Azure DevOps
-              text: Azure DevOps
-            - source: /sw-ssg-jekyll_with_azure_devops
-              target: /blog
-              text: blog
-            - source: /sw-ssg-jekyll_with_azure_devops
               target: /Jekyll
               text: Jekyll
             - source: /sw-ssg-jekyll_with_azure_devops
@@ -105,6 +99,12 @@ index:
             - source: /sw-ssg-jekyll_with_azure_devops
               target: /GIT
               text: GIT
+            - source: /sw-ssg-jekyll_with_azure_devops
+              target: /Azure DevOps
+              text: Azure DevOps
+            - source: /sw-ssg-jekyll_with_azure_devops
+              target: /blog
+              text: blog
     backlinks:
         /ARM:
             - source: /iac-state-azure_tags
@@ -260,9 +260,6 @@ links:
       target: /personal-reflection-2018
       text: Hit Reset
     - source: /sw-openssl-certificate_issuing
-      target: /sw-freeradius-getting_started
-      text: Linux FreeRadius server
-    - source: /sw-openssl-certificate_issuing
       target: /sw-openssl-certificate_issuing
       text: request template
     - source: /sw-openssl-certificate_issuing
@@ -283,6 +280,9 @@ links:
     - source: /sw-openssl-certificate_issuing
       target: /Subject Alternate Name
       text: Subject Alternate Name
+    - source: /sw-openssl-certificate_issuing
+      target: /sw-freeradius-getting_started
+      text: Linux FreeRadius server
     - source: /sw-openssl-split_certificates_and_private_keys
       target: /sw-openssl-install_ubuntu
       text: OpenSSL
@@ -296,12 +296,6 @@ links:
       target: /git
       text: git
     - source: /sw-ssg-jekyll_with_azure_devops
-      target: /Azure DevOps
-      text: Azure DevOps
-    - source: /sw-ssg-jekyll_with_azure_devops
-      target: /blog
-      text: blog
-    - source: /sw-ssg-jekyll_with_azure_devops
       target: /Jekyll
       text: Jekyll
     - source: /sw-ssg-jekyll_with_azure_devops
@@ -313,3 +307,9 @@ links:
     - source: /sw-ssg-jekyll_with_azure_devops
       target: /GIT
       text: GIT
+    - source: /sw-ssg-jekyll_with_azure_devops
+      target: /Azure DevOps
+      text: Azure DevOps
+    - source: /sw-ssg-jekyll_with_azure_devops
+      target: /blog
+      text: blog

@@ -13,3 +13,5 @@ The information shared in this garden, is a carefully purned subset of my main r
 
 [Hugo Modules](sw-ssg-hugo-modules)
 [OpenSSL](sw-openssl-install_ubuntu)
+
+Technology, Time to make it simple!
