@@ -1,18 +1,6 @@
 {
   "index": {
     "links": {
-      "garden/content/": [
-        {
-          "source": "garden/content/",
-          "target": "/sw-ssg-hugo-modules",
-          "text": "Hugo Modules"
-        },
-        {
-          "source": "garden/content/",
-          "target": "/sw-openssl-install_ubuntu",
-          "text": "OpenSSL"
-        }
-      ],
       "garden/content/az-private_link-overview": [
         {
           "source": "garden/content/az-private_link-overview",
@@ -264,11 +252,6 @@
       ],
       "/sw-openssl-install_ubuntu": [
         {
-          "source": "garden/content/",
-          "target": "/sw-openssl-install_ubuntu",
-          "text": "OpenSSL"
-        },
-        {
           "source": "garden/content/sw-openssl-certificate_issuing",
           "target": "/sw-openssl-install_ubuntu",
           "text": "OpenSSL"
@@ -283,27 +266,10 @@
           "target": "/sw-openssl-install_ubuntu",
           "text": "OpenSSL"
         }
-      ],
-      "/sw-ssg-hugo-modules": [
-        {
-          "source": "garden/content/",
-          "target": "/sw-ssg-hugo-modules",
-          "text": "Hugo Modules"
-        }
       ]
     }
   },
   "links": [
-    {
-      "source": "garden/content/",
-      "target": "/sw-ssg-hugo-modules",
-      "text": "Hugo Modules"
-    },
-    {
-      "source": "garden/content/",
-      "target": "/sw-openssl-install_ubuntu",
-      "text": "OpenSSL"
-    },
     {
       "source": "garden/content/az-private_link-overview",
       "target": "/conf-microsoft_ignite-2019",
