@@ -3,6 +3,7 @@ title: Create PKI Certificate for Linux Server
 type: article 
 subtitle: Using OpenSSL on Linux to Request a Certificate from Windows PKI
 date: 2021-03-03 10:10:09+00:00
+series: RADIUS with Azure Active Directory
 categories: ['IT Pro/DevOps', 'OpenSource', 'Identity']
 tags: ['Linux', 'Networking', 'Azure']
 draft: False

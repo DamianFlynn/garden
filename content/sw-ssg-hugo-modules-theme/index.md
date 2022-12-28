@@ -2,6 +2,7 @@
 title: Theming Hugo with Module
 type: article 
 date: 2022-11-21
+series: Modularising Hugo
 categories: ['todo'] 
 tags: ['untagged'] 
 draft: True

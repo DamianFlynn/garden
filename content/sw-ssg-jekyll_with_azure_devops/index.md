@@ -2,8 +2,8 @@
 title: Constructing a new Home with Jekyll and Azure DevOps
 type: article 
 date: 2018-10-10 22:15:09
-categories: ['Developer', 'IT Pro/DevOps', 'Web', 'OpenSource', 'Git / GitHub', 'Continuous Deployment', 'Azure', 'Web Sites', 'Cloud']
-tags: ['Azure', 'Static Site']
+categories: ['Developer', 'OpenSource', 'Static Site']
+tags: ['Azure', 'Azure DevOps', 'Git', 'Jekyll']
 draft: false 
 toc: false 
 comments: false 

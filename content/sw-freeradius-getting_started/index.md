@@ -3,7 +3,7 @@ title: Installing FreeRadius
 type: article 
 subtitle: Steps to deploy the latest version of FreeRadius on Ubuntu
 date: 2021-03-01 10:10:09+00:00
-series: Raidus in a Cloud World
+series: RADIUS with Azure Active Directory
 categories: ['IT Pro/DevOps', 'OpenSource', 'Identity']
 tags: ['Linux', 'Networking', 'Azure']
 draft: False
@@ -18,7 +18,7 @@ FreeRADIUS supports request proxying, with fail-over and load balancing, as well
 
 RADIUS, which stands for ***R**emote **A**uthentication **D**ial-**I**n **U**ser **S**ervice*, is a network protocol used for remote user authentication and accounting. It provides AAA services; namely **A**uthorization, **A**uthentication, and **A**ccounting.
 
-{{< series "My New Super Series" >}}
+{{< series "RADIUS with Azure Active Directory" >}}
 
 ## FreeRadius
 

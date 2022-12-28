@@ -4,7 +4,7 @@ type: article
 subtitle: Exporting Certificates with Private Keys from Windows Logical Store to PFX Files
 date: 2021-03-04 10:10:09+00:00
 categories: ['IT Pro/DevOps', 'OpenSource', 'Identity']
-tags: ['Linux', 'Networking', 'Azure']
+tags: ['Linux', 'Networking', 'Azure', 'OpenSSL', 'PKI', 'Certificates', 'Ubuntu']
 draft: False
 toc: false 
 comments: false 
