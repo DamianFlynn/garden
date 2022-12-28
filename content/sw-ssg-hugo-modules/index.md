@@ -41,7 +41,15 @@ Once a site repo is a Hugo module, it can start using the [**mounts** feature](h
 
 Let’s call the main Hugo site repository the *self module*. _Mounts_ are analogous to creating symbolic links very similar to [unionfs](unionfs), it’s kind of like that. From any file or directory in the *self module* to **any** file or directory in one or more of the imported _modules_ (including the [self module](https://scripter.co/hugo-modules-getting-started/#org-radio--self-module)).
 
-As an example, you might have a `README.md` in the root of your git repository. Using _mounts_, you can tell Hugo to use that same file as if it were `content/_index.md`  You can find the full example in [github.com/bep/portable-hugo-links](https://github.com/bep/portable-hugo-links/blob/aa096af0d46e5fc8126b0afaedac557470128cf1/config.toml#L12-L14). , and now the same `README.md` serves as the content page for your site’s home page! 🤯
+As an example, you might have a `README.md` in the root of your git repository. Using _mounts_, you can tell Hugo to use that same file as if it were `content/_index.md`  as follows
+
+```toml
+[module.mounts](module.mounts)
+source = "README.md"
+target = "content/_index.md"
+```
+
+Now the same `README.md` serves as the content page for your site’s home page! 🤯
 
 ## How to use Hugo Modules?
 
@@ -63,25 +71,27 @@ hugo mod init github.com/USER/PROJECT
 ```
 
 
-Here, `github.com/USER/PROJECT` is your Go/Hugo module name. This name does not need to be your git remote’s URL. It could be any globally unique string you can think of.
+Here, `github.com/USER/PROJECT` is your Go/Hugo module name. This name does not need to be your git remote repository URL, It can be any globally unique string you can think of.
 
 > Note: The “https://” prefix should not be included in the _[module name](https://scripter.co/hugo-modules-getting-started/#org-radio--module-name)_.
 
 If all went well, a `go.mod` file will be created that will look like this:
 
-```text
+```go
 module github.com/USER/PROJECT
 
-go 1.17
+go 1.19
 ```
 
-Right now, the `go.mod` only contains your site’s [module name](https://scripter.co/hugo-modules-getting-started/#org-radio--module-name) and the `go` version used to create it. Once other modules are added as dependencies, they will be added in this same file.
+Right now, the `go.mod` only contains your site’s module name and the `go` version used to create it. Once other modules are added as dependencies, they will be added in this same file.
 
 >  `go.mod` file is similar to the `.gitmodules` file when we use _git submodules_.
 
-> Once other module dependencies are added, a `go.sum` file would also be created containing the checksums of all your module dependencies.
+Once other module dependencies are added, a `go.sum` file would also be created containing the checksums of all your module dependencies.
 
-If you are managing your Hugo themes via _git submodules_, don’t worry! Converting your site to a Hugo Module will not break anything.
+> [!Note] Git Submodules
+> 
+> If you are managing your Hugo themes via _git submodules_, don’t worry! Converting your site to a Hugo Module will not break anything.
 
 ### Hugo Module dependencies
 
