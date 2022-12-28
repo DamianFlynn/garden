@@ -10,6 +10,7 @@ toc: false
 comments: false 
 ---
 
+
 What are Hugo Modules and should you convert your Hugo site to be one?
 
 The **Hugo Modules** feature was added to Hugo back in [July 2019](https://github.com/gohugoio/hugo/releases/tag/v0.56.0). It enables collecting different pieces of your Hugo site source from different repositories, each piece is a _module_. 
@@ -19,7 +20,8 @@ Modules can range from content to themes, providing one or more of the 7 compone
 You need to install `go` in order to use Hugo Modules.
 
 ## What can be a Hugo Module
-A Hugo module is a directory which has subdirectories like layouts, static, data etc. These subdirectories hold different files of a Hugo site. Website’s root source directory as well as a theme is also a module.
+
+A Hugo module is a directory which has subdirectories like layouts, static, data etc. These subdirectories hold different files to generate a Hugo site, for example the content, and theme is also a module.
 
 These subdirectories are referred to as mounts in Hugo modules. content, static, layouts, data, assets, i18n and archetypes are the supported mounts.
 
