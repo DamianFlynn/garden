@@ -125,6 +125,9 @@ git push -u origin main
 ```
 
 Now, time to convert the site into a Hugo Module
+
 ```bash
 hugo mod init github.com/DamianFlynn/hugo
 ```
+
+With the site now functioning, we can proceed with a look at [sw-ssg-hugo-modules-theme](sw-ssg-hugo-modules-theme).

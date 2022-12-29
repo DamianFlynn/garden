@@ -1,5 +1,5 @@
 ---
-title: Hugo Modules General Usage
+title: Hugo Modules Additional Examples
 type: article 
 date: 2022-11-21
 series: Sharing Knowledge
