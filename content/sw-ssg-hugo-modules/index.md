@@ -2,9 +2,9 @@
 title: Hugo Modules Introduction
 type: article 
 date: 2022-11-21
-series: Modularising Hugo
-categories: ['todo'] 
-tags: ['untagged'] 
+series: Sharing Knowledge
+categories: ['Hugo']
+tags: ['Static Site', 'Hugo', 'Git']
 draft: True
 toc: false 
 comments: false 
@@ -97,11 +97,11 @@ Once other module dependencies are added, a `go.sum` file would also be created 
 
 To add a module as a dependency of a site, we have to run the command `hugo mod get <module path>`. Then add an entry for the module in site configuration (in a config.yaml or config.toml file).
 
-The `<module path>` is required to be a valid Go module path like `github.com/DamianFlynn/hugo-belberry-theme`. For local modules we don’t have to run the `get` command. We just need to keep them in the `themesDir` (default is `themes`) and add an entry for them.
+The `<module path>` is required to be a valid Go module path like `github.com/Lednerb/bilberry-hugo-theme/v3`. For local modules we don’t have to run the `get` command. We just need to keep them in the `themesDir` (default is `themes`) and add an entry for them.
 
 The Go module path of the dependencies should resolve to a valid repository. It can be hosted anywhere like GitLab, GitHub etc. It may or may not have a go.mod file in it. _Local Hugo modules don’t need to have a go.mod file if they don’t have any dependencies._
 
-If your site’s source code is not pushed to a public repository, the Go module path for the site can be a single word as well. _Note that if the module name does not resolve to a VCS repository, it won’t be possible for others to use the site as a dependency._
+If your site’s source code is not pushed to a public repository, the Go module path for the site can be a single word as well. _Note that if the module name does not resolve to a repository, it won’t be possible for others to use the site as a dependency._
 
 ## Sample Setup
 

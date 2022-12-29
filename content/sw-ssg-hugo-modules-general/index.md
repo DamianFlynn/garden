@@ -2,9 +2,9 @@
 title: Hugo Modules General Usage
 type: article 
 date: 2022-11-21
-series: Modularising Hugo
-categories: ['todo'] 
-tags: ['untagged'] 
+series: Sharing Knowledge
+categories: ['Hugo']
+tags: ['Static Site', 'Hugo', 'Git']
 draft: True
 toc: false 
 comments: false 
@@ -15,7 +15,9 @@ Let’s take a look at some examples of site configurations using Hugo modules.
 
 ## Adding a theme as a dependency
 
-A major dependency of a site is a theme. So far we have added a [Hugo Theme Module](sw-ssg-hugo-modules-theme ) to our [Hugo Module](sw-ssg-hugo-modules) based site.
+A major dependency of a site is of course it's theme. 
+
+So far we have added a [Hugo Theme Module](sw-ssg-hugo-modules-theme ) to our [Hugo Module](sw-ssg-hugo-modules) based site.
 
 Quickly recapping, To initialize the site as a module and add the theme we run the following commands from the site’s root directory.
 
