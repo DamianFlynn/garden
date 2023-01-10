@@ -104,6 +104,7 @@ Setting up the debugging configuration in Go is pretty simple and straightforwar
 
 You’ll see a dropdown menu where you can select your `workspace folder`. Then, select **Go** for environment language. Finally, select **Launch Package** for debug configuration. This configuration will create the `launch.json` file, which will contain the following code:
 
+```json
 {
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
@@ -119,10 +120,13 @@ You’ll see a dropdown menu where you can select your `workspace folder`. Then,
         } 
     ]
 }
+```
 
 Change the value for `program` in the JSON settings above to the application file name, `main.go` in our case:
 
+```json
 "program": "main.go"
+```
 
 After you save the `launch.json` configuration, the `DEBUG CONSOLE` at the bottom of the editor window will display your project’s output. The debug toolbar will appear at the top of the screen, allowing you to step through the code, pause the script, or end the session.
 
@@ -136,7 +140,9 @@ If you are run delve debugger extension for the first time, you will likely get 
 
 To resolve this error, in your terminal enter the command below and click on run and debug icon again:
 
+```bash
 Install -v githup.com/go-delve/cmd/dlv@latest
+```
 
 ## Debugging using a breakpoint
 
@@ -190,24 +196,6 @@ Like the step over command, we can use the step into command to debug a program 
 
 The step out command continues the current function’s execution, pausing at the last line. For example, if you mistakenly type a function that has nothing to do with the problem you’re trying to address, you can use the step out command to quickly exit the function and return to the relevant part of your codebase.
 
----
-
-[
-
-![](lang.go.debugging/web7737_Screen-Shot-2022-09-08-at-6.20.35-PM.png)
-
-## Over 200k developers use LogRocket to create better digital experiences
-
-![](lang.go.debugging/web6219_rocket-button-icon.png)Learn more →
-
-
-
-
-
-](https://lp.logrocket.com/blg/learn-more)
-
----
-
 ### Restart `Ctrl+Shift+F5`
 
 Whenever you wish to restart debugging a program that has hit a breakpoint, you can use the restart command to start debugging the program from the beginning instead of killing and relaunching the debugger.
@@ -232,22 +220,9 @@ This is especially useful for finding the values of numerous variables at once b
 
 We can also use unit testing to debug Go applications; unit testing helps to ensure that each component of the application performs its intended function properly. Let’s look at how we can debug Gol application using unit testing in Visual Studio.
 
----
-
-### More great articles from LogRocket:
-
--   Don't miss a moment with [The Replay](https://lp.logrocket.com/subscribe-thereplay), a curated newsletter from LogRocket
--   [Learn](https://blog.logrocket.com/rethinking-error-tracking-product-analytics/) how LogRocket's Galileo cuts through the noise to proactively resolve issues in your app
--   Use React's useEffect [to optimize your application's performance](https://blog.logrocket.com/understanding-react-useeffect-cleanup-function/)
--   Switch between [multiple versions of Node](https://blog.logrocket.com/switching-between-node-versions-during-development/)
--   [Discover how to animate](https://blog.logrocket.com/animate-react-app-animxyz/) your React app with AnimXYZ
--   [Explore Tauri](https://blog.logrocket.com/rust-solid-js-tauri-desktop-app/), a new framework for building binaries
--   Compare [NestJS vs. Express.js](https://blog.logrocket.com/nestjs-vs-express-js/)
-
----
-
 Create a test file named `main_test.go` and add the following code to the file:
 
+```go
 package main
 import "testing"
 
@@ -263,18 +238,21 @@ func Test_arerage(t *testing.T) {
     }
 
 }
+```
 
 The two functions above enable us to calculate the average value of three numbers. The function to be tested (`Test_average`) is preceded by the `Test_` keyword. To run the unit test, enter the command below:
 
- go test
+```bash
+go test
+```
 
 Now let’s debug our test file by adding a breakpoint to the program as shown below:
 
-![Golang Debug Unity Test](lang.go.debugging/web3439_golang-debug-unit-test.png)
+![Golang Debug Unity Test](lang.go.debugging/web7737_golang-debug-unit-test.png)
 
 Now you can start the debugging session, then use the Debug Tool to step over and inspect each variable and change their value under the variables section.
 
-![Golang Unit Testing with the Debug Tool](lang.go.debugging/web1537_Golang-unit-testing-debug-tool.png)
+![Golang Unit Testing with the Debug Tool](lang.go.debugging/web6219_Golang-unit-testing-debug-tool.png)
 
 ## Conclusion
 
