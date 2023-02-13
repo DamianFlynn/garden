@@ -9,7 +9,7 @@ toc: false
 comments: false 
 ---
 
-## Cranium Repo
+## Obsidian Vault: repository `DamianFlynn/Cranium`
 
 This repo is my Obsidian Vault. It is private and keeps an constant backup of all my notes.
 
@@ -48,6 +48,8 @@ There are a number of Plug-ins added to my vault, but core to this flow is `obsi
 
 ### Workflow: '.github/workflows/'
 Git action on push triggers parser to prepare the content which will be made public and posts to Garden repo, builds index and backlinks.
+
+As I am only making a subset of my Craium repository public in the Garden repoisitory, currently this is based on content I place in the `/share` folder of my vault.
 
 This workflow currently looks 
 ```yaml
@@ -126,42 +128,16 @@ jobs:
 ```
 
 
-
-Share folder
-
-  
-
-GIT extension every 5 minutes pushed changes to Cranium repo as a full backup
-
-  
-
-  
-
-**Garden repo**
-
-  
-
+## Public Content: repository `DamianFlynn/garden`
+ 
 Repo is configure as a go module
+No git action currently, considering a Git action on push to send webhook to Hugo repo to trigger rebuild 
 
-  
-
-No git action currently 
-
-Git action on push to send webhook to Hugo repo to trigger rebuild 
-
-  
-
-  
-
-**Hugo Partials repo**
-
-  
+## Hugo: partials repository   
 
 Hugo partials repo (module) contains customising for the partials and statics
 
-  
-
-**Hugo repo**
+## Hugo Site repository `DamianFlynn/hugo`
 
   
 
