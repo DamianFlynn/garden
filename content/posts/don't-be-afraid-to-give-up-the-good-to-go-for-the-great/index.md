@@ -4,7 +4,7 @@ type: article
 date: 2022-09-09 15:01:35 +0300
 categories: ['todo'] 
 tags: ['travel', 'story', 'rest']
-draft: false 
+draft: False
 image: https://via.placeholder.com/1200x800
 toc: false 
 comments: false 

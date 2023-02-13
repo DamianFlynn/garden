@@ -4,7 +4,7 @@ type: article
 date: 2022-09-14 15:01:35 +0300
 categories: ['todo'] 
 tags: ['workflow', 'hobby', 'study']
-draft: false 
+draft: False
 image: https://dann-hugo.netlify.app/images/02.jpg
 toc: false 
 comments: false 

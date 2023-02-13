@@ -4,7 +4,7 @@ type: article
 date: 2023-02-17 00:00:00+00:00
 categories: ['todo'] 
 tags: ['hugo', 'git', 'staticsite']
-draft: True
+draft: False
 toc: false 
 comments: false 
 ---

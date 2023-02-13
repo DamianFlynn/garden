@@ -41,7 +41,7 @@ columns:
     key: date
     id: date
     label: date
-    position: 4
+    position: 6
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -81,7 +81,7 @@ columns:
     key: tags
     id: tags
     label: tags
-    position: 7
+    position: 9
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -97,6 +97,7 @@ columns:
       - { label: "hobby", backgroundColor: "hsl(78, 95%, 90%)"}
       - { label: "study", backgroundColor: "hsl(75, 95%, 90%)"}
       - { label: "quotes", backgroundColor: "hsl(312, 95%, 90%)"}
+      - { label: "golang", backgroundColor: "hsl(169, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -112,7 +113,7 @@ columns:
     key: title
     id: title
     label: title
-    position: 5
+    position: 7
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -133,7 +134,7 @@ columns:
     key: series
     id: series
     label: series
-    position: 8
+    position: 10
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -156,7 +157,7 @@ columns:
     key: description
     id: description
     label: description
-    position: 9
+    position: 11
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -197,7 +198,7 @@ columns:
     key: authors
     id: authors
     label: authors
-    position: 10
+    position: 12
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -221,7 +222,121 @@ columns:
     key: featured
     id: featured
     label: featured
-    position: 6
+    position: 8
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  alias:
+    input: text
+    accessorKey: alias
+    key: alias
+    id: alias
+    label: alias
+    position: 13
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  categories:
+    input: text
+    accessorKey: categories
+    key: categories
+    id: categories
+    label: categories
+    position: 14
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  comments:
+    input: checkbox
+    accessorKey: comments
+    key: comments
+    id: comments
+    label: comments
+    position: 5
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  image:
+    input: text
+    accessorKey: image
+    key: image
+    id: image
+    label: image
+    position: 15
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  image_caption:
+    input: text
+    accessorKey: image_caption
+    key: image_caption
+    id: image_caption
+    label: image_caption
+    position: 16
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  toc:
+    input: checkbox
+    accessorKey: toc
+    key: toc
+    id: toc
+    label: toc
+    position: 4
     skipPersist: false
     isHidden: false
     sortIndex: -1

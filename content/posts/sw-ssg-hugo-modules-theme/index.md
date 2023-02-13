@@ -2,12 +2,14 @@
 title: Theming Hugo with Module
 type: article 
 date: 2022-11-21
+toc: False
 series: Sharing Knowledge
 categories: ['Hugo']
 tags: ['git', 'hugo', 'staticsite']
 draft: False
-toc: false 
-comments: false 
+image: https://via.placeholder.com/1200x800
+toc: False
+comments: False
 ---
 
 
