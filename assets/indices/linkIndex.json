@@ -1,7 +1,82 @@
 {
   "index": {
-    "links": {},
-    "backlinks": {}
+    "links": {
+      "garden/content/posts/sw-ssg-hugo-modules": [
+        {
+          "source": "garden/content/posts/sw-ssg-hugo-modules",
+          "target": "/unionfs",
+          "text": "unionfs"
+        },
+        {
+          "source": "garden/content/posts/sw-ssg-hugo-modules",
+          "target": "/posts/sw-ssg-hugo-modules-theme",
+          "text": "posts/sw-ssg-hugo-modules-theme"
+        }
+      ],
+      "garden/content/posts/sw-ssg-hugo-modules-theme": [
+        {
+          "source": "garden/content/posts/sw-ssg-hugo-modules-theme",
+          "target": "/posts/sw-ssg-hugo-modules",
+          "text": "Hugo Modules"
+        },
+        {
+          "source": "garden/content/posts/sw-ssg-hugo-modules-theme",
+          "target": "/git",
+          "text": "git"
+        }
+      ]
+    },
+    "backlinks": {
+      "/git": [
+        {
+          "source": "garden/content/posts/sw-ssg-hugo-modules-theme",
+          "target": "/git",
+          "text": "git"
+        }
+      ],
+      "/posts/sw-ssg-hugo-modules": [
+        {
+          "source": "garden/content/posts/sw-ssg-hugo-modules-theme",
+          "target": "/posts/sw-ssg-hugo-modules",
+          "text": "Hugo Modules"
+        }
+      ],
+      "/posts/sw-ssg-hugo-modules-theme": [
+        {
+          "source": "garden/content/posts/sw-ssg-hugo-modules",
+          "target": "/posts/sw-ssg-hugo-modules-theme",
+          "text": "posts/sw-ssg-hugo-modules-theme"
+        }
+      ],
+      "/unionfs": [
+        {
+          "source": "garden/content/posts/sw-ssg-hugo-modules",
+          "target": "/unionfs",
+          "text": "unionfs"
+        }
+      ]
+    }
   },
-  "links": null
+  "links": [
+    {
+      "source": "garden/content/posts/sw-ssg-hugo-modules",
+      "target": "/unionfs",
+      "text": "unionfs"
+    },
+    {
+      "source": "garden/content/posts/sw-ssg-hugo-modules",
+      "target": "/posts/sw-ssg-hugo-modules-theme",
+      "text": "posts/sw-ssg-hugo-modules-theme"
+    },
+    {
+      "source": "garden/content/posts/sw-ssg-hugo-modules-theme",
+      "target": "/posts/sw-ssg-hugo-modules",
+      "text": "Hugo Modules"
+    },
+    {
+      "source": "garden/content/posts/sw-ssg-hugo-modules-theme",
+      "target": "/git",
+      "text": "git"
+    }
+  ]
 }

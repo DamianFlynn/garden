@@ -3,7 +3,7 @@ title: None
 type: article 
 categories: ['todo'] 
 tags: ['untagged'] 
-draft: false 
+draft: True
 toc: false 
 comments: false 
 ---
@@ -90,6 +90,13 @@ columns:
       - { label: "git", backgroundColor: "hsl(104,100%,50%)"}
       - { label: "hugo", backgroundColor: "hsl(104,100%,50%)"}
       - { label: "staticsite", backgroundColor: "hsl(104,100%,50%)"}
+      - { label: "travel", backgroundColor: "hsl(90, 95%, 90%)"}
+      - { label: "story", backgroundColor: "hsl(266, 95%, 90%)"}
+      - { label: "rest", backgroundColor: "hsl(3, 95%, 90%)"}
+      - { label: "workflow", backgroundColor: "hsl(294, 95%, 90%)"}
+      - { label: "hobby", backgroundColor: "hsl(78, 95%, 90%)"}
+      - { label: "study", backgroundColor: "hsl(75, 95%, 90%)"}
+      - { label: "quotes", backgroundColor: "hsl(312, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true

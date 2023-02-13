@@ -5,7 +5,7 @@ date: 2022-11-21
 series: Sharing Knowledge
 categories: ['Hugo']
 tags: ['git', 'hugo', 'staticsite']
-draft: True
+draft: False
 toc: false 
 comments: false 
 ---
