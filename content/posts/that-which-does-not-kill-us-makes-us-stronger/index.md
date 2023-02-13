@@ -2,12 +2,14 @@
 title: That which does not kill us makes us stronger
 type: article 
 date: 2022-09-14 15:01:35 +0300
+toc: True
+series: Sharing Knowledge
 categories: ['todo'] 
 tags: ['workflow', 'hobby', 'study']
 draft: False
 image: https://dann-hugo.netlify.app/images/02.jpg
-toc: false 
-comments: false 
+toc: True
+comments: False
 ---
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.

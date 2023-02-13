@@ -2,11 +2,14 @@
 title: Structuring Repositories For Hugo
 type: article 
 date: 2023-02-17 00:00:00+00:00
+toc: True
+series: Sharing Knowledge
 categories: ['todo'] 
 tags: ['hugo', 'git', 'staticsite']
 draft: False
-toc: false 
-comments: false 
+image: https://via.placeholder.com/1200x800
+toc: True
+comments: False
 ---
 
 ## Obsidian Vault: repository `DamianFlynn/Cranium`
