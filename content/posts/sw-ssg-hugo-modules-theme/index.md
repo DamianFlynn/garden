@@ -4,7 +4,7 @@ type: article
 date: 2022-11-21
 series: Sharing Knowledge
 categories: ['Hugo']
-tags: ['Static Site', 'Hugo', 'Git']
+tags: ['git', 'hugo', 'staticsite']
 draft: True
 toc: false 
 comments: false 

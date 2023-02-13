@@ -90,9 +90,6 @@ columns:
       - { label: "git", backgroundColor: "hsl(104,100%,50%)"}
       - { label: "hugo", backgroundColor: "hsl(104,100%,50%)"}
       - { label: "staticsite", backgroundColor: "hsl(104,100%,50%)"}
-      - { label: "Static Site", backgroundColor: "hsl(326, 95%, 90%)"}
-      - { label: "Hugo", backgroundColor: "hsl(231, 95%, 90%)"}
-      - { label: "Git", backgroundColor: "hsl(149, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
