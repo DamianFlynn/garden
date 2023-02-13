@@ -25,7 +25,7 @@ columns:
     position: 1
     isHidden: false
     sortIndex: -1
-    width: 104
+    width: -102
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -41,7 +41,7 @@ columns:
     key: date
     id: date
     label: date
-    position: 3
+    position: 4
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -61,7 +61,7 @@ columns:
     key: draft
     id: draft
     label: draft
-    position: 4
+    position: 3
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -81,7 +81,7 @@ columns:
     key: tags
     id: tags
     label: tags
-    position: 5
+    position: 7
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -112,7 +112,7 @@ columns:
     key: title
     id: title
     label: title
-    position: 2
+    position: 5
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -133,7 +133,7 @@ columns:
     key: series
     id: series
     label: series
-    position: 100
+    position: 8
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -141,6 +141,90 @@ columns:
     options:
       - { label: "Modularising Hugo", backgroundColor: "hsl(238,100%,50%)"}
       - { label: "Sharing Knowledge", backgroundColor: "hsl(242, 95%, 90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  description:
+    input: text
+    accessorKey: description
+    key: description
+    id: description
+    label: description
+    position: 9
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  layout:
+    input: select
+    accessorKey: layout
+    key: layout
+    id: layout
+    label: layout
+    position: 2
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    options:
+      - { label: "post", backgroundColor: "hsl(52, 95%, 90%)"}
+      - { label: "quote", backgroundColor: "hsl(180, 95%, 90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  authors:
+    input: select
+    accessorKey: authors
+    key: authors
+    id: authors
+    label: authors
+    position: 10
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    options:
+      - { label: "[,miracle]", backgroundColor: "hsl(130, 95%, 90%)"}
+      - { label: "[,Edward Snowden]", backgroundColor: "hsl(115, 95%, 90%)"}
+      - { label: "[,damian]", backgroundColor: "hsl(356, 95%, 90%)"}
+      - { label: "damian", backgroundColor: "hsl(186, 95%, 90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  featured:
+    input: checkbox
+    accessorKey: featured
+    key: featured
+    id: featured
+    label: featured
+    position: 6
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
     config:
       enable_media_view: true
       link_alias_enabled: true
