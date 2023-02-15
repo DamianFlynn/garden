@@ -5,8 +5,8 @@ layout: post
 date: 2023-02-13 00:00:00+00:00
 categories: ['todo'] 
 tags: ['golang']
-categories: ['reflection'] 
-draft: False
+authors: ['damian'] 
+draft: True
 toc: True
 featured: false 
 comments: False

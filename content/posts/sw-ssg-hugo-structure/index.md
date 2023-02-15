@@ -7,7 +7,7 @@ date: 2023-02-17 00:00:00+00:00
 series: Sharing Knowledge
 categories: ['todo'] 
 tags: ['hugo', 'git', 'staticsite']
-categories: ['reflection'] 
+authors: ['damian']
 draft: False
 image: https://via.placeholder.com/1200x800
 image_caption: Photo by [Oliver Sjöström](https://via.placeholder.com/1200x800) on [Unsplash](https://via.placeholder.com/1200x800)

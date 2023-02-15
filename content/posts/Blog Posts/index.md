@@ -4,7 +4,7 @@ type: article
 layout: post 
 categories: ['todo'] 
 tags: ['untagged'] 
-categories: ['reflection'] 
+authors: ['damian'] 
 draft: True
 toc: false 
 featured: false 

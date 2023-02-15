@@ -7,7 +7,7 @@ date: 2022-09-14 15:01:35 +0300
 series: Sharing Knowledge
 categories: ['todo'] 
 tags: ['workflow', 'hobby', 'study']
-categories: ['reflection'] 
+authors: damian
 draft: False
 image: https://dann-hugo.netlify.app/images/02.jpg
 image_caption: Photo by [Atoms](https://via.placeholder.com/1200x800) on [Unsplash](https://via.placeholder.com/1200x800)

@@ -7,7 +7,7 @@ date: 2022-09-09 15:01:35 +0300
 series: Sharing Knowledge
 categories: ['todo'] 
 tags: ['travel', 'story', 'rest']
-categories: ['reflection'] 
+authors: ['damian']
 draft: False
 image: https://via.placeholder.com/1200x800
 image_caption: Photo by [Oliver Sjöström](https://via.placeholder.com/1200x800) on [Unsplash](https://via.placeholder.com/1200x800)
