@@ -1,11 +1,14 @@
 ---
 title: Set up Girhub with Terraform
 type: article 
+layout: post
 date: 2023-02-15 00:00:00+00:00
 categories: ['todo'] 
 tags: ['untagged'] 
+categories: ['reflection'] 
 draft: True
 toc: false 
+featured: false 
 comments: false 
 ---
 
@@ -344,3 +347,6 @@ terraform validate
 terraform apply -auto-approve -input=false
 Push the changes
 ```
+
+
+ref: https://github.com/stakater/Playbook/blob/master/docs/content/processes/bootstrapping/github-organization.md

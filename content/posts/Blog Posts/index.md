@@ -1,10 +1,13 @@
 ---
 title: None
 type: article 
+layout: post 
 categories: ['todo'] 
 tags: ['untagged'] 
+categories: ['reflection'] 
 draft: True
 toc: false 
+featured: false 
 comments: false 
 ---
 

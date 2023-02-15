@@ -1,14 +1,18 @@
 ---
 title: Don't be afraid to give up the good to go for the great
 type: article 
+layout: post
+description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
 date: 2022-09-09 15:01:35 +0300
-toc: True
 series: Sharing Knowledge
 categories: ['todo'] 
 tags: ['travel', 'story', 'rest']
+categories: ['reflection'] 
 draft: False
 image: https://via.placeholder.com/1200x800
+image_caption: Photo by [Oliver Sjöström](https://via.placeholder.com/1200x800) on [Unsplash](https://via.placeholder.com/1200x800)
 toc: True
+featured: True
 comments: False
 ---
 

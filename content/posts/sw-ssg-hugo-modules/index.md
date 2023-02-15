@@ -1,14 +1,18 @@
 ---
 title: Hugo Modules Introduction
 type: article 
+layout: post
+description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
 date: 2022-11-21
-toc: False
 series: Sharing Knowledge
 categories: ['Hugo']
 tags: ['git', 'hugo', 'staticsite']
+categories: ['Hugo']
 draft: False
 image: https://via.placeholder.com/1200x800
+image_caption: Photo by [Oliver Sjöström](https://via.placeholder.com/1200x800) on [Unsplash](https://via.placeholder.com/1200x800)
 toc: False
+featured: True
 comments: False
 ---
 

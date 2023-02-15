@@ -1,12 +1,14 @@
 ---
 title: Debugging GO using VS Code
 type: article 
+layout: post 
 date: 2023-02-13 00:00:00+00:00
-toc: True
 categories: ['todo'] 
 tags: ['golang']
+categories: ['reflection'] 
 draft: False
 toc: True
+featured: false 
 comments: False
 ---
 

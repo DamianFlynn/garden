@@ -1,14 +1,18 @@
 ---
 title: Structuring Repositories For Hugo
 type: article 
+layout: post
+description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
 date: 2023-02-17 00:00:00+00:00
-toc: True
 series: Sharing Knowledge
 categories: ['todo'] 
 tags: ['hugo', 'git', 'staticsite']
+categories: ['reflection'] 
 draft: False
 image: https://via.placeholder.com/1200x800
+image_caption: Photo by [Oliver Sjöström](https://via.placeholder.com/1200x800) on [Unsplash](https://via.placeholder.com/1200x800)
 toc: True
+featured: True
 comments: False
 ---
 
