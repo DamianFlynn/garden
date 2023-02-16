@@ -17,7 +17,7 @@ comments: False
 ---
 
 
-In the introduction to [Terraform](posts/lang.terraform) we got a general overview
+In the introduction to [Terraform](posts/lang-terraform) we got a general overview
 
 ## Getting Started
 

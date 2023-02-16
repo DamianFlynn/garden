@@ -1,7 +1,29 @@
 {
   "index": {
-    "links": {},
-    "backlinks": {}
+    "links": {
+      "garden/content/posts/lang-terraform-quickstart": [
+        {
+          "source": "garden/content/posts/lang-terraform-quickstart",
+          "target": "/posts/lang-terraform",
+          "text": "Terraform"
+        }
+      ]
+    },
+    "backlinks": {
+      "/posts/lang-terraform": [
+        {
+          "source": "garden/content/posts/lang-terraform-quickstart",
+          "target": "/posts/lang-terraform",
+          "text": "Terraform"
+        }
+      ]
+    }
   },
-  "links": null
+  "links": [
+    {
+      "source": "garden/content/posts/lang-terraform-quickstart",
+      "target": "/posts/lang-terraform",
+      "text": "Terraform"
+    }
+  ]
 }
