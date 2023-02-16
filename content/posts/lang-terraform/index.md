@@ -23,4 +23,4 @@ This is an introduction to Terraform
 
 ## Getting Started
 
-Read this to learn about
+Read this to learn about [Strenghts of Terraform and Bicep](posts/lang-terraform-bicep)
