@@ -8,6 +8,18 @@
           "text": "Strenghts of Terraform and Bicep"
         }
       ],
+      "/posts/lang-terraform-bicep": [
+        {
+          "source": "/posts/lang-terraform-bicep",
+          "target": "/posts/lang-terraform",
+          "text": "Terraform"
+        },
+        {
+          "source": "/posts/lang-terraform-bicep",
+          "target": "/bicep",
+          "text": "bicep"
+        }
+      ],
       "/posts/lang-terraform-quickstart": [
         {
           "source": "/posts/lang-terraform-quickstart",
@@ -17,7 +29,19 @@
       ]
     },
     "backlinks": {
+      "/bicep": [
+        {
+          "source": "/posts/lang-terraform-bicep",
+          "target": "/bicep",
+          "text": "bicep"
+        }
+      ],
       "/posts/lang-terraform": [
+        {
+          "source": "/posts/lang-terraform-bicep",
+          "target": "/posts/lang-terraform",
+          "text": "Terraform"
+        },
         {
           "source": "/posts/lang-terraform-quickstart",
           "target": "/posts/lang-terraform",
@@ -38,6 +62,16 @@
       "source": "/posts/lang-terraform",
       "target": "/posts/lang-terraform-bicep",
       "text": "Strenghts of Terraform and Bicep"
+    },
+    {
+      "source": "/posts/lang-terraform-bicep",
+      "target": "/posts/lang-terraform",
+      "text": "Terraform"
+    },
+    {
+      "source": "/posts/lang-terraform-bicep",
+      "target": "/bicep",
+      "text": "bicep"
     },
     {
       "source": "/posts/lang-terraform-quickstart",
