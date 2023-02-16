@@ -1,14 +1,14 @@
 {
   "/posts/lang-terraform": {
     "title": "Terraform",
-    "content": "\n\nThis is an introduction to Terraform\n\n![💡 resources/📂 files/lang-terraform.overview.png](lang-terraform/lang-terraform.overview.png)\n\n## Getting Started\n\nRead this to learn about [Getting Started with Terraform](Getting Started with Terraform)",
-    "lastmodified": "2023-02-16T20:17:26.970044765Z",
+    "content": "\n\nThis is an introduction to Terraform\n\n![💡 resources/📂 files/lang-terraform.overview.png](lang-terraform/lang-terraform.overview.png)\n\n## Getting Started\n\nRead this to learn about",
+    "lastmodified": "2023-02-16T20:37:56.554098837Z",
     "tags": null
   },
   "/posts/lang-terraform-quickstart": {
     "title": "Terraform Quick Start",
     "content": "\n\nIn the introduction to [Terraform](posts/lang-terraform) we got a general overview\n\n## Getting Started\n\nNow \n\n```bash\nterraform init\nterraform plan\nterraform apply\nterraform destroy\n```\n\n![WebHook](lang-terraform-quickstart/s.topdesk.webhook.png)\n\nsample notes",
-    "lastmodified": "2023-02-16T20:17:26.974044769Z",
+    "lastmodified": "2023-02-16T20:37:56.558098841Z",
     "tags": null
   }
 }

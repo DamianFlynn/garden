@@ -23,4 +23,4 @@ This is an introduction to Terraform
 
 ## Getting Started
 
-Read this to learn about [Getting Started with Terraform](Getting Started with Terraform)
+Read this to learn about
