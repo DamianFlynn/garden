@@ -19,6 +19,8 @@ comments: False
 
 This is an introduction to Terraform
 
+![💡 resources/📂 files/lang-terraform.overview.png](lang-terraform/lang-terraform.overview.png)
+
 ## Getting Started
 
 Read this to learn about [Getting Started with Terraform](Getting Started with Terraform)

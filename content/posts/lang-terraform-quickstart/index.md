@@ -29,3 +29,5 @@ terraform plan
 terraform apply
 terraform destroy
 ```
+
+![💡 resources/📂 files/lang-terraform-quickstart.png](lang-terraform-quickstart/lang-terraform-quickstart.png)
