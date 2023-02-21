@@ -101,6 +101,16 @@ columns:
       - { label: "study", backgroundColor: "hsl(75, 95%, 90%)"}
       - { label: "quotes", backgroundColor: "hsl(312, 95%, 90%)"}
       - { label: "golang", backgroundColor: "hsl(169, 95%, 90%)"}
+      - { label: "iac", backgroundColor: "hsl(144, 95%, 90%)"}
+      - { label: "terraform", backgroundColor: "hsl(174, 95%, 90%)"}
+      - { label: "bicep", backgroundColor: "hsl(147, 95%, 90%)"}
+      - { label: "Career", backgroundColor: "hsl(181, 95%, 90%)"}
+      - { label: "MVP", backgroundColor: "hsl(177, 95%, 90%)"}
+      - { label: "Cisco Champion", backgroundColor: "hsl(111, 95%, 90%)"}
+      - { label: "Azure", backgroundColor: "hsl(270, 95%, 90%)"}
+      - { label: "Azure DevOps", backgroundColor: "hsl(355, 95%, 90%)"}
+      - { label: "Git", backgroundColor: "hsl(9, 95%, 90%)"}
+      - { label: "Jekyll", backgroundColor: "hsl(154, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -145,6 +155,7 @@ columns:
     options:
       - { label: "Modularising Hugo", backgroundColor: "hsl(238,100%,50%)"}
       - { label: "Sharing Knowledge", backgroundColor: "hsl(242, 95%, 90%)"}
+      - { label: "Terraform", backgroundColor: "hsl(105, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true

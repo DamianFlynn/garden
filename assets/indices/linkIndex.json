@@ -26,14 +26,76 @@
           "target": "/posts/lang-terraform",
           "text": "Terraform"
         }
+      ],
+      "/posts/sw-ssg-jekyll_with_azure_devops": [
+        {
+          "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+          "target": "/blog",
+          "text": "blog"
+        },
+        {
+          "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+          "target": "/Jekyll",
+          "text": "Jekyll"
+        },
+        {
+          "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+          "target": "/Python",
+          "text": "Python"
+        },
+        {
+          "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+          "target": "/Hugo",
+          "text": "Hugo"
+        },
+        {
+          "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+          "target": "/GIT",
+          "text": "GIT"
+        }
       ]
     },
     "backlinks": {
+      "/GIT": [
+        {
+          "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+          "target": "/GIT",
+          "text": "GIT"
+        }
+      ],
+      "/Hugo": [
+        {
+          "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+          "target": "/Hugo",
+          "text": "Hugo"
+        }
+      ],
+      "/Jekyll": [
+        {
+          "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+          "target": "/Jekyll",
+          "text": "Jekyll"
+        }
+      ],
+      "/Python": [
+        {
+          "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+          "target": "/Python",
+          "text": "Python"
+        }
+      ],
       "/bicep": [
         {
           "source": "/posts/lang-terraform-bicep",
           "target": "/bicep",
           "text": "bicep"
+        }
+      ],
+      "/blog": [
+        {
+          "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+          "target": "/blog",
+          "text": "blog"
         }
       ],
       "/posts/lang-terraform": [
@@ -77,6 +139,31 @@
       "source": "/posts/lang-terraform-quickstart",
       "target": "/posts/lang-terraform",
       "text": "Terraform"
+    },
+    {
+      "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+      "target": "/blog",
+      "text": "blog"
+    },
+    {
+      "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+      "target": "/Jekyll",
+      "text": "Jekyll"
+    },
+    {
+      "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+      "target": "/Python",
+      "text": "Python"
+    },
+    {
+      "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+      "target": "/Hugo",
+      "text": "Hugo"
+    },
+    {
+      "source": "/posts/sw-ssg-jekyll_with_azure_devops",
+      "target": "/GIT",
+      "text": "GIT"
     }
   ]
 }
