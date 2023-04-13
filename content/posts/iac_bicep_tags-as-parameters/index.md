@@ -9,7 +9,7 @@ categories: ['Cloud']
 tags: ['ARM', 'Azure', 'Template', 'Functions', 'IaC']
 authors: ['damian']
 draft: False
-image: blog/assets/iac_bicep_tags-as-parameters.png
+image: iac_bicep_tags-as-parameters.png
 image_caption: Clipart
 toc: False
 featured: True
