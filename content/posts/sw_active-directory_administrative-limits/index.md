@@ -23,19 +23,19 @@ Active Directory is in the simplest form a Database, and each object can be cons
  
 Using a tool like **ADSI Edit** will allow you to open the database, and select the schema partition we would like to work with. Standard objects which we can see in the *Active Directory Users and Computers* extension are all hosted in the partition called the *Default Naming Context*; which is where we need to focus for this problem
 
-![ADSI Edit - Default Naming Context](sw_active-directory_administrative-limits/opps-missing-image.png)
+![ADSI Edit - Default Naming Context](sw_active-directory_administrative-limits/sw_active-directory_administrative-limits_2021-07-27-10-55-18.png)
 
 ## Identifying the Bloat
 
 There is no super cool trick here, we just need a little investigation. Start by navigating the OU structure you are familiar with in Active Directory Users and Computers, to locate the account with issues.
 
-![AD Object Navigation in ADSI Edit](sw_active-directory_administrative-limits/opps-missing-image.png)
+![AD Object Navigation in ADSI Edit](sw_active-directory_administrative-limits/sw_active-directory_administrative-limits_2021-07-27-11-00-37.png)
 
 Right Click on the object, and select **Properties** where you now get to view the 100's of columns of data which AD stores for each object. 
 
 Click on the **Filter** button and enable the option *Show only attributes that have values* - this will remove all the columns which are empty - and therefore not adding to our overside object!
 
-![ADSI Properties Filter](sw_active-directory_administrative-limits/opps-missing-image.png)
+![ADSI Properties Filter](sw_active-directory_administrative-limits/sw_active-directory_administrative-limits_2021-07-27-11-03-48.png)
 
 Now, you can check each of the remaining attributes (columns) and see what they contain, I'll save a few minutes, and in this case I expect my issue is to do with Certificates, so we will focus on the attribute called *userCertificate* which contains an collection of *[byte[]]*, each representing a Base64 encoded Certificate.
 
