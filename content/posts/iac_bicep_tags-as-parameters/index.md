@@ -16,7 +16,7 @@ featured: True
 comments: True
 ---
 
-In a post earlier, we look at using arm to lookup the value of tags' at both the Subscription and Resource Level.
+In an earlier post, we look at using [ARM](ARM) to lookup the value of Tags' at both at the Subscription and Resource Level.
 
 With Bicep this is much easier to understand. This is the same lab configuration as in the original post, but this time to code should be a lot more readable.
 

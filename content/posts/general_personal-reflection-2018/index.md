@@ -4,7 +4,7 @@ type: article
 layout: post
 description: 18 years, from Ops to the Cloud, Development to Identity, Aquisations to Mergers, Los Angeles to Beijing, MVP to Champion. It is time to refocus.
 date: 2018-10-05 18:10:05
-categories: ['Knowledge Sharing']
+categories: ['Thoughts']
 tags: ['Career', 'MVP', 'Cisco Champion']
 authors: ['damian']
 draft: False

@@ -4,7 +4,7 @@ type: article
 layout: post
 description: Active Directory Database limits restricts your ability to manage objects - Learn how to quickly fix the problem
 date: 2021-07-27T09:26:41.509Z
-categories: ['Identity']
+categories: ['Administration']
 tags: ['AD']
 authors: ['damian']
 draft: False
@@ -15,17 +15,20 @@ featured: False
 comments: False
 ---
 
-I recently ran into an issue with a particular environment where Active Directory and PKI services were deployed. One of the service accounts which I was attempting to 'unlock' refused to co-operate and instead offered the most unhelpful message.
+I recently ran into an issue with a particular environment where [Active Directory](Active Directory) and [PKI](PKI) services were deployed. One of the service accounts which I was attempting to 'unlock' refused to co-operate and instead offered the most unhelpful message.
  
-**Administrative limit for this request was exceeded** - this was not my first time encountering the message, previously this haunted me while I was managing a Windows PKI infrastructure and with some quick searches, confirmed my initial suspicion. This is a symptom of an AD object quite simply being to large!
- 
+`Administrative limit for this request was exceeded` - this was not my first time encountering the message, previously this haunted me while I was managing a Windows PKI infrastructure and with some quick searches, confirmed my initial suspicion. This is a symptom of an AD object quite simply being to large!
+
+## Explaination
+
 Active Directory is in the simplest form a Database, and each object can be considered as a row in this database. Like any database there are limits to what data can be stored in the table, the type of data, but also the amount. 
- 
+## Resolving the problem
+
 Using a tool like **ADSI Edit** will allow you to open the database, and select the schema partition we would like to work with. Standard objects which we can see in the *Active Directory Users and Computers* extension are all hosted in the partition called the *Default Naming Context*; which is where we need to focus for this problem
 
 ![ADSI Edit - Default Naming Context](sw_active-directory_administrative-limits/sw_active-directory_administrative-limits_2021-07-27-10-55-18.png)
 
-## Identifying the Bloat
+### Identifying the Bloat
 
 There is no super cool trick here, we just need a little investigation. Start by navigating the OU structure you are familiar with in Active Directory Users and Computers, to locate the account with issues.
 
