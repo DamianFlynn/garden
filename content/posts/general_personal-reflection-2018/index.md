@@ -8,7 +8,7 @@ categories: ['Knowledge Sharing']
 tags: ['Career', 'MVP', 'Cisco Champion']
 authors: ['damian']
 draft: False
-image: personal-reflection-2018.jpg
+image: general_personal-reflection-2018.jpg
 image_caption: Reset
 toc: False
 featured: False
