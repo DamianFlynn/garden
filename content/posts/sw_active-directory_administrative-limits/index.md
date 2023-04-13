@@ -8,7 +8,7 @@ categories: ['Identity']
 tags: ['AD']
 authors: ['damian']
 draft: False
-image: 💡 resources/images/sw_active-directory_administrative-limits.jpg
+image: blog/assets/sw_active-directory_administrative-limits.jpg
 image_caption: Clipart
 toc: False
 featured: False
