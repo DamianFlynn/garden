@@ -1,5 +1,5 @@
 ---
-title: Laying Foundations in Azure
+title: Hosting Static Sites in Azure with CDN
 type: article 
 layout: post
 description: Laying the foundation in Azure for a Static Site

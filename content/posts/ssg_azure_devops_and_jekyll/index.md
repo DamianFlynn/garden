@@ -1,16 +1,18 @@
 ---
-title: Adding Content Flow
+title: Publish Static Site Content using Azure DevOps and Jekyll
 type: article 
-layout: post 
-description: Using pipelines for flow static site content between markdown and foundation
+layout: post
+description: Using pipelines to automate publishing markdown to Azure Static Websites
 date: 2018-10-24 21:46:09
-categories: ['Developer', 'IT Pro/DevOps', 'Web', 'OpenSource', 'Git / GitHub', 'Continuous Deployment', 'Azure', 'Web Sites', 'Cloud']
-tags: ['Azure']
-authors: ['damian'] 
-draft: false 
+series: Blogging Journey
+categories: ['Cloud']
+tags: ['Jekyll', 'Azure DevOps', 'Azure Static Website']
+authors: ['damian']
+draft: False
 image: /images/2018/10/24/banner.jpg
-toc: false 
-featured: false 
+image_caption: Clipart
+toc: False
+featured: True
 comments: True
 ---
 
@@ -73,7 +75,7 @@ The last point to consider is *When* should this deployment happen, and that's a
 
 Every time we have a good build of the site, we should check to see which branch just completed the process, and update the relevant site based on this information.
 
-![Release Pipeline Flow](2018-10-24-adding-content-flow/opps-missing-image.png)
+![Release Pipeline Flow](ssg_azure_devops_and_jekyll/opps-missing-image.png)
 
 ## Summary
 

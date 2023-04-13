@@ -1,18 +1,18 @@
 {
   "index": {
     "links": {
-      "/posts/2018-10-24-adding-content-flow": [
-        {
-          "source": "/posts/2018-10-24-adding-content-flow",
-          "target": "/Building-The-Site/",
-          "text": "Constructing a new Home with Jekyll and Azure DevOps"
-        }
-      ],
       "/posts/iac_bicep_tags-as-parameters": [
         {
           "source": "/posts/iac_bicep_tags-as-parameters",
           "target": "/ARM",
           "text": "ARM"
+        }
+      ],
+      "/posts/ssg_azure_devops_and_jekyll": [
+        {
+          "source": "/posts/ssg_azure_devops_and_jekyll",
+          "target": "/Building-The-Site/",
+          "text": "Constructing a new Home with Jekyll and Azure DevOps"
         }
       ],
       "/posts/sw_active-directory_administrative-limits": [
@@ -33,7 +33,7 @@
       ],
       "/Building-The-Site/": [
         {
-          "source": "/posts/2018-10-24-adding-content-flow",
+          "source": "/posts/ssg_azure_devops_and_jekyll",
           "target": "/Building-The-Site/",
           "text": "Constructing a new Home with Jekyll and Azure DevOps"
         }
@@ -49,14 +49,14 @@
   },
   "links": [
     {
-      "source": "/posts/2018-10-24-adding-content-flow",
-      "target": "/Building-The-Site/",
-      "text": "Constructing a new Home with Jekyll and Azure DevOps"
-    },
-    {
       "source": "/posts/iac_bicep_tags-as-parameters",
       "target": "/ARM",
       "text": "ARM"
+    },
+    {
+      "source": "/posts/ssg_azure_devops_and_jekyll",
+      "target": "/Building-The-Site/",
+      "text": "Constructing a new Home with Jekyll and Azure DevOps"
     },
     {
       "source": "/posts/sw_active-directory_administrative-limits",
