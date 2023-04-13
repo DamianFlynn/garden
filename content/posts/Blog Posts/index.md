@@ -90,27 +90,27 @@ columns:
     sortIndex: -1
     width: 237
     options:
-      - { label: "git", backgroundColor: "hsl(104,100%,50%)"}
-      - { label: "hugo", backgroundColor: "hsl(104,100%,50%)"}
-      - { label: "staticsite", backgroundColor: "hsl(104,100%,50%)"}
-      - { label: "travel", backgroundColor: "hsl(90, 95%, 90%)"}
-      - { label: "story", backgroundColor: "hsl(266, 95%, 90%)"}
-      - { label: "rest", backgroundColor: "hsl(3, 95%, 90%)"}
-      - { label: "workflow", backgroundColor: "hsl(294, 95%, 90%)"}
-      - { label: "hobby", backgroundColor: "hsl(78, 95%, 90%)"}
-      - { label: "study", backgroundColor: "hsl(75, 95%, 90%)"}
-      - { label: "quotes", backgroundColor: "hsl(312, 95%, 90%)"}
-      - { label: "golang", backgroundColor: "hsl(169, 95%, 90%)"}
-      - { label: "iac", backgroundColor: "hsl(144, 95%, 90%)"}
-      - { label: "terraform", backgroundColor: "hsl(174, 95%, 90%)"}
-      - { label: "bicep", backgroundColor: "hsl(147, 95%, 90%)"}
-      - { label: "Career", backgroundColor: "hsl(181, 95%, 90%)"}
-      - { label: "MVP", backgroundColor: "hsl(177, 95%, 90%)"}
-      - { label: "Cisco Champion", backgroundColor: "hsl(111, 95%, 90%)"}
-      - { label: "Azure", backgroundColor: "hsl(270, 95%, 90%)"}
-      - { label: "Azure DevOps", backgroundColor: "hsl(355, 95%, 90%)"}
-      - { label: "Git", backgroundColor: "hsl(9, 95%, 90%)"}
-      - { label: "Jekyll", backgroundColor: "hsl(154, 95%, 90%)"}
+      - { label: "git", value: "git", color: "hsl(104,100%,50%)"}
+      - { label: "hugo", value: "hugo", color: "hsl(104,100%,50%)"}
+      - { label: "staticsite", value: "staticsite", color: "hsl(104,100%,50%)"}
+      - { label: "travel", value: "travel", color: "hsl(90, 95%, 90%)"}
+      - { label: "story", value: "story", color: "hsl(266, 95%, 90%)"}
+      - { label: "rest", value: "rest", color: "hsl(3, 95%, 90%)"}
+      - { label: "workflow", value: "workflow", color: "hsl(294, 95%, 90%)"}
+      - { label: "hobby", value: "hobby", color: "hsl(78, 95%, 90%)"}
+      - { label: "study", value: "study", color: "hsl(75, 95%, 90%)"}
+      - { label: "quotes", value: "quotes", color: "hsl(312, 95%, 90%)"}
+      - { label: "golang", value: "golang", color: "hsl(169, 95%, 90%)"}
+      - { label: "iac", value: "iac", color: "hsl(144, 95%, 90%)"}
+      - { label: "terraform", value: "terraform", color: "hsl(174, 95%, 90%)"}
+      - { label: "bicep", value: "bicep", color: "hsl(147, 95%, 90%)"}
+      - { label: "Career", value: "Career", color: "hsl(181, 95%, 90%)"}
+      - { label: "MVP", value: "MVP", color: "hsl(177, 95%, 90%)"}
+      - { label: "Cisco Champion", value: "Cisco Champion", color: "hsl(111, 95%, 90%)"}
+      - { label: "Azure", value: "Azure", color: "hsl(270, 95%, 90%)"}
+      - { label: "Azure DevOps", value: "Azure DevOps", color: "hsl(355, 95%, 90%)"}
+      - { label: "Git", value: "Git", color: "hsl(9, 95%, 90%)"}
+      - { label: "Jekyll", value: "Jekyll", color: "hsl(154, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -153,9 +153,9 @@ columns:
     sortIndex: -1
     width: 164
     options:
-      - { label: "Modularising Hugo", backgroundColor: "hsl(238,100%,50%)"}
-      - { label: "Sharing Knowledge", backgroundColor: "hsl(242, 95%, 90%)"}
-      - { label: "Terraform", backgroundColor: "hsl(105, 95%, 90%)"}
+      - { label: "Modularising Hugo", value: "Modularising Hugo", color: "hsl(238,100%,50%)"}
+      - { label: "Sharing Knowledge", value: "Sharing Knowledge", color: "hsl(242, 95%, 90%)"}
+      - { label: "Terraform", value: "Terraform", color: "hsl(105, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -195,8 +195,8 @@ columns:
     isHidden: false
     sortIndex: -1
     options:
-      - { label: "post", backgroundColor: "hsl(52, 95%, 90%)"}
-      - { label: "quote", backgroundColor: "hsl(180, 95%, 90%)"}
+      - { label: "post", value: "post", color: "hsl(52, 95%, 90%)"}
+      - { label: "quote", value: "quote", color: "hsl(180, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -217,10 +217,10 @@ columns:
     isHidden: false
     sortIndex: -1
     options:
-      - { label: "[,miracle]", backgroundColor: "hsl(130, 95%, 90%)"}
-      - { label: "[,Edward Snowden]", backgroundColor: "hsl(115, 95%, 90%)"}
-      - { label: "[,damian]", backgroundColor: "hsl(356, 95%, 90%)"}
-      - { label: "damian", backgroundColor: "hsl(186, 95%, 90%)"}
+      - { label: "[,miracle]", value: "[,miracle]", color: "hsl(130, 95%, 90%)"}
+      - { label: "[,Edward Snowden]", value: "[,Edward Snowden]", color: "hsl(115, 95%, 90%)"}
+      - { label: "[,damian]", value: "[,damian]", color: "hsl(356, 95%, 90%)"}
+      - { label: "damian", value: "damian", color: "hsl(186, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -392,6 +392,7 @@ config:
   metadata_date_format: "yyyy-MM-dd HH:mm:ss"
   enable_footer: false
   implementation: default
+  show_metadata_tags: false
 filters:
   enabled: false
   conditions:
