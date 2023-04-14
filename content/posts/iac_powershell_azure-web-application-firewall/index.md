@@ -1,16 +1,18 @@
 ---
-title: Configuring the Web Application Firewall with PowerShell.
+title: Configuring the Web Application Firewall with PowerShell
 type: article 
-layout: post 
-description: A quick guide on how to connect and work with the Azure WAF from PowerShell.
+layout: post
+description: A quick guide on how to connect and work with the Azure WAF from PowerShell
 date: 2019-10-03 07:55:09
-categories: ['Developer', 'Smart Home', 'SoC', 'Microcontrollers', 'IoT']
-tags: ['Internet of Things']
-authors: ['damian'] 
-draft: false 
+series: Building Azure With Code
+categories: ['Cloud']
+tags: ['Powershell', 'Azure Web Application Gateway']
+authors: ['damian']
+draft: False
 image: /images/2019/10/03/banner.png
-toc: false 
-featured: false 
+image_caption: Clipart
+toc: False
+featured: True
 comments: True
 ---
 
@@ -18,10 +20,11 @@ Microsoft Azure Application Gateway is a Layer 7 application delivery controller
 
 Working with the WAF, I usually build a basic configuration in the Portal before exporting the ARM JSON, which, then becomes my primary method to working on this service.
 
+## Why JSON you may ask... 
 
 One of my biggest gripes with the Azure Firewall solutions currently is based on thier CRUD *(Create, Read, Update and Delete)* interface. It always  results in a workflow from hell, training along the lines of '*Edit, Save,* ***WAIT,***, *Edit, Save,* ***WAIT***' in a painful loop.  What should be a fast and straightforward configuration update, typically is a process that must be executed over many hours, preferably on a second screen.
 
-# Powershell
+## Powershell
 
 While I spend a large amount of my working time sitting in VS code, with a terminal logged into Azure with both Powershell and Azure CLI, I do not every recall trying to work with the Application Gateway from this interface ever! 
 

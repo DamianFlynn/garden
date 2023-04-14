@@ -11,7 +11,7 @@
       "/posts/ssg_azure_devops_and_jekyll": [
         {
           "source": "/posts/ssg_azure_devops_and_jekyll",
-          "target": "/Building-The-Site/",
+          "target": "/posts/ssg_building_using_jekyll",
           "text": "Constructing a new Home with Jekyll and Azure DevOps"
         }
       ],
@@ -31,18 +31,18 @@
           "text": "ARM"
         }
       ],
-      "/Building-The-Site/": [
-        {
-          "source": "/posts/ssg_azure_devops_and_jekyll",
-          "target": "/Building-The-Site/",
-          "text": "Constructing a new Home with Jekyll and Azure DevOps"
-        }
-      ],
       "/PKI": [
         {
           "source": "/posts/sw_active-directory_administrative-limits",
           "target": "/PKI",
           "text": "PKI"
+        }
+      ],
+      "/posts/ssg_building_using_jekyll": [
+        {
+          "source": "/posts/ssg_azure_devops_and_jekyll",
+          "target": "/posts/ssg_building_using_jekyll",
+          "text": "Constructing a new Home with Jekyll and Azure DevOps"
         }
       ]
     }
@@ -55,7 +55,7 @@
     },
     {
       "source": "/posts/ssg_azure_devops_and_jekyll",
-      "target": "/Building-The-Site/",
+      "target": "/posts/ssg_building_using_jekyll",
       "text": "Constructing a new Home with Jekyll and Azure DevOps"
     },
     {
