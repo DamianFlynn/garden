@@ -1,43 +1,54 @@
 ---
 title: "IoT - Azure Arc Connected K3s "
-date: 2025-04-24T12:24:00.000Z
-lastmod: 2025-05-13T22:43:00.000Z
+date: "2025-04-24T12:24:00.000Z"
+lastmod: "2025-05-13T22:43:00.000Z"
 draft: false
 Categories:
-  - Azure Edge Devices
-  - IoT
+  [
+    "Azure Edge Devices",
+    "IoT"
+  ]
 series:
-  - Azure IoT Operations
-Status: Published
+  [
+    "Azure IoT Operations"
+  ]
+Status: "Published"
+description: "Transform your on-premises infrastructure into a cloud-integrated powerhouse by combining K3s Kubernetes with Azure Arc on an Ubuntu server. This guide walks you through every step—from deploying K3s and configuring user access to connecting your cluster to Azure Arc, enabling observability with Grafana, and integrating full-scale monitoring with Azure Monitor. Whether you're building edge deployments or hybrid IoT solutions, this tutorial gives you a production-grade environment with the flexibility of the cloud and control of local resources."
 Tags:
-  - IaC
-  - Linux
-  - Docker
-  - IoT
+  [
+    "IaC",
+    "Linux",
+    "Docker",
+    "IoT"
+  ]
 NOTION_METADATA:
-  object: page
-  id: 1dfeb56e-a1c3-8089-a3d2-d965ea21f3fb
-  created_time: 2025-04-24T12:24:00.000Z
-  last_edited_time: 2025-05-13T22:43:00.000Z
-  created_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  last_edited_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  cover: null
-  icon: null
-  parent:
-    type: database_id
-    database_id: 4bb8f075-358d-4efe-b575-192baa1d62b9
-  archived: false
-  properties: {}
-  url: https://www.notion.so/IoT-Azure-Arc-Connected-K3s-1dfeb56ea1c38089a3d2d965ea21f3fb
-  public_url: null
-UPDATE_TIME: 2025-05-13T22:46:07.335Z
-last_edited_time: 2025-05-13T22:43:00.000Z
-
-EXPIRY_TIME: "2025-05-13T23:46:02.623Z"
+  {
+    "object": "page",
+    "id": "1dfeb56e-a1c3-8089-a3d2-d965ea21f3fb",
+    "created_time": "2025-04-24T12:24:00.000Z",
+    "last_edited_time": "2025-05-13T22:43:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4bb8f075-358d-4efe-b575-192baa1d62b9"
+    },
+    "archived": false,
+    "properties": {},
+    "url": "https://www.notion.so/IoT-Azure-Arc-Connected-K3s-1dfeb56ea1c38089a3d2d965ea21f3fb",
+    "public_url": null
+  }
+UPDATE_TIME: "2025-05-14T12:10:38.309Z"
+last_edited_time: "2025-05-13T22:43:00.000Z"
+EXPIRY_TIME: "2025-05-14T13:10:33.040Z"
 ---
 
 Starting from an Ubuntu server, which has be Arc Enabled, we can use this as a base for the Azure IoT Operations.

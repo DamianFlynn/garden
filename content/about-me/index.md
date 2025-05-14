@@ -1,31 +1,35 @@
 ---
-title: About Me
-date: 2024-07-10T08:38:00.000Z
-lastmod: 2024-07-12T22:47:00.000Z
+title: "About Me"
+date: "2024-07-10T08:38:00.000Z"
+lastmod: "2024-07-12T22:47:00.000Z"
 draft: true
 NOTION_METADATA:
-  object: page
-  id: 42464b08-9a23-4424-a639-6c013fa6cef6
-  created_time: 2024-07-10T08:38:00.000Z
-  last_edited_time: 2024-07-12T22:47:00.000Z
-  created_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  last_edited_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  cover: null
-  icon: null
-  parent:
-    type: page_id
-    page_id: 252a519e-13ee-46c5-b576-691e1026e7e0
-  archived: false
-  properties: {}
-  url: https://www.notion.so/About-Me-42464b089a234424a6396c013fa6cef6
-  public_url: null
-UPDATE_TIME: 2025-05-13T22:24:35.855Z
-last_edited_time: 2024-07-12T22:47:00.000Z
-
+  {
+    "object": "page",
+    "id": "42464b08-9a23-4424-a639-6c013fa6cef6",
+    "created_time": "2024-07-10T08:38:00.000Z",
+    "last_edited_time": "2024-07-12T22:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "252a519e-13ee-46c5-b576-691e1026e7e0"
+    },
+    "archived": false,
+    "properties": {},
+    "url": "https://www.notion.so/About-Me-42464b089a234424a6396c013fa6cef6",
+    "public_url": null
+  }
+UPDATE_TIME: "2025-05-14T12:12:56.872Z"
+last_edited_time: "2024-07-12T22:47:00.000Z"
 ---
 
 ### Evangelist, Thinker, Creative Doer

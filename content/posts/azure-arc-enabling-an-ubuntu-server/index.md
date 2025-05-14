@@ -1,40 +1,51 @@
 ---
-title: Azure Arc enabling an Ubuntu Server
-date: 2025-04-23T07:53:00.000Z
-lastmod: 2025-05-13T22:44:00.000Z
+title: "Azure Arc enabling an Ubuntu Server"
+date: "2025-04-23T07:53:00.000Z"
+lastmod: "2025-05-13T22:44:00.000Z"
 draft: false
 Categories:
-  - Azure Edge Devices
+  [
+    "Azure Edge Devices"
+  ]
 series:
-  - Azure IoT Operations
-Status: Published
+  [
+    "Azure IoT Operations"
+  ]
+Status: "Published"
+description: "Discover how to transform a basic Ubuntu server into a fully Azure Arc-enabled edge device. This step-by-step guide walks you through onboarding a Linux server into Azure Arc, installing the hybrid agent, establishing secure remote access over web sockets, and enabling centralized management through the Azure Portal. Whether for IoT, hybrid cloud, or secure remote administration, this post equips you with the tools to bridge your edge environments seamlessly with Azure."
 Tags:
-  - IaC
-  - Linux
+  [
+    "IaC",
+    "Linux"
+  ]
 NOTION_METADATA:
-  object: page
-  id: 1deeb56e-a1c3-80ba-9ac0-ed9604829ca1
-  created_time: 2025-04-23T07:53:00.000Z
-  last_edited_time: 2025-05-13T22:44:00.000Z
-  created_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  last_edited_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  cover: null
-  icon: null
-  parent:
-    type: database_id
-    database_id: 4bb8f075-358d-4efe-b575-192baa1d62b9
-  archived: false
-  properties: {}
-  url: https://www.notion.so/Azure-Arc-enabling-an-Ubuntu-Server-1deeb56ea1c380ba9ac0ed9604829ca1
-  public_url: null
-UPDATE_TIME: 2025-05-13T22:46:21.961Z
-last_edited_time: 2025-05-13T22:44:00.000Z
-
-EXPIRY_TIME: "2025-05-13T23:46:07.776Z"
+  {
+    "object": "page",
+    "id": "1deeb56e-a1c3-80ba-9ac0-ed9604829ca1",
+    "created_time": "2025-04-23T07:53:00.000Z",
+    "last_edited_time": "2025-05-13T22:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4bb8f075-358d-4efe-b575-192baa1d62b9"
+    },
+    "archived": false,
+    "properties": {},
+    "url": "https://www.notion.so/Azure-Arc-enabling-an-Ubuntu-Server-1deeb56ea1c380ba9ac0ed9604829ca1",
+    "public_url": null
+  }
+UPDATE_TIME: "2025-05-14T12:10:42.615Z"
+last_edited_time: "2025-05-13T22:44:00.000Z"
+EXPIRY_TIME: "2025-05-14T13:10:38.646Z"
 ---
 
 Azure Arc enables you to extend Azure management capabilities to hybrid environments, including on-premises datacenters and third-party cloud providers. You can use Azure Arc to manage and configure your Windows and Linux server machines and Kubernetes clusters that are hosted outside of Azure. You can also use Azure Arc to introduce Azure data services to hybrid environments.

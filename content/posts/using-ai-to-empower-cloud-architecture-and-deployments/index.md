@@ -8,6 +8,7 @@ Categories:
     "Infrastructre As Code"
   ]
 Status: "Published"
+description: "The integration of artificial intelligence (AI) into cloud infrastructure is revolutionizing how we manage and deploy cloud resources. AI, now a pivotal component, optimizes the entire lifecycle of cloud architecture, enhancing tasks like deployment, maintenance, and scaling. This article explores the role of AI in empowering cloud architecture and deployments, especially when combined with Infrastructure as Code (IaC) tools like Bicep and Terraform."
 Tags:
   [
     "Bicep",
@@ -39,7 +40,7 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Using-AI-to-Empower-Cloud-Architecture-and-Deployments-677878fdec79497a82c5073291ad2eeb",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-13T10:56:37.495Z"
+UPDATE_TIME: "2025-05-14T12:10:52.925Z"
 last_edited_time: "2024-08-07T14:58:00.000Z"
 ---
 

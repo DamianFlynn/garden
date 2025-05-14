@@ -1,32 +1,36 @@
 ---
-title: IoT - Azure IoT MQTT Broker
-date: 2025-05-13T07:16:00.000Z
-lastmod: 2025-05-13T22:32:00.000Z
+title: "IoT - Azure IoT MQTT Broker"
+date: "2025-05-13T07:16:00.000Z"
+lastmod: "2025-05-13T22:32:00.000Z"
 draft: true
-Status: Draft
+Status: "Draft"
 NOTION_METADATA:
-  object: page
-  id: 1f2eb56e-a1c3-80fb-96ba-d517b032a2b0
-  created_time: 2025-05-13T07:16:00.000Z
-  last_edited_time: 2025-05-13T22:32:00.000Z
-  created_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  last_edited_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  cover: null
-  icon: null
-  parent:
-    type: database_id
-    database_id: 4bb8f075-358d-4efe-b575-192baa1d62b9
-  archived: false
-  properties: {}
-  url: https://www.notion.so/IoT-Azure-IoT-MQTT-Broker-1f2eb56ea1c380fb96bad517b032a2b0
-  public_url: null
-UPDATE_TIME: 2025-05-13T22:33:38.514Z
-last_edited_time: 2025-05-13T22:32:00.000Z
-
+  {
+    "object": "page",
+    "id": "1f2eb56e-a1c3-80fb-96ba-d517b032a2b0",
+    "created_time": "2025-05-13T07:16:00.000Z",
+    "last_edited_time": "2025-05-13T22:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4bb8f075-358d-4efe-b575-192baa1d62b9"
+    },
+    "archived": false,
+    "properties": {},
+    "url": "https://www.notion.so/IoT-Azure-IoT-MQTT-Broker-1f2eb56ea1c380fb96bad517b032a2b0",
+    "public_url": null
+  }
+UPDATE_TIME: "2025-05-14T12:09:35.622Z"
+last_edited_time: "2025-05-13T22:32:00.000Z"
 ---
 
 The MQTT broker of Azure IoT Operations is a central part of the edge solution:

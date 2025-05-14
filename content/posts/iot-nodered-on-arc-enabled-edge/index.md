@@ -1,41 +1,52 @@
 ---
-title: IoT - NodeRED on Arc-Enabled Edge
-date: 2025-04-28T13:16:00.000Z
-lastmod: 2025-05-13T22:45:00.000Z
+title: "IoT - NodeRED on Arc-Enabled Edge"
+date: "2025-04-28T13:16:00.000Z"
+lastmod: "2025-05-13T22:45:00.000Z"
 draft: false
 Categories:
-  - Azure Edge Devices
+  [
+    "Azure Edge Devices"
+  ]
 series:
-  - Azure IoT Operations
-Status: Published
+  [
+    "Azure IoT Operations"
+  ]
+Status: "Published"
+description: "Learn how to deploy a fully integrated Node-RED environment inside a K3s Kubernetes cluster on an Azure Arc-connected edge device. This guide walks you through namespace setup, persistent storage, service exposure, and secure access over SSH tunnels. Simulate MQTT and Modbus devices, visualize flows, and forward real-time telemetry to Azure MQ and OPC UA—all without opening firewall ports. Ideal for industrial IoT scenarios needing secure hybrid connectivity and local processing."
 Tags:
-  - Linux
-  - IoT
-  - Docker
+  [
+    "Linux",
+    "IoT",
+    "Docker"
+  ]
 NOTION_METADATA:
-  object: page
-  id: 1e3eb56e-a1c3-80f6-a9ee-e3c2047c4c27
-  created_time: 2025-04-28T13:16:00.000Z
-  last_edited_time: 2025-05-13T22:45:00.000Z
-  created_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  last_edited_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  cover: null
-  icon: null
-  parent:
-    type: database_id
-    database_id: 4bb8f075-358d-4efe-b575-192baa1d62b9
-  archived: false
-  properties: {}
-  url: https://www.notion.so/IoT-NodeRED-on-Arc-Enabled-Edge-1e3eb56ea1c380f6a9eee3c2047c4c27
-  public_url: null
-UPDATE_TIME: 2025-05-13T22:46:01.926Z
-last_edited_time: 2025-05-13T22:45:00.000Z
-
-EXPIRY_TIME: "2025-05-13T23:45:53.654Z"
+  {
+    "object": "page",
+    "id": "1e3eb56e-a1c3-80f6-a9ee-e3c2047c4c27",
+    "created_time": "2025-04-28T13:16:00.000Z",
+    "last_edited_time": "2025-05-13T22:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4bb8f075-358d-4efe-b575-192baa1d62b9"
+    },
+    "archived": false,
+    "properties": {},
+    "url": "https://www.notion.so/IoT-NodeRED-on-Arc-Enabled-Edge-1e3eb56ea1c380f6a9eee3c2047c4c27",
+    "public_url": null
+  }
+UPDATE_TIME: "2025-05-14T12:09:46.183Z"
+last_edited_time: "2025-05-13T22:45:00.000Z"
+EXPIRY_TIME: "2025-05-14T13:09:36.336Z"
 ---
 
 

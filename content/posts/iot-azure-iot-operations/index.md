@@ -1,44 +1,54 @@
 ---
-title: IoT - Azure IoT Operations
-date: 2025-04-25T23:07:00.000Z
-lastmod: 2025-05-13T22:32:00.000Z
+title: "IoT - Azure IoT Operations"
+date: "2025-04-25T23:07:00.000Z"
+lastmod: "2025-05-13T22:32:00.000Z"
 draft: true
 Categories:
-  - IoT
-  - Azure Edge Devices
+  [
+    "IoT",
+    "Azure Edge Devices"
+  ]
 series:
-  - Azure IoT Operations
-Status: Draft
+  [
+    "Azure IoT Operations"
+  ]
+Status: "Draft"
 Tags:
-  - IaC
-  - Linux
-  - IoT
-  - DevOps
-  - Docker
+  [
+    "IaC",
+    "Linux",
+    "IoT",
+    "DevOps",
+    "Docker"
+  ]
 NOTION_METADATA:
-  object: page
-  id: 1e0eb56e-a1c3-8046-af39-e4c5ca860492
-  created_time: 2025-04-25T23:07:00.000Z
-  last_edited_time: 2025-05-13T22:32:00.000Z
-  created_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  last_edited_by:
-    object: user
-    id: 550f3f90-071d-4a6c-a8de-29d1f5804ee4
-  cover: null
-  icon: null
-  parent:
-    type: database_id
-    database_id: 4bb8f075-358d-4efe-b575-192baa1d62b9
-  archived: false
-  properties: {}
-  url: https://www.notion.so/IoT-Azure-IoT-Operations-1e0eb56ea1c38046af39e4c5ca860492
-  public_url: null
-UPDATE_TIME: 2025-05-13T22:34:25.951Z
-last_edited_time: 2025-05-13T22:32:00.000Z
-
-EXPIRY_TIME: "2025-05-13T23:33:50.852Z"
+  {
+    "object": "page",
+    "id": "1e0eb56e-a1c3-8046-af39-e4c5ca860492",
+    "created_time": "2025-04-25T23:07:00.000Z",
+    "last_edited_time": "2025-05-13T22:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4bb8f075-358d-4efe-b575-192baa1d62b9"
+    },
+    "archived": false,
+    "properties": {},
+    "url": "https://www.notion.so/IoT-Azure-IoT-Operations-1e0eb56ea1c38046af39e4c5ca860492",
+    "public_url": null
+  }
+UPDATE_TIME: "2025-05-14T12:10:31.012Z"
+last_edited_time: "2025-05-13T22:32:00.000Z"
+EXPIRY_TIME: "2025-05-14T13:09:46.697Z"
 ---
 
 An Azure Arc-enabled Kubernetes cluster is a prerequisite for deploying Azure IoT Operations. This article describes how to prepare a cluster before you deploy Azure IoT Operations. This article includes guidance for Ubuntu
