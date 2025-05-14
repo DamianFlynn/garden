@@ -12,7 +12,7 @@ series:
     "Azure IoT Operations"
   ]
 Status: "Published"
-description: "Discover how to transform a basic Ubuntu server into a fully Azure Arc-enabled edge device. This step-by-step guide walks you through onboarding a Linux server into Azure Arc, installing the hybrid agent, establishing secure remote access over web sockets, and enabling centralized management through the Azure Portal. Whether for IoT, hybrid cloud, or secure remote administration, this post equips you with the tools to bridge your edge environments seamlessly with Azure."
+summary: "Discover how to transform a basic Ubuntu server into a fully Azure Arc-enabled edge device. This step-by-step guide walks you through onboarding a Linux server into Azure Arc, installing the hybrid agent, establishing secure remote access over web sockets, and enabling centralized management through the Azure Portal. Whether for IoT, hybrid cloud, or secure remote administration, this post equips you with the tools to bridge your edge environments seamlessly with Azure."
 Tags:
   [
     "IaC",
@@ -43,9 +43,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Azure-Arc-enabling-an-Ubuntu-Server-1deeb56ea1c380ba9ac0ed9604829ca1",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T12:10:42.615Z"
+UPDATE_TIME: "2025-05-14T14:36:13.282Z"
 last_edited_time: "2025-05-13T22:44:00.000Z"
-EXPIRY_TIME: "2025-05-14T13:10:38.646Z"
+EXPIRY_TIME: "2025-05-14T15:36:07.099Z"
 ---
 
 Azure Arc enables you to extend Azure management capabilities to hybrid environments, including on-premises datacenters and third-party cloud providers. You can use Azure Arc to manage and configure your Windows and Linux server machines and Kubernetes clusters that are hosted outside of Azure. You can also use Azure Arc to introduce Azure data services to hybrid environments.

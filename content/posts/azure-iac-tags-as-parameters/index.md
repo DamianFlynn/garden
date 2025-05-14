@@ -3,6 +3,7 @@ title: "Azure IaC - Tags as Parameters"
 date: "2021-01-17"
 lastmod: "2024-07-19T15:22:00.000Z"
 draft: false
+featuredImage: "./cover-855ad084.jpg"
 Categories:
   [
     "Infrastructre As Code"
@@ -43,9 +44,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Azure-IaC-Tags-as-Parameters-855ad084439744fd8fb4334f36a9b421",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T12:12:29.971Z"
+UPDATE_TIME: "2025-05-14T14:38:08.771Z"
 last_edited_time: "2024-07-19T15:22:00.000Z"
-EXPIRY_TIME: "2025-05-14T13:12:21.722Z"
+EXPIRY_TIME: "2025-05-14T15:37:59.655Z"
 ---
 
 Deploying infrastructure ARM Templates to Azure, but using Tags and thier respective value as the parameter configuration settings

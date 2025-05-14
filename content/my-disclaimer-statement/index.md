@@ -3,6 +3,7 @@ title: "My Disclaimer Statement"
 date: "2024-07-12T22:19:00.000Z"
 lastmod: "2024-07-12T22:25:00.000Z"
 draft: true
+featuredImage: "./cover-8e68f651.jpg"
 NOTION_METADATA:
   {
     "object": "page",
@@ -20,8 +21,8 @@ NOTION_METADATA:
     "cover": {
       "type": "file",
       "file": {
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8bc3c4f0-c291-4309-a955-a5876c66b3de/5d1145ba-8d41-4290-a879-57375347b311/Disclaimer_1600x750.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WZPRIHCZ%2F20250514%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250514T120926Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFwaCXVzLXdlc3QtMiJIMEYCIQD35JJHiSggIpTfe7eBjxOwuKGOQTVGHh0miTJlN1%2BfWAIhAJn4JHXBzFmbLPlxLZ%2FaGdceGoAKZaD%2BlYlcViTJT8mWKv8DCBUQABoMNjM3NDIzMTgzODA1IgzH0DtohTK4KkuLC8Mq3APGHCk0oJW7HgILZ7MqK5pEPXngjNdq8D9rGcOL%2BTldcFUU3doCmWseNlr7rlch0VZFE9Bc8qOzdx56I9FBGH%2FHs0rz9UBiLiZs2r5cI6DeZVek6x%2Fp1V3OJKqvuendz05dG7KwGzEWXdHzX6JH6rl4q6BufUqhKmfWrX8ByXKDvk5eoLhOnzmJkPx5fJ1RJD7i1CJNR8%2FnbwyxORnoFRu1RxPEh1XG%2BYS38N7gemaiaIarQ3GdBvxqt0PiHKmWLtB2MujO4%2FJNYPUeVfxAACTLOwSloQ1dtWncPQacH%2BOQE9e1cxSfb51ekgKb29h0tfhU6bb2Kg0SK1OLnvP2U1aM5qDBfO9nrQtBOXTslGCxRxNZx0Imz8AYxzwcQMwUB6i35FlBoEwGaj1qraGENaOVscRY61iZsVTiASj7SrGl0g2j6MoWl6erumXQbeQabqjzINm2BMzj9vAzCF%2B52AK%2BOLTcaP3O8wAnVfDvojlAYVNGkzVqepNzncuzgdo5CON3q9zIACAwKLLWdLLf4GJcRtsqj4uaEfgwi6iHgZopbtVzwfRg6lPvoRxcRET1iOWpscXx5Tdn0uctwO6emxl8D2sqQZRsWsFQ%2BhQNWfoETgehf8GvXQ04lut%2BNTDThpLBBjqkAQhZl2oWFvneDeC58xOzy6hgqlRgztyQoqjyExjxIWe3jNCNZ14Uczrh9ttySO472Te%2B8B7o%2BFXt7kBZkOGlyRwZTWEpVsVzzBXtqPY8N8QZEyXJ%2F6L5yNGmiojbDbqQ%2F6uNWhm%2BaE7rmJctf0UXdtTwxNTkwcNYiIuiAA%2FDNcylxWEexxwDicwemGbHUGfVDnoJrwG%2FjicI1O%2FxIzw71zfvgl4u&X-Amz-Signature=f94ae870b5089be70a25dad8f785726d4b98e2d790e87fcbfc9ddec907c5d270&X-Amz-SignedHeaders=host&x-id=GetObject",
-        "expiry_time": "2025-05-14T13:09:26.415Z"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8bc3c4f0-c291-4309-a955-a5876c66b3de/5d1145ba-8d41-4290-a879-57375347b311/Disclaimer_1600x750.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667EZZTWTQ%2F20250514%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250514T143512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIHT7onQ2Bqm%2BBjIuraUy335DN34lPvyxs5EbvJsAInW%2FAiEA9%2F7tl3PcqajoQLFdWN3U8A0FlRdG81kKEZ0PZK2AI50q%2FwMIFxAAGgw2Mzc0MjMxODM4MDUiDCZ4uF%2FtF4a3KJiVGSrcA9m7mBL26A6wsV7BC%2F7CPvMbvV9udEC99%2Fqwn9G%2BoF1L1vchd4sfOLZaCL4Xmw%2BKb8sM%2BEpjD10jrPqQYKxQqAS0PH7khlFdBVJX6%2FP6XoqOneJaspG4VCc1i1mn%2BV1rF%2BO94wd%2FbkI7k1cF1uDeb3jzUKrQAQvfoRfQ45mpA%2F1805AyV2qXaoiQ%2Fr5LZ9LXHx92gt8jhtA1HkaHLEtohcYc27hOiC4bqaHHb%2BzU5m%2BcSRbKIOaNmLggO2LogeZ7VKwhuPzCMZTY8dtaLxsZeWp2Y9YM6tjxM6cTEy6dPap8%2Fi2uUDcUBfzu%2FlQkJiRG0q5BvzHTSAx%2BSr4EDJBCBRl%2FkLsfCzDgL02r6wvz%2FyHSLtCQSuCljofWhe9N6z6a%2BanGju7d%2B2M3xcBpS4kD9P2w5YuVUOB%2BnnausdDSzoyKGgpQB67MEptljheDdadpv6bQk%2FHeYUH5TBVqtT7O3dWrklJd%2FZO9gTPIUsCYY6r6m34oE9It24M15OhwSwYgqtKmPQtzH2ENpeEDJ5dcKkw50IrE74OD4H%2Bc%2FpBeLrxa9Hc%2FP5Izqn%2B7hgzsuZIe2PMP6zV%2FATllU4tvXQJcpCz7qfDhZPbEkCS%2B%2FJfJKnMvW5eqlFAswOi5U0ZaMIm6ksEGOqUB1Uk1JidwVsO8BgYRcsyXqXlHD5k2rJjBQ8Ju3jXPHAIxXP8UvPq7FdOEv8m0LMmKayvONmQ2Suhk03LMuXNrrrdGLyd7suklIR2xRgpr2yvzCa90H%2BXVKx02xGLUeLRmNLygIRkrBN9FEvuGXpBDo5yPoMWTsePVWfXvwwvNi4SCim5YLkvz6rJpxZvYrvGlX4K5noFhBMo5uJO0erw0w%2BdJfjuU&X-Amz-Signature=05bb07df34bc5656713b2dfa227f1d77ca5cac20f0f03823727f778573da4782&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "expiry_time": "2025-05-14T15:35:12.353Z"
       }
     },
     "icon": null,
@@ -34,7 +35,7 @@ NOTION_METADATA:
     "url": "https://www.notion.so/My-Disclaimer-Statement-8e68f651a2c047ad954cd3cb9e45f449",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T12:12:58.880Z"
+UPDATE_TIME: "2025-05-14T14:38:44.248Z"
 last_edited_time: "2024-07-12T22:25:00.000Z"
 ---
 

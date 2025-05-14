@@ -260,59 +260,203 @@
     "contentHash": "11f316045c24648825ce185636146a39"
   },
   "1f2eb56e-a1c3-80fb-96ba-d517b032a2b0": {
-    "localPath": "/static/images/img-1f2eb56e-image-72.png",
-    "lastFetched": "2025-05-14T12:09:35.621Z"
+    "localPath": "content/posts/iot-azure-iot-mqtt-broker/img-1f2eb56e-image-72.png",
+    "lastFetched": "2025-05-14T14:35:18.211Z",
+    "contentHash": "39e8fda340d22fc7351c2f0b633b85d1"
   },
   "1e0eb56e-a1c3-8046-af39-e4c5ca860492": {
-    "localPath": "/static/images/img-1e0eb56e-image.png",
-    "lastFetched": "2025-05-14T12:10:31.011Z"
+    "localPath": "content/posts/iot-azure-iot-operations/img-1e0eb56e-image.png",
+    "lastFetched": "2025-05-14T14:35:56.213Z",
+    "contentHash": "8bd2d031dc8c632328aebe46f1ea4144"
   },
   "1e3eb56e-a1c3-80f6-a9ee-e3c2047c4c27": {
-    "localPath": "/static/images/img-1e3eb56e-image.png",
-    "lastFetched": "2025-05-14T12:09:46.182Z"
+    "localPath": "content/posts/iot-nodered-on-arc-enabled-edge/img-1e3eb56e-image.png",
+    "lastFetched": "2025-05-14T14:35:35.445Z",
+    "contentHash": "7e0eb355fcbc0073f13f0c8f12958bb1"
   },
   "1dfeb56e-a1c3-8089-a3d2-d965ea21f3fb": {
-    "localPath": "/static/images/img-1dfeb56e-image.png",
-    "lastFetched": "2025-05-14T12:10:38.308Z"
+    "localPath": "content/posts/iot-azure-arc-connected-k3s/img-1dfeb56e-image.png",
+    "lastFetched": "2025-05-14T14:36:06.011Z",
+    "contentHash": "07a8e6433c82ca2b56281c159055c3a7"
   },
   "1deeb56e-a1c3-80ba-9ac0-ed9604829ca1": {
-    "localPath": "/static/images/img-1deeb56e-image.png",
-    "lastFetched": "2025-05-14T12:10:42.614Z"
+    "localPath": "content/posts/azure-arc-enabling-an-ubuntu-server/img-1deeb56e-image.png",
+    "lastFetched": "2025-05-14T14:36:13.281Z",
+    "contentHash": "9c80c39e4417dae1dfa076fab31fade9"
   },
   "eea37a13-1396-4849-aaa7-4b77dd8624c9": {
-    "localPath": "/static/images/img-eea37a13-wave-Maker.jpg",
-    "lastFetched": "2025-05-14T12:10:54.947Z"
+    "localPath": "content/posts/wavemaker/img-eea37a13-wave-Maker.jpg",
+    "lastFetched": "2025-05-14T14:36:18.536Z",
+    "contentHash": "075d7dd6af552679969bfc12d67bdb92"
   },
   "53204b06-f96d-4694-8e64-db694fa0648d": {
-    "localPath": "/static/images/img-53204b06-guacamole-settings1.png",
-    "lastFetched": "2025-05-14T12:11:04.093Z"
+    "localPath": "content/posts/guacamole-azure-appliance/img-53204b06-guacamole-settings3.png",
+    "lastFetched": "2025-05-14T14:36:31.700Z",
+    "contentHash": "475e764f07e58be4e3c65fe405baaa86"
   },
   "4d0d2e1c-a9fd-4a28-88b3-cf1652a75bfa": {
-    "localPath": "/static/images/img-4d0d2e1c-LED_Connection.jpg",
-    "lastFetched": "2025-05-14T12:11:48.756Z"
+    "localPath": "content/posts/nodemcu-pinouts/img-4d0d2e1c-LED_Connection.jpg",
+    "lastFetched": "2025-05-14T14:37:19.678Z",
+    "contentHash": "9dd1950084cefeb5b5fdb974e2b1630f"
   },
   "a9cd739c-8cd5-4365-8d3e-6d5ffbf71ce3": {
-    "localPath": "/static/images/img-a9cd739c-Release-Pipeline-Flow-01.png",
-    "lastFetched": "2025-05-14T12:11:55.985Z"
+    "localPath": "content/posts/using-pipelines-for-flow-static-site-content-between-markdown-and-foundation/img-a9cd739c-Release-Pipeline-Flow-01.png",
+    "lastFetched": "2025-05-14T14:37:30.187Z",
+    "contentHash": "c91a81f7404c1311f6b477e14107b51c"
   },
   "b0769a29-0c9f-485a-9a2b-c2f12c238727": {
-    "localPath": "/static/images/img-b0769a29-2020-04-24-ea-02.png",
-    "lastFetched": "2025-05-14T12:12:19.379Z"
+    "localPath": "content/posts/azure-enterprise-agreement-delegation/img-b0769a29-2020-04-24-ea-02.png",
+    "lastFetched": "2025-05-14T14:37:54.566Z",
+    "contentHash": "db7058678601fed2cc60ab91d0e8f206"
   },
   "9fdafc82-e3e6-4892-8dd7-852b07fda49c": {
-    "localPath": "/static/images/img-9fdafc82-2020-06-30-oxid-03.png",
-    "lastFetched": "2025-05-14T12:12:21.330Z"
+    "localPath": "content/posts/change-detection-using-oxidized/img-9fdafc82-2020-06-30-oxid-03.png",
+    "lastFetched": "2025-05-14T14:37:57.872Z",
+    "contentHash": "0f5b172a68a177dc5fcdda0849fabb0c"
   },
   "855ad084-4397-44fd-8fb4-334f36a9b421": {
-    "localPath": "/static/images/img-855ad084-20210117-arm-param-03.png",
-    "lastFetched": "2025-05-14T12:12:29.969Z"
+    "localPath": "content/posts/azure-iac-tags-as-parameters/img-855ad084-20210117-arm-param-03.png",
+    "lastFetched": "2025-05-14T14:38:08.770Z",
+    "contentHash": "57c9bef989592c3f41e986a375d2be0d"
   },
   "1a2843f2-c813-4207-9b85-34f7146604da": {
-    "localPath": "/static/images/img-1a2843f2-photo-1470225620780-dba8ba36b745.jpeg",
-    "lastFetched": "2025-05-14T12:12:51.269Z"
+    "localPath": "content/posts/markdown/img-1a2843f2-photo-1470225620780-dba8ba36b745.jpeg",
+    "lastFetched": "2025-05-14T14:38:34.539Z",
+    "contentHash": "11f316045c24648825ce185636146a39"
   },
   "42464b08-9a23-4424-a639-6c013fa6cef6": {
-    "localPath": "/static/images/img-42464b08-microsoft-mvp-logo-square.png",
-    "lastFetched": "2025-05-14T12:12:56.870Z"
+    "localPath": "content/about-me/img-42464b08-microsoft-mvp-logo-square.png",
+    "lastFetched": "2025-05-14T14:38:41.402Z",
+    "contentHash": "79e59711a0df7fc60138d5540637bf20"
+  },
+  "26026ec2-a236-435b-9f70-d339cd2da0b9": {
+    "localPath": "content/posts/managed-applications-and-custom-resource-providers/cover-26026ec2.jpg",
+    "lastFetched": "2025-05-14T14:36:19.165Z",
+    "contentHash": "2f7c68f09a1218c99272c150885e69c3"
+  },
+  "0f9cc744-c421-487d-bc6b-6a014bb616fc": {
+    "localPath": "content/posts/global-transit-network-for-azure-virtual-wan/cover-0f9cc744.jpg",
+    "lastFetched": "2025-05-14T14:36:19.995Z",
+    "contentHash": "2d612fc282cec39dade9a8b92234329b"
+  },
+  "55a555f6-6639-40c4-bac2-306ea96ec881": {
+    "localPath": "content/posts/cbus-mqtt-bridge-on-raspberry-pi/cover-55a555f6.jpg",
+    "lastFetched": "2025-05-14T14:36:34.953Z",
+    "contentHash": "69df892fdb65df4b1a60359069a7c710"
+  },
+  "799b3640-cd41-4ee1-bb6f-3c52c0790aef": {
+    "localPath": "content/posts/configuration-the-ubiquity-edgerouter-with-wireguard/cover-799b3640.jpg",
+    "lastFetched": "2025-05-14T14:36:36.073Z",
+    "contentHash": "363a74c29425e4f41614600128bf35e1"
+  },
+  "accf7a43-db59-4ea4-bef0-dc6fe1415181": {
+    "localPath": "content/posts/installing-docker-and-compose-on-raspbian-buster/cover-accf7a43.jpg",
+    "lastFetched": "2025-05-14T14:36:44.687Z",
+    "contentHash": "706fde2a79be00d0ea8acc03244404c0"
+  },
+  "aa34ce01-aa48-401d-b13f-63a6ce01eced": {
+    "localPath": "content/posts/running-fastled-on-the-dual-core-esp32/cover-aa34ce01.jpg",
+    "lastFetched": "2025-05-14T14:36:46.252Z",
+    "contentHash": "e0f91ecf7860b598d72ac8fa7feaf34e"
+  },
+  "a4bb7193-fbd2-4130-8712-6d424412486f": {
+    "localPath": "content/posts/configure-wireguard-on-unifi-usg/cover-a4bb7193.jpg",
+    "lastFetched": "2025-05-14T14:36:47.692Z",
+    "contentHash": "a896733344036b4ccec43fcab7e5e092"
+  },
+  "6e55c618-6d55-4e94-ad6e-134f102790d0": {
+    "localPath": "content/posts/updating-pester-on-windows-10/cover-6e55c618.jpg",
+    "lastFetched": "2025-05-14T14:36:48.988Z",
+    "contentHash": "2deea78c8c3073299d54d1094628e4da"
+  },
+  "73e34910-76b7-4e57-b1bc-78f6c50ed206": {
+    "localPath": "content/posts/waking-deamons/cover-73e34910.jpg",
+    "lastFetched": "2025-05-14T14:36:49.999Z",
+    "contentHash": "a555f3d10d2125139cba731dd410f7bc"
+  },
+  "3f167845-7055-4506-8445-e68fa050095b": {
+    "localPath": "content/posts/configure-vs-code-with-azure-cloud-shell/cover-3f167845.jpg",
+    "lastFetched": "2025-05-14T14:36:51.672Z",
+    "contentHash": "bfe64125ab3c495a277af86abb422c98"
+  },
+  "359d1cc0-e6fa-4ba1-a120-3277ce50c2a3": {
+    "localPath": "content/posts/welcome-to-2019/cover-359d1cc0.jpg",
+    "lastFetched": "2025-05-14T14:36:53.057Z",
+    "contentHash": "c0ffb418a3ccf53c56e5cc2e3b3c0ad8"
+  },
+  "0cbafdfe-366b-4b22-8131-baf9a1aea2f4": {
+    "localPath": "content/posts/fixing-calendar-chaos/cover-0cbafdfe.jpg",
+    "lastFetched": "2025-05-14T14:36:55.880Z",
+    "contentHash": "57de27f29822ea35ef67114670c2aa93"
+  },
+  "3cf17a26-3e66-4e75-a397-4168ae4bd0c4": {
+    "localPath": "content/posts/my-journey-to-the-internet-of-things/cover-3cf17a26.jpg",
+    "lastFetched": "2025-05-14T14:37:14.661Z",
+    "contentHash": "e5e60eff13bbd008a8e988b77c156759"
+  },
+  "ac34fe35-718f-4eb8-abf8-9c7266c4c33a": {
+    "localPath": "content/posts/defining-policy-as-code-with-arm-templates/cover-ac34fe35.jpg",
+    "lastFetched": "2025-05-14T14:37:15.885Z",
+    "contentHash": "9c077c0c01c24b14571ef20c25ae38ab"
+  },
+  "9d10655d-6a03-49ee-a3fa-4fd9a46dd128": {
+    "localPath": "content/posts/implementing-comments-on-a-static-site/cover-9d10655d.jpg",
+    "lastFetched": "2025-05-14T14:37:20.797Z",
+    "contentHash": "16b3f465ae10601cebe116b5bba3fcb1"
+  },
+  "b3f55055-b878-42fa-be97-27205f81b68d": {
+    "localPath": "content/posts/laying-the-foundation-in-azure-for-a-static-site/cover-b3f55055.jpg",
+    "lastFetched": "2025-05-14T14:37:31.357Z",
+    "contentHash": "f069909a9f4a2c9e98064cb4a8478bf2"
+  },
+  "b0f635c5-ca9a-46ed-8b53-581245f1e796": {
+    "localPath": "content/posts/constructing-a-new-home-with-jekyll-and-azure-devops/cover-b0f635c5.jpg",
+    "lastFetched": "2025-05-14T14:37:32.523Z",
+    "contentHash": "1159c5d3b30442f0efcc848ef556bbe2"
+  },
+  "af2a74cb-8d5d-4867-acee-dd45dcbd2cee": {
+    "localPath": "content/posts/configuring-the-web-application-firewall-with-powershell/cover-af2a74cb.jpg",
+    "lastFetched": "2025-05-14T14:37:33.497Z",
+    "contentHash": "363a74c29425e4f41614600128bf35e1"
+  },
+  "4f30705b-5304-4df1-ba75-900d4dc43273": {
+    "localPath": "content/posts/hitting-reset/cover-4f30705b.jpg",
+    "lastFetched": "2025-05-14T14:37:36.470Z",
+    "contentHash": "a26f14547afb5e9b0c0121a628057084"
+  },
+  "43f3797e-5aef-4e9c-a5ae-f0fa7c2aa016": {
+    "localPath": "content/posts/web-application-gateway/cover-43f3797e.jpg",
+    "lastFetched": "2025-05-14T14:37:40.277Z",
+    "contentHash": "652c6d2fec6fc4bb712eaf35fc1e68f0"
+  },
+  "459a9864-3c79-4926-949e-879c77be2673": {
+    "localPath": "content/posts/azure-iac-function-keys/cover-459a9864.jpg",
+    "lastFetched": "2025-05-14T14:37:48.163Z",
+    "contentHash": "8f96d38110f971b1b50c35187c6dc7fa"
+  },
+  "e34de797-2615-49ac-9663-72ed0667db95": {
+    "localPath": "content/posts/streaming-vinyl-on-sonos/cover-e34de797.jpg",
+    "lastFetched": "2025-05-14T14:38:09.735Z",
+    "contentHash": "aee7ac5be286e8a971af066ac353a575"
+  },
+  "e10b191b-770c-44a3-a5f3-1d6c4da04403": {
+    "localPath": "content/posts/azure-iac-appending-tags/cover-e10b191b.jpg",
+    "lastFetched": "2025-05-14T14:38:11.196Z",
+    "contentHash": "c08a09791d769d8b950f9f48dd15f7d5"
+  },
+  "b97ceb91-9261-4473-911d-bf9d435ad891": {
+    "localPath": "content/posts/bicep-tags-as-parameters/cover-b97ceb91.jpg",
+    "lastFetched": "2025-05-14T14:38:14.559Z",
+    "contentHash": "43967328454e1feda18f75d8ce8f0b0e"
+  },
+  "8e68f651-a2c0-47ad-954c-d3cb9e45f449": {
+    "localPath": "content/my-disclaimer-statement/cover-8e68f651.jpg",
+    "lastFetched": "2025-05-14T14:38:42.262Z",
+    "contentHash": "0a837e1d67d5ebc85bd33cae4f31b769"
+  },
+  "8aa8af30-5bbb-44cf-a107-115619357357": {
+    "localPath": "content/my-privacy-statement/cover-8aa8af30.jpg",
+    "lastFetched": "2025-05-14T14:38:45.367Z",
+    "contentHash": "dd843bc72db5bde91987cd3746816a95"
   }
 }

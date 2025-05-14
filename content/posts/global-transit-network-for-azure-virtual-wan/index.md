@@ -3,6 +3,7 @@ title: "Global Transit Network For Azure Virtual WAN"
 date: "2019-11-07"
 lastmod: "2024-07-19T15:22:00.000Z"
 draft: false
+featuredImage: "./cover-0f9cc744.jpg"
 Categories:
   [
     "Azure Network Connectivity"
@@ -46,7 +47,7 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Global-Transit-Network-For-Azure-Virtual-WAN-0f9cc744c421487dbc6b6a014bb616fc",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T12:11:01.667Z"
+UPDATE_TIME: "2025-05-14T14:36:26.686Z"
 last_edited_time: "2024-07-19T15:22:00.000Z"
 ---
 

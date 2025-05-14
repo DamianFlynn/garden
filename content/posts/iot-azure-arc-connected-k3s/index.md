@@ -13,7 +13,8 @@ series:
     "Azure IoT Operations"
   ]
 Status: "Published"
-description: "Transform your on-premises infrastructure into a cloud-integrated powerhouse by combining K3s Kubernetes with Azure Arc on an Ubuntu server. This guide walks you through every step—from deploying K3s and configuring user access to connecting your cluster to Azure Arc, enabling observability with Grafana, and integrating full-scale monitoring with Azure Monitor. Whether you're building edge deployments or hybrid IoT solutions, this tutorial gives you a production-grade environment with the flexibility of the cloud and control of local resources."
+featuredImage: "/images/series/azure-iot-featured.png" 
+summary: "Transform your on-premises infrastructure into a cloud-integrated powerhouse by combining K3s Kubernetes with Azure Arc on an Ubuntu server. This guide walks you through every step—from deploying K3s and configuring user access to connecting your cluster to Azure Arc, enabling observability with Grafana, and integrating full-scale monitoring with Azure Monitor. Whether you're building edge deployments or hybrid IoT solutions, this tutorial gives you a production-grade environment with the flexibility of the cloud and control of local resources."
 Tags:
   [
     "IaC",
@@ -46,9 +47,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/IoT-Azure-Arc-Connected-K3s-1dfeb56ea1c38089a3d2d965ea21f3fb",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T12:10:38.309Z"
+UPDATE_TIME: "2025-05-14T14:36:06.012Z"
 last_edited_time: "2025-05-13T22:43:00.000Z"
-EXPIRY_TIME: "2025-05-14T13:10:33.040Z"
+EXPIRY_TIME: "2025-05-14T15:35:57.537Z"
 ---
 
 Starting from an Ubuntu server, which has be Arc Enabled, we can use this as a base for the Azure IoT Operations.

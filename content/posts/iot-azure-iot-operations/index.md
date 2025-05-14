@@ -46,9 +46,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/IoT-Azure-IoT-Operations-1e0eb56ea1c38046af39e4c5ca860492",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T12:10:31.012Z"
+UPDATE_TIME: "2025-05-14T14:35:56.215Z"
 last_edited_time: "2025-05-13T22:32:00.000Z"
-EXPIRY_TIME: "2025-05-14T13:09:46.697Z"
+EXPIRY_TIME: "2025-05-14T15:35:36.702Z"
 ---
 
 An Azure Arc-enabled Kubernetes cluster is a prerequisite for deploying Azure IoT Operations. This article describes how to prepare a cluster before you deploy Azure IoT Operations. This article includes guidance for Ubuntu

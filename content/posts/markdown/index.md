@@ -3,6 +3,7 @@ title: "Markdown"
 date: "2010-01-01"
 lastmod: "2024-08-07T23:14:00.000Z"
 draft: true
+featuredImage: "./cover-1a2843f2.jpg"
 Status: "Draft"
 NOTION_METADATA:
   {
@@ -34,9 +35,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Markdown-1a2843f2c81342079b8534f7146604da",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T12:12:51.270Z"
+UPDATE_TIME: "2025-05-14T14:38:34.540Z"
 last_edited_time: "2024-08-07T23:14:00.000Z"
-EXPIRY_TIME: "2025-05-14T13:12:41.801Z"
+EXPIRY_TIME: "2025-05-14T15:38:17.979Z"
 ---
 
 # Heading 1

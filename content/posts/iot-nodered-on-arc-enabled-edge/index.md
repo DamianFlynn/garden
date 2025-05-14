@@ -12,7 +12,8 @@ series:
     "Azure IoT Operations"
   ]
 Status: "Published"
-description: "Learn how to deploy a fully integrated Node-RED environment inside a K3s Kubernetes cluster on an Azure Arc-connected edge device. This guide walks you through namespace setup, persistent storage, service exposure, and secure access over SSH tunnels. Simulate MQTT and Modbus devices, visualize flows, and forward real-time telemetry to Azure MQ and OPC UA—all without opening firewall ports. Ideal for industrial IoT scenarios needing secure hybrid connectivity and local processing."
+featuredImage: "/images/series/azure-iot-featured.png" 
+summary: "Learn how to deploy a fully integrated Node-RED environment inside a K3s Kubernetes cluster on an Azure Arc-connected edge device. This guide walks you through namespace setup, persistent storage, service exposure, and secure access over SSH tunnels. Simulate MQTT and Modbus devices, visualize flows, and forward real-time telemetry to Azure MQ and OPC UA—all without opening firewall ports. Ideal for industrial IoT scenarios needing secure hybrid connectivity and local processing."
 Tags:
   [
     "Linux",
@@ -44,9 +45,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/IoT-NodeRED-on-Arc-Enabled-Edge-1e3eb56ea1c380f6a9eee3c2047c4c27",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T12:09:46.183Z"
+UPDATE_TIME: "2025-05-14T14:35:35.447Z"
 last_edited_time: "2025-05-13T22:45:00.000Z"
-EXPIRY_TIME: "2025-05-14T13:09:36.336Z"
+EXPIRY_TIME: "2025-05-14T15:35:18.785Z"
 ---
 
 
