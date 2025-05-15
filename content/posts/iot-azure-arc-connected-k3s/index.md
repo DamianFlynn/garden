@@ -2,6 +2,7 @@
 title: "IoT - Azure Arc Connected K3s "
 date: "2025-04-24T12:24:00.000Z"
 lastmod: "2025-05-13T22:43:00.000Z"
+author: damian
 draft: false
 Categories:
   [

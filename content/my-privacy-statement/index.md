@@ -2,7 +2,9 @@
 title: "My Privacy Statement"
 date: "2024-07-12T22:21:00.000Z"
 lastmod: "2024-07-12T22:23:00.000Z"
-draft: true
+draft: false
+url: "/privacy"
+layout: "about"
 featuredImage: "./cover-8aa8af30.jpg"
 NOTION_METADATA:
   {
@@ -39,88 +41,75 @@ UPDATE_TIME: "2025-05-14T14:38:45.787Z"
 last_edited_time: "2024-07-12T22:23:00.000Z"
 ---
 
-### This is the Personal and Nonprofit Blog of Damian Flynn ‘Making Incredible Technology, Incredibly Simple’.
+### This is my personal and nonprofit blog: Damian Flynn – ‘Making Incredible Technology, Incredibly Simple.’
 
-Our website address is: [https://www.damianflynn.com](https://www.damianflynn.com/)., and you can find more about me under [https://www.damianflynn.com/about](https://www.damianflynn.com/about)
+My website is built using [Hugo](https://gohugo.io/), a fast and modern static site generator, and hosted on [GitHub Pages](https://pages.github.com/). You can find out more about me at https://www.damianflynn.com/about.
 
-# What personal data we collect
+## What personal data I collect
 
-We are not interested on any personal data. However, we collect for services like statistics and comments to improve the overall user experience. We are not interested in selling your data to any third party company. You can find more information about data collection in the following text.
+As a static site, I don’t have a backend or database, and I don’t actively collect personal data. However, I do use some third-party services—like analytics or comment systems—which may gather limited information to help me understand how people use the site and to improve your experience.
 
-### Comments
+I don’t sell or share your data with anyone.
 
-When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
+## Comments
 
-An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: [https://automattic.com/privacy/](https://automattic.com/privacy/). After approval of your comment, your profile picture is visible to the public in the context of your comment.
+If you leave a comment (when commenting is enabled), any data you enter—such as your name, email address, and comment—is submitted to a third-party service (like Disqus or GitHub Issues, depending on the setup). These services may collect additional technical data such as your IP address and browser details to help reduce spam.
 
-We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter’s IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself).
+For example, if I use Gravatar, your email hash may be shared to fetch an avatar image. Gravatar’s privacy policy is here: https://automattic.com/privacy.
 
-### Media
+## Media
 
-If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
+If you upload images through forms (if available), avoid including embedded location data (EXIF). Visitors may be able to extract this data from images displayed on the site.
 
-### Contact forms
+## Contact Forms
 
-We have a couple of forms on our page so you are able to contact us. If you use one of the forms on our page we will use the data provided to answer your question or take your feedback. After your request is handled, we archive the contact request in our messaging system so we can refer later to this conversation. However, we will not use your information to send you any information you haven’t requested and we do not share this information with third parties.
+If you contact me through a form (or linked external service), the data you provide is used solely to respond to your message. I do not store or reuse this information beyond the purpose of that communication.
 
-### Cookies
+## Cookies
 
-If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
+This site itself does not set cookies, but embedded services (like YouTube, Twitter, or Google Analytics) may use them to track activity or remember preferences. You can manage or block cookies in your browser settings.
 
-If you have an account and you log in to this site, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.
+## Embedded Content from Other Sites
 
-When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.
+Articles on this site may include embedded content (like videos or social media posts). This content behaves exactly as if you visited the original website, which may collect data, use cookies, or track your interaction—even if you’re logged into that service.
 
-If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.
+## Analytics
 
-### Embedded content from other websites
+I use **Google Analytics** to understand traffic and usage patterns. This helps me improve the site content and performance. Google may collect anonymized data such as IP addresses and browser type.
 
-Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
+You can read Google’s privacy policy here: https://policies.google.com/privacy, and opt out of tracking via browser extensions or by disabling cookies.
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website.
+## Social Media Integrations
 
-### Analytics
+Social features (like sharing buttons or embedded posts from platforms such as Facebook or Twitter) may track your interaction and link your visit to your account on those platforms if you’re logged in.
 
-Our website uses Google Analytics, a web analytics service provided by Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA (”Google“). Google Analytics uses “cookies”, which are text files placed on your computer to help the website analyze how visitors use the site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google’s behalf. Google will not associate your IP address with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.
+You can manage these settings in your social media accounts or avoid interactions while logged in.
 
-To have a better understanding how we can improve our website and our content, we are using Google Analytics. We only use Google Analytics to create anonymous statistics. You can find more information about the Privacy Policy of Google here: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+## Who I share your data with
 
-### Facebook Social Plugins
+I don’t share or sell your data. However, third-party services I use may collect data independently. These include:
 
-Our website uses facebook.com social plug-ins, which are created and operated by the social network Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA (“Facebook”). The plug-ins show the Facebook logo. When you open a page on our website containing a social plug-in, your browser establishes a direct connection to the servers operated by Facebook. The content of the plug-in is transferred from Facebook directly to your browser and integrated into the web page. Through integration of the plug-in, Facebook receives information that you have accessed the corresponding page on our website. If you are logged into Facebook, Facebook can associate the visit with your Facebook account. If you interact with plug-ins by using the “Like” button or submitting comments, for example, the information is sent from your browser directly to Facebook and stored there.
+- **GitHub Pages** – Hosting provider (see [GitHub's Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement))
+- **Google Analytics** – Website analytics
+- **Facebook/Twitter** – If embedded content or share buttons are used
+- **Disqus or other comment tools** – If enabled
 
-The data privacy policies of Facebook – [https://www.facebook.com/policy.php](https://www.facebook.com/policy.php) – provide information on the purpose, scope and further processing of Facebook’s data collection practices and its privacy protection settings. If you do not want Facebook to collect data about you through our website, you must log out of your Facebook account before visiting our site.
+## How long I retain your data
 
-### Who we share your data with
+Since this is a static site, no data is stored by me directly. If you interact via a third-party service (like comments), data retention is handled by that platform according to their policies.
 
-We do not sell data to any third party vendor. However we are using third party services for our hosting services, statistics and others. These services do have some own statistics and tools. These services include vendors like:
+## What rights you have over your data
 
-* Hostpoint AG (Privacy Policy)
-* Google (Privacy Policy)
-* Twitter (Privacy Policy)
-* Facebook (Privacy Policy)
-* Jetpack (Privacy Policy)
-### How long we retain your data
+You can request that any personal data submitted to third-party services (e.g., Disqus) be removed, or you can manage your data via those services’ own dashboards and settings.
 
-If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.
+## Where your data goes
 
-For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
+If commenting is available, comment data may be checked through an automated spam detection service.
 
-### What rights you have over your data
+## Your Contact Options
 
-If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
+To contact me, visit: https://www.damianflynn.com/contact
 
-### Where we send your data
+## How I protect your data
 
-Visitor comments may be checked through an automated spam detection service.
-
-### Your contact information
-
-For the contact information check [https://www.damianflynn.com/contact](https://www.damianflynn.com/contact)
-
-# Additional information
-
-### How we protect your data
-
-We are working with our service provider to run our systems in a secure manner and keep our systems up to date. We are also investing in keeping all data secure and our software up to date.
-
+Although my site is static and does not store data directly, I ensure that the services I use are secure and trustworthy. I keep all content and dependencies up to date and use HTTPS to protect your connection while browsing.

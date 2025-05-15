@@ -2,7 +2,9 @@
 title: "My Disclaimer Statement"
 date: "2024-07-12T22:19:00.000Z"
 lastmod: "2024-07-12T22:25:00.000Z"
-draft: true
+draft: false
+url: "/disclaimer"
+layout: "about"
 featuredImage: "./cover-8e68f651.jpg"
 NOTION_METADATA:
   {
