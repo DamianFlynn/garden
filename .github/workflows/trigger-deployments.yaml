@@ -1,0 +1,36 @@
+# Trigger Deployments on Content Updates
+#
+# This workflow runs when content is pushed to the garden repository
+# It triggers both preview and production builds in the main site repository
+
+name: Trigger Site Deployments
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'static/**'
+      - 'data/**'
+
+jobs:
+  trigger-builds:
+    name: Notify Main Site of Content Update
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Trigger Preview Build
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.DISPATCH_TOKEN }}
+          repository: DamianFlynn/damianflynn.github.io
+          event-type: garden-content-update
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+      
+      - name: Trigger Production Build
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.DISPATCH_TOKEN }}
+          repository: DamianFlynn/damianflynn.github.io
+          event-type: garden-content-update
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
