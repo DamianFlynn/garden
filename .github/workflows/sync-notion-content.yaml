@@ -41,7 +41,7 @@ jobs:
             -e NOTION_TOKEN="${NOTION_TOKEN}" \
             -e NOTION_PAGE_URL="https://www.notion.so/Content-Management-252a519e13ee46c5b576691e1026e7e0" \
             -e NOTION_PAGE_IDS="42464b089a234424a6396c013fa6cef6:." \
-            -e NOTION_DATABASE_IDS="235a5f88-c313-46d9-84b5-9f168a1633b7:posts" \
+            -e NOTION_DATABASE_IDS="0cb08ce34a92421c8f01a3d2151ce62e:posts" \
             -v "${{ github.workspace }}/content:/app/content" \
             -v "${{ github.workspace }}/static:/app/static" \
             ghcr.io/damianflynn/notion-to-markdown:20260106123233
