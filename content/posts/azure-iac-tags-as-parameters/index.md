@@ -1,7 +1,7 @@
 ---
 title: "Azure IaC - Tags as Parameters"
 date: "2021-01-17"
-lastmod: "2024-07-19T15:22:00.000Z"
+lastmod: "2025-05-15T09:51:00.000Z"
 draft: false
 featuredImage: "./cover-855ad084.jpg"
 Categories:
@@ -19,7 +19,7 @@ NOTION_METADATA:
     "object": "page",
     "id": "855ad084-4397-44fd-8fb4-334f36a9b421",
     "created_time": "2024-07-11T12:55:00.000Z",
-    "last_edited_time": "2024-07-19T15:22:00.000Z",
+    "last_edited_time": "2025-05-15T09:51:00.000Z",
     "created_by": {
       "object": "user",
       "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
@@ -36,7 +36,8 @@ NOTION_METADATA:
     },
     "icon": null,
     "parent": {
-      "type": "database_id",
+      "type": "data_source_id",
+      "data_source_id": "235a5f88-c313-46d9-84b5-9f168a1633b7",
       "database_id": "4bb8f075-358d-4efe-b575-192baa1d62b9"
     },
     "archived": false,
@@ -44,9 +45,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Azure-IaC-Tags-as-Parameters-855ad084439744fd8fb4334f36a9b421",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T14:38:08.771Z"
-last_edited_time: "2024-07-19T15:22:00.000Z"
-EXPIRY_TIME: "2025-05-14T15:37:59.655Z"
+UPDATE_TIME: "2026-01-06T12:47:14.450Z"
+last_edited_time: "2025-05-15T09:51:00.000Z"
+EXPIRY_TIME: "2026-01-06T13:47:13.164Z"
 ---
 
 Deploying infrastructure ARM Templates to Azure, but using Tags and thier respective value as the parameter configuration settings

@@ -1,7 +1,7 @@
 ---
 title: "IoT - Azure IoT MQTT Broker"
 date: "2025-05-13T07:16:00.000Z"
-lastmod: "2025-05-13T22:32:00.000Z"
+lastmod: "2025-09-22T11:03:00.000Z"
 draft: true
 Status: "Draft"
 NOTION_METADATA:
@@ -9,7 +9,7 @@ NOTION_METADATA:
     "object": "page",
     "id": "1f2eb56e-a1c3-80fb-96ba-d517b032a2b0",
     "created_time": "2025-05-13T07:16:00.000Z",
-    "last_edited_time": "2025-05-13T22:32:00.000Z",
+    "last_edited_time": "2025-09-22T11:03:00.000Z",
     "created_by": {
       "object": "user",
       "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
@@ -21,7 +21,8 @@ NOTION_METADATA:
     "cover": null,
     "icon": null,
     "parent": {
-      "type": "database_id",
+      "type": "data_source_id",
+      "data_source_id": "235a5f88-c313-46d9-84b5-9f168a1633b7",
       "database_id": "4bb8f075-358d-4efe-b575-192baa1d62b9"
     },
     "archived": false,
@@ -29,8 +30,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/IoT-Azure-IoT-MQTT-Broker-1f2eb56ea1c380fb96bad517b032a2b0",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T14:35:18.212Z"
-last_edited_time: "2025-05-13T22:32:00.000Z"
+UPDATE_TIME: "2026-01-06T12:47:09.876Z"
+last_edited_time: "2025-09-22T11:03:00.000Z"
+EXPIRY_TIME: "2026-01-06T13:47:00.987Z"
 ---
 
 The MQTT broker of Azure IoT Operations is a central part of the edge solution:
@@ -109,11 +111,114 @@ Save this listener.
 
 A LoadBalancer service is the standard way to expose a service using a load balancer service on Kubernetes.
 
-Here, we add a LoadBalancer listener ‘loadbalancer-listener’ with service name ‘loadbalancer-listener-service’ on port 8883, without authentication or authorization:
+Here, we add a 
 
-![Image](img-1f2eb56e-image-58.png)
+* LoadBalancer listener ‘loadbalancer-listener’ 
+* service name ‘loadbalancer-listener-service’ 
+* port 8883
+* without authentication
+* without authorization
+![Image](img-1f2eb56e-image.png)
 
-Save the listener.
+We need to configure TLS for this listener. We have two options, Manually or Automatic. I am suggesting we run this automatic.
+
+**Required Fields for Automatic TLS Configuration**
+
+### 1. Issuer Section
+
+* Issuer name: Enter a descriptive name like aio-tls-issuer
+* Issuer kind: Keep as Issuer (default)
+* Issuer group: Keep as cert-manager.io (default)
+### 2. Subject Alternative Names
+
+Based on your setup, you'll need to specify how clients will connect to your MQTT broker:
+
+* DNS: If you plan to use a hostname, enter it here (e.g., mqtt.yourdomain.com), for testing i will use n013edge.local
+* IP: Enter your cluster's external IP address
+  * 10.13.100.11,100.81.128.71 (comma-separated list; local network, Tailscale, and localhost) 
+  ### 3. Additional Information
+
+* Secret name: Enter a name like mqtt-tls-secret (this will store the generated certificates)
+* Duration: The default 2160 hours (90 days) is fine for testing
+* Renew before: The defaults (0 days, 5 hours, 0 seconds) are appropriate
+![Image](img-1f2eb56e-image.png)
+
+## Complete the Configuration
+
+1. Fill in the required fields as shown above
+1. Click Apply or Create listener
+1. Wait for the TLS certificate to be automatically generated (this may take a few minutes)
+![Image](img-1f2eb56e-image.png)
+
+The automatic TLS mode will:
+
+* Create a cert-manager Issuer resource
+* Generate a TLS certificate with your specified Subject Alternative Names
+* Store the certificate in a Kubernetes secret
+* Automatically handle certificate renewal
+After creation, you can verify the certificate was generated:
+
+* 
+## After Creating the Listener
+
+Once the load balancer listener is created, verify which IP address it gets assigned:
+
+```shell
+# Check if the load balancer service is created:
+kubectl get service -n azure-iot-operations
+
+# Check if the TLS certificate is generated
+kubectl get certificates -n azure-iot-operations
+kubectl get secrets -n azure-iot-operations | grep tls
+
+# Check the listeners IP address
+kubectl get service -n azure-iot-operations | grep LoadBalancer
+
+# Check the issuer status:
+kubectl get issuer -n azure-iot-operations
+
+```
+
+The load balancer will likely use your primary network interface (`10.13.100.11`) as the external IP.
+
+This will allow you to have TLS encryption while still using no authentication/authorization for your testing scenario.
+
+## Why This Configuration Works
+
+1. n013edge.local - This follows the mDNS convention used in your documentation (similar to how your docs show 192.168.2.196 as a fixed IP pattern)
+1. IP addresses only - Since you don't have a qualified domain name:
+  * 10.13.100.11 - Your primary network interface for local clients
+  * 100.81.128.71 - Your Tailscale interface for VPN clients
+  1. No localhost - As you correctly noted, localhost is not qualified and won't work for external network connections
+## Client Connection Examples
+
+With this configuration, MQTT clients can connect using:
+
+* Local network: mqtts://10.13.100.11:8883
+* Tailscale: mqtts://100.81.128.71:8883
+* mDNS (if available): mqtts://n013edge.local:8883
+This follows the same pattern shown in your documentation where the external IP address becomes the primary connection method for network clients, which is exactly what you need for your load balancer listener setup.
+
+```shell
+(venv) administrator@n013edge:~/solar_adapter_test$ # Get the external IP (you already have it: 10.13.100.11)
+EXTERNAL_IP="10.13.100.11"
+
+# Test basic MQTT connectivity (with --insecure for automatic TLS)
+mosquitto_pub -h $EXTERNAL_IP -p 8883 -t "test/topic" -m "test message" --insecure
+
+# If mosquitto clients aren't installed:
+sudo apt-get install mosquitto-clients
+[sudo] password for administrator: 
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+mosquitto-clients is already the newest version (2.0.18-1build3).
+0 upgraded, 0 newly installed, 0 to remove and 14 not upgraded.
+
+# Test the connection
+mosquitto_pub -h $EXTERNAL_IP -p 8883 -t "test/topic" -m "test message" --insecure -d
+Client null sending CONNECT
+```
 
 At this point, the MQTT broker is now exposing three separate listeners, each with its own port.
 
@@ -329,6 +434,358 @@ As you can see, this external IP address is the same as the fixed IP address (19
 ![Image](img-1f2eb56e-image-63.png)
 
 We first create certificates for the Kubernetes cluster. We do this on the IPC running Azure IoT Operations.
+
+## 
+
+# Azure IoT Operations MQTT Broker Connection Guide
+
+This guide documents the step-by-step process we followed to successfully connect MQTTX to an Azure IoT Operations MQTT broker through a Kubernetes load balancer.
+
+## Problem Summary
+
+* Azure IoT Operations MQTT broker was configured with a load balancer listener
+* TLS certificate was not being issued properly
+* Connection attempts from MQTTX failed with "read ECONNRESET" errors
+* The broker's load balancer listener was configured to use a non-existent certificate issuer
+## Step-by-Step Solution
+
+### 1. Diagnose the Cluster Configuration
+
+First, we examined the current state of the Azure IoT Operations components:
+
+```shell
+# Check Azure IoT Operations pods status
+kubectl get pods -n azure-iot-operations
+
+# Check MQTT broker services and load balancers
+kubectl get svc -n azure-iot-operations
+
+# Examine broker listener configurations
+kubectl get brokerlistener -n azure-iot-operations -o yaml
+```
+
+**Key Findings:**
+
+* Load balancer service loadbalancer-listener-service was running on 10.13.100.11:8883
+* Two broker listeners existed: default (port 18883) and loadbalancer-listener (port 8883)
+* The loadbalancer-listener had no authentication requirements
+### 2. Identify the TLS Certificate Issue
+
+We discovered the TLS certificate was not being issued:
+
+```shell
+# Check certificate status
+kubectl describe certificate aio-broker-frontend-server-8883 -n azure-iot-operations
+
+# Verify available certificate issuers
+kubectl get clusterissuer
+```
+
+
+**Problem Identified:**
+
+* Certificate status showed Ready: False with reason DoesNotExist
+* The certificate was trying to use issuer aio-tls-issuer which didn't exist
+* Available ClusterIssuer azure-iot-operations-aio-certificate-issuer was working
+### 3. Fix the Certificate Issuer Configuration
+
+We updated the loadbalancer-listener to use the existing working ClusterIssuer:
+
+```shell
+# Patch the loadbalancer listener to use the correct ClusterIssuer
+kubectl patch brokerlistener loadbalancer-listener -n azure-iot-operations --type='merge' -p='
+{
+  "spec": {
+    "ports": [
+      {
+        "port": 8883,
+        "protocol": "Mqtt",
+        "tls": {
+          "mode": "automatic",
+          "certManagerCertificateSpec": {
+            "issuerRef": {
+              "group": "cert-manager.io",
+              "kind": "ClusterIssuer",
+              "name": "azure-iot-operations-aio-certificate-issuer"
+            },
+            "privateKey": {
+              "algorithm": "Ec256",
+              "rotationPolicy": "Always"
+            },
+            "san": {
+              "dns": ["n013edge.local"],
+              "ip": ["10.13.100.11", "100.81.128.71"]
+            }
+          }
+        }
+      }
+    ]
+  }
+}'
+```
+
+
+### 4. Verify Certificate Generation
+
+After the patch, we confirmed the certificate was successfully issued:
+
+```shell
+# Check certificate status again
+kubectl describe certificate aio-broker-frontend-server-8883 -n azure-iot-operations
+
+# Verify the TLS secret was created
+kubectl get secret aio-broker-frontend-server-8883 -n azure-iot-operations
+```
+
+
+**Result:**
+
+* Certificate status changed to Ready: True
+* Message: "Certificate is up to date and has not expired"
+* TLS secret was successfully created
+### 5. Extract the CA Certificate
+
+We extracted the CA certificate needed for client connections:
+
+```shell
+# Extract the broker's internal CA certificate
+kubectl get secret aio-broker-internal-ca -n azure-iot-operations -o jsonpath='{.data.ca\.crt}' | base64 -d > broker-ca.crt
+
+# Verify the certificate was extracted correctly
+openssl x509 -in broker-ca.crt -text -noout | head -20
+```
+
+
+### 6. Test the Connection
+
+We tested the connection using mosquitto_pub:
+
+```shell
+# Test connection using the CA certificate
+mosquitto_pub -h 100.81.128.71 -p 8883 -t "test/topic" -m "test message" --cafile broker-ca.crt -d
+```
+
+
+### 7. Configure MQTTX Client
+
+Finally, we configured MQTTX with the correct settings:
+
+**Connection Settings:**
+
+* Name: n013edge
+* Host: 100.81.128.71 (Tailscale IP)
+* Port: 8883
+* Client ID: Any unique identifier
+**Security Settings:**
+
+* SSL/TLS: ✅ Enabled
+* SSL Secure: ❌ Disabled
+* Certificate: Select "CA or Self signed certificates"
+* CA File: Upload the extracted broker-ca.crt file
+**Authentication:**
+
+* Username: Leave empty (no authentication required)
+* Password: Leave empty
+![Image](img-1f2eb56e-image.png)
+
+## Key Learnings
+
+1. Certificate Issuer Mismatch: The main issue was that the loadbalancer-listener was configured to use a non-existent issuer (aio-tls-issuer) instead of the working ClusterIssuer.
+1. No Authentication Required: The loadbalancer-listener was configured without authentication, making it accessible for anonymous connections.
+1. Multiple Certificate Authorities: Azure IoT Operations uses different certificate issuers for internal and external services.
+1. SAN Configuration: The certificate includes both IP addresses (load balancer IP and Tailscale IP) and DNS names for flexible connectivity.
+## Final Configuration
+
+The working configuration includes:
+
+* Load Balancer: 10.13.100.11:8883 (internal network)
+* Tailscale Access: 100.81.128.71:8883 (external access)
+* TLS: Enabled with custom CA certificate
+* Authentication: None (anonymous access allowed)
+* Certificate: Issued by azure-iot-operations-aio-certificate-issuer ClusterIssuer
+This setup allows secure MQTT connections from external clients while maintaining the security provided by TLS encryption.
+
+
+
+### Certificate Generation Using OpenSSL (Replacing Step CLI)
+
+We’ll create certificates for the Kubernetes cluster and for the MQTT clients using OpenSSL. This is done on the IPC running Azure IoT Operations.
+
+We use the following naming conventions:
+
+* AIO42 – Identifies the edge device (server).
+* Clients42 – Used for client-related certificates.
+* Individual clients are named client42a, client42b, etc.
+This setup slightly deviates from the typical "contoso/fabricam" convention.
+
+### 📁 1. Set Up Working Directory
+
+```bash
+cd ~
+mkdir aiocerts
+cd aiocerts
+
+```
+
+## 🖥️ Server (AIO42) Certificate Chain
+
+### ✅ 2. Create AIO42 Root CA
+
+```bash
+# Generate private key
+openssl genrsa -out aio42_root_ca.key 4096
+
+# Create self-signed root certificate
+openssl req -x509 -new -nodes -key aio42_root_ca.key -sha256 -days 3000 \
+-subj "/CN=AIO42 Root CA" \
+-out aio42_root_ca.crt
+
+```
+
+### ✅ 3. Create AIO42 Intermediate CA
+
+```bash
+# Generate private key
+openssl genrsa -out aio42_intermediate_ca.key 4096
+
+# Create CSR
+openssl req -new -key aio42_intermediate_ca.key \
+-subj "/CN=AIO42 Intermediate CA 1" \
+-out aio42_intermediate_ca.csr
+
+# Create intermediate certificate signed by root
+openssl x509 -req -in aio42_intermediate_ca.csr -CA aio42_root_ca.crt \
+-CAkey aio42_root_ca.key -CAcreateserial -out aio42_intermediate_ca.crt \
+-days 3000 -sha256
+
+```
+
+### ✅ 4. Create TLS Certificate for MQTT Endpoint (e.g., 192.168.2.196)
+
+```bash
+# Generate key
+openssl genrsa -out mqtts-endpoint.key 2048
+
+# Create CSR
+openssl req -new -key mqtts-endpoint.key -subj "/CN=mqtts-endpoint" -out mqtts-endpoint.csr
+
+# Create SAN config
+cat > san.cnf <<EOF
+[ req ]
+distinguished_name=req
+[ v3_req ]
+subjectAltName=IP:192.168.2.196
+EOF
+
+# Sign the CSR with the intermediate CA
+openssl x509 -req -in mqtts-endpoint.csr \
+-CA aio42_intermediate_ca.crt -CAkey aio42_intermediate_ca.key -CAcreateserial \
+-out mqtts-endpoint.crt -days 3000 -sha256 -extfile san.cnf -extensions v3_req
+
+```
+
+> ⚠️ If you forget to include the correct SAN (Subject Alternative Name), client connections will fail due to hostname/IP verification errors.
+
+## 👥 Client (Clients42) Certificate Chain
+
+### ✅ 5. Create Clients42 Root CA
+
+```bash
+openssl genrsa -out clients42_root_ca.key 4096
+
+openssl req -x509 -new -nodes -key clients42_root_ca.key -sha256 -days 3000 \
+-subj "/CN=Clients42 Root CA" \
+-out clients42_root_ca.crt
+
+```
+
+### ✅ 6. Create Clients42 Intermediate CA
+
+```bash
+openssl genrsa -out clients42_intermediate_ca.key 4096
+
+openssl req -new -key clients42_intermediate_ca.key \
+-subj "/CN=Clients42 Intermediate CA 1" \
+-out clients42_intermediate_ca.csr
+
+openssl x509 -req -in clients42_intermediate_ca.csr \
+-CA clients42_root_ca.crt -CAkey clients42_root_ca.key -CAcreateserial \
+-out clients42_intermediate_ca.crt -days 3000 -sha256
+
+```
+
+### ✅ 7. Create Certificates for Clients (A and B)
+
+```bash
+# Client A
+openssl genrsa -out client42a.key 2048
+openssl req -new -key client42a.key -subj "/CN=client42a" -out client42a.csr
+openssl x509 -req -in client42a.csr \
+-CA clients42_intermediate_ca.crt -CAkey clients42_intermediate_ca.key -CAcreateserial \
+-out client42a.crt -days 3000 -sha256
+
+# Client B
+openssl genrsa -out client42b.key 2048
+openssl req -new -key client42b.key -subj "/CN=client42b" -out client42b.csr
+openssl x509 -req -in client42b.csr \
+-CA clients42_intermediate_ca.crt -CAkey clients42_intermediate_ca.key -CAcreateserial \
+-out client42b.crt -days 3000 -sha256
+
+```
+
+> 📌 You can repeat this process to create more client certificates as needed.
+
+## ☸️ Kubernetes Configuration
+
+Once all certificates are ready, we configure Kubernetes.
+
+### ✅ 8. Create TLS Secret for MQTT Server
+
+```bash
+kubectl create secret tls broker-server-cert -n azure-iot-operations \
+--cert=mqtts-endpoint.crt \
+--key=mqtts-endpoint.key
+
+```
+
+### ✅ 9. Create ConfigMap with Clients Root CA
+
+```bash
+kubectl create configmap clients42-ca -n azure-iot-operations \
+--from-file=client_ca.pem=clients42_root_ca.crt
+
+```
+
+### ✅ 10. Verify the ConfigMap
+
+```bash
+kubectl describe configmap clients42-ca -n azure-iot-operations
+
+```
+
+You should see output similar to:
+
+```plain text
+Name:         clients42-ca
+Namespace:    azure-iot-operations
+Data
+====
+client_ca.pem:
+----
+-----BEGIN CERTIFICATE-----
+... (certificate contents) ...
+-----END CERTIFICATE-----
+
+```
+
+> 📝 The name clients42-ca must be referenced in your authentication method configuration in Azure IoT.
+
+Let me know if you also want:
+
+* The certificates bundled into full chains (e.g., leaf + intermediate + root)
+* A script to automate all this
+* The equivalent OpenSSL configs for full PKI infrastructure setup
+### Step CLI
 
 Notice that I use AIO42 to identify our edge device. I use Clients42 when we need something at this used by all clients. A client is identified as either client42a or client42b. I deviate only a bit from that ‘contoso/fabricam’ flow seen in the original documentation.
 

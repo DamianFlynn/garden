@@ -1,7 +1,7 @@
 ---
 title: "Change Detection Using Oxidized"
 date: "2020-06-29"
-lastmod: "2024-07-19T15:22:00.000Z"
+lastmod: "2025-05-15T09:51:00.000Z"
 draft: false
 featuredImage: "./cover-9fdafc82.jpg"
 Status: "Published"
@@ -14,7 +14,7 @@ NOTION_METADATA:
     "object": "page",
     "id": "9fdafc82-e3e6-4892-8dd7-852b07fda49c",
     "created_time": "2024-07-11T13:00:00.000Z",
-    "last_edited_time": "2024-07-19T15:22:00.000Z",
+    "last_edited_time": "2025-05-15T09:51:00.000Z",
     "created_by": {
       "object": "user",
       "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
@@ -26,13 +26,14 @@ NOTION_METADATA:
     "cover": {
       "type": "file",
       "file": {
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8bc3c4f0-c291-4309-a955-a5876c66b3de/d11cde59-6d00-4ef9-9821-c54fa2fa52b0/banner-oxidized.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UXSKFPNB%2F20250514%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250514T143510Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJIMEYCIQDx5XfXUW7Cs54HNZZkEHFpFbZlv24weKEXpFXomO4%2F8AIhAJ1L9WyLf46%2B4agk%2Ff%2B%2BvlDNpJTeI3DgUEOYanjUG6JdKv8DCBcQABoMNjM3NDIzMTgzODA1Igwts1QFaUsqFGq7R5sq3AMJ%2F62AugFt4k5ocFo9dMlQi6Hv0Y2uJXwMCNJ%2BwaeGvwbstlU%2BtFJvpFneH8tjP57a72js2PzDYXoYG9v02g2DbE7hlR8QHcTeQq5rfRcFFSeyHRKdEF9fbFD%2Fr8IELMcvvevXSO5HsWERoZw64nvmyGyUEiI1KYx8i06x%2BV86VQLYNaFlKLFcsW%2BjAXY6ktLt6X7lNVc4nLvEsVAAE5zY2Xik3Ub9uJ2MGQ6ydm8KrDFtbCUEdgVhMjl9JedN1Vukt255BOWfSEVqQ9nVNvE2wzcVFG%2BPqwaSoW0POEspt%2BfT1jMQg5dWDqwOFo742%2BcqnUhHzgwVEgsPdwWqC%2BXy%2Fu4Gtx2qUYtkR5Ka0K58v%2FWv7P%2BblUPJixOeXhOznnR3288HAGgpoWnYV15WplQiI0eQ5sjNMC%2BcywDpvNpLhKbo5GxkIr0ZxUeKNQJULDr9i3zv52iX1QpqVq98ecmKiCjQ4K5qHyssAGDYkYyHlQr7mTTaBx74ArkXqt%2BxJWX7DObei%2BXkPKcTCCGpY94Pylrxet44oz62ycW1ZlkSWksXEIMFxV31TdsC%2FfyNe5B%2FA8ez4DM0oRgWdpfS9EiMHW2P%2Bt3vwHpwR5P7SPVunHFmxoRhUY97HJHrLzD%2FupLBBjqkAUoMNn2Db060301O%2F2Hgh6tlKDn7i5%2BCbqRfTbG7Ouxh%2F3BWJAfqPNPyl%2Bhr4TLDmRPihpYBc2OC6pzStkvROyGPcRjeFylhxqd7KJrWVd3iDo6b9TpLqv1MgDGaZMfwOsI%2FvVjvn%2FI0Dxo6xVpg6yWKLgU7F5R9vLtSy%2Bd9yI2qO0Ws6l2m7OF01EDBDnGWJrwSj1XGrsjk3m5ga9xgd7hX5u0X&X-Amz-Signature=9af6a5e9de7758f5011a17ed3cdb58ac43eade29ce6afda05e3b557f8a5eedbe&X-Amz-SignedHeaders=host&x-id=GetObject",
-        "expiry_time": "2025-05-14T15:35:10.690Z"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8bc3c4f0-c291-4309-a955-a5876c66b3de/d11cde59-6d00-4ef9-9821-c54fa2fa52b0/banner-oxidized.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TDG47UF5%2F20260106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260106T124612Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCTIWphcBTs9IRswhcgZml7bj2vwlKuHEm6NFHqgVVHPQIgHK222GAO%2F2UPRBlee%2BhkScaQunTZfdDK5SK8ucfkwOYq%2FwMIXRAAGgw2Mzc0MjMxODM4MDUiDHQlksWoGtse8jNfPSrcAztpJ6UBjzriB%2FV0RZzza2Zr5mgPzJM%2Bsg%2FCcjVzoq0aEIKV6iB7a%2F8RXKzSpEOpSJVwm9wRe5IefnDdr6k1gDBQZwZus84R2COtkqc4U1CTzeQ0XA88NK5hQRQQAI%2F6ZH%2F5dk3V9SRd3uWbmgnef993DRdb%2BxUCTBZRRztuKgpRX6l%2FaUnuVZDTd9lIG9MTTJ7og6jhMzaygHNbaDiCZ%2BBG%2FXz7i8GFzoZ%2FS%2BoGvb%2BI5DMgj9%2BWZ85ir0ecTr4ciIvHLQqa1OM0BjTmvLbhqlE6Z6ADF0jsHmyP0PNDcq6247utxeQntYXkGOi2lOn0nEndrD%2BtI1WkfalKHktonm1nsveeuQjtgn8QSOTU8rX%2BTuDscBBU%2FwT4tIl%2B3f3IRYY9AweiOcINHiQdZfObt%2BnWiruO7f0mjIG0dz25fz6h6nwDAbSPPVfr3M0e91XFseeduRxme%2BYdk6eBikTOFR52c8EJqBfQvOezhBq0x58Q50lNmvkgSSdrthc5owwa0b%2BABxVsm2jNhuQ1lWSz2NtUG74WGe5aySUzi61kNS3b1MUQX816Oqd9RB8%2FXxqy5wnFRiDsdR2qimxafHhDyf5eQmlAPFgfC66HGMz8YRme%2F1OTNQce7Czgw%2B%2FPMJH988oGOqUBfLczVDsaY%2FQD7R7C6aPX40nmcfJtpsRWOfPbKA8kzJ3oFnB1XkbzwXRE2MsYqecJUxnyXqx3spA7%2FO0JDMW0%2BLIzzv49PYpKrGc0s5elhD1r%2BVsBuHRlt4sq6yVJg1hDrBcUsqI7EP8LSvCe7m3fUNgFrRk04skRjsKMMD0iTJghGVJOZeo%2FrjZYKqXQLyxeTrS0enpdidSbs%2BAwM7Hgs3iiGCCj&X-Amz-Signature=9fa7d70ab66f5c2faa096b628bfb993ab079de8e6b2ee201d0c14afcb0899b93&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "expiry_time": "2026-01-06T13:46:12.469Z"
       }
     },
     "icon": null,
     "parent": {
-      "type": "database_id",
+      "type": "data_source_id",
+      "data_source_id": "235a5f88-c313-46d9-84b5-9f168a1633b7",
       "database_id": "4bb8f075-358d-4efe-b575-192baa1d62b9"
     },
     "archived": false,
@@ -40,9 +41,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Change-Detection-Using-Oxidized-9fdafc82e3e648928dd7852b07fda49c",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T14:37:57.873Z"
-last_edited_time: "2024-07-19T15:22:00.000Z"
-EXPIRY_TIME: "2025-05-14T15:37:56.247Z"
+UPDATE_TIME: "2026-01-06T12:47:15.318Z"
+last_edited_time: "2025-05-15T09:51:00.000Z"
+EXPIRY_TIME: "2026-01-06T13:47:14.901Z"
 ---
 
 Oxidized is a Linux based service which has the ability to monitor a device’s configuration, including software and hardware. Current configuration is backed up from each device and stored to a GIT repository to maintain history of changes.
