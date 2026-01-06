@@ -1,0 +1,102 @@
+# Sync Content from Notion
+#
+# This workflow runs every 6 hours to fetch the latest content from Notion
+# It uses the notion-to-markdown container to export content and handles
+# added, modified, renamed, and deleted pages automatically.
+
+name: Sync Notion Content
+
+on:
+  schedule:
+    # Run every 6 hours at :00 minutes
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  sync-content:
+    name: Export from Notion and Commit Changes
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout Garden Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Full history for proper git operations
+      
+      - name: Pull Notion-to-Markdown Container
+        run: |
+          echo "Pulling container image..."
+          docker pull ghcr.io/damianflynn/notion-to-markdown:20260106123233
+      
+      - name: Run Notion Export
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: |
+          echo "Running Notion content export..."
+          docker run --rm \
+            -e NOTION_TOKEN="${NOTION_TOKEN}" \
+            -e NOTION_PAGE_URL="https://www.notion.so/Content-Management-252a519e13ee46c5b576691e1026e7e0" \
+            -e NOTION_PAGE_IDS="42464b089a234424a6396c013fa6cef6:." \
+            -e NOTION_DATABASE_IDS="235a5f88-c313-46d9-84b5-9f168a1633b7:posts" \
+            -v "${{ github.workspace }}/content:/app/content" \
+            -v "${{ github.workspace }}/static:/app/static" \
+            ghcr.io/damianflynn/notion-to-markdown:20260106123233
+      
+      - name: Check for Changes
+        id: check_changes
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✓ Changes detected in content"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "✓ No changes detected"
+          fi
+      
+      - name: Commit and Push Changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage all changes including deletions
+          git add -A
+          
+          # Create detailed commit message
+          ADDED=$(git diff --cached --name-status | grep "^A" | wc -l | xargs)
+          MODIFIED=$(git diff --cached --name-status | grep "^M" | wc -l | xargs)
+          DELETED=$(git diff --cached --name-status | grep "^D" | wc -l | xargs)
+          RENAMED=$(git diff --cached --name-status | grep "^R" | wc -l | xargs)
+          
+          COMMIT_MSG="Sync content from Notion
+
+          Changes:
+          - Added: ${ADDED} file(s)
+          - Modified: ${MODIFIED} file(s)
+          - Deleted: ${DELETED} file(s)
+          - Renamed: ${RENAMED} file(s)
+          
+          Triggered by: ${{ github.event_name }}
+          Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          
+          git commit -m "$COMMIT_MSG"
+          git push
+          
+          echo "✓ Changes committed and pushed successfully"
+      
+      - name: Summary
+        if: always()
+        run: |
+          if [[ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]]; then
+            echo "## Notion Sync Completed ✓" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Content has been synchronized from Notion and committed to the repository." >> $GITHUB_STEP_SUMMARY
+            echo "This will automatically trigger preview and production deployments." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## Notion Sync Completed ✓" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "No changes detected - content is already up to date." >> $GITHUB_STEP_SUMMARY
+          fi
