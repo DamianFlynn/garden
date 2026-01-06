@@ -47,9 +47,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/IoT-Azure-Arc-Connected-K3s-1dfeb56ea1c38089a3d2d965ea21f3fb",
     "public_url": null
   }
-UPDATE_TIME: "2026-01-06T12:46:30.757Z"
+UPDATE_TIME: "2026-01-06T12:24:17.036Z"
 last_edited_time: "2025-11-21T10:31:00.000Z"
-EXPIRY_TIME: "2026-01-06T13:46:20.438Z"
+EXPIRY_TIME: "2026-01-06T13:24:07.457Z"
 ---
 
 Starting from an Ubuntu server, which has be Arc Enabled, we can use this as a base for the Azure IoT Operations.

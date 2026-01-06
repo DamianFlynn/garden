@@ -2,9 +2,7 @@
 title: "About Me"
 date: "2024-07-10T08:38:00.000Z"
 lastmod: "2024-07-12T22:47:00.000Z"
-draft: false
-url: "/about"
-layout: "about"
+draft: true
 NOTION_METADATA:
   {
     "object": "page",
@@ -30,7 +28,7 @@ NOTION_METADATA:
     "url": "https://www.notion.so/About-Me-42464b089a234424a6396c013fa6cef6",
     "public_url": null
   }
-UPDATE_TIME: "2025-05-14T14:38:41.406Z"
+UPDATE_TIME: "2026-01-06T11:33:19.237Z"
 last_edited_time: "2024-07-12T22:47:00.000Z"
 ---
 

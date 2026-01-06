@@ -45,9 +45,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Azure-IaC-Tags-as-Parameters-855ad084439744fd8fb4334f36a9b421",
     "public_url": null
   }
-UPDATE_TIME: "2026-01-06T12:47:14.450Z"
+UPDATE_TIME: "2026-01-06T12:26:01.881Z"
 last_edited_time: "2025-05-15T09:51:00.000Z"
-EXPIRY_TIME: "2026-01-06T13:47:13.164Z"
+EXPIRY_TIME: "2026-01-06T13:25:58.828Z"
 ---
 
 Deploying infrastructure ARM Templates to Azure, but using Tags and thier respective value as the parameter configuration settings

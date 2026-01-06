@@ -52,7 +52,7 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Azure-IoT-Edge-Low-Level-Design-LLD-Arc-Ubuntu-K3s-Azure-IoT-Operations-MQTT-Broker-0ba905b90db945ae93bb32eca4118f43",
     "public_url": null
   }
-UPDATE_TIME: "2026-01-06T12:46:16.621Z"
+UPDATE_TIME: "2026-01-06T12:23:32.059Z"
 last_edited_time: "2025-10-20T13:43:00.000Z"
 ---
 
