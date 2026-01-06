@@ -44,7 +44,7 @@ jobs:
             -e NOTION_DATABASE_IDS="0cb08ce34a92421c8f01a3d2151ce62e:posts" \
             -v "${{ github.workspace }}/content:/app/content" \
             -v "${{ github.workspace }}/static:/app/static" \
-            ghcr.io/damianflynn/notion-to-markdown:20260106123233
+            ghcr.io/damianflynn/notion-to-markdown:latest
       
       - name: Check for Changes
         id: check_changes
