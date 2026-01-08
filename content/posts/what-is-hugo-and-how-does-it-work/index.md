@@ -1,7 +1,7 @@
 ---
 title: "What is Hugo and how does it work?"
 date: "2026-01-08T11:54:00.000Z"
-lastmod: "2026-01-08T15:40:00.000Z"
+lastmod: "2026-01-08T15:47:00.000Z"
 draft: true
 featuredImage: "./cover-2e2eb56e.jpg"
 Author: "Damian"
@@ -14,14 +14,14 @@ Tags:
     "Generative AI"
   ]
 Status: "In Progress"
-summary: "Discover the revolutionary \"Voice First\" concept that could redefine digital interactions, alongside an in-depth exploration of Hugo—an open-source static site generator that combines speed, flexibility, and ease of use to empower developers in creating stunning websites effortlessly. Dive into the future of human-machine communication and web development today!"
+summary: "Discover how Hugo, the fast and flexible open-source static site generator, is revolutionizing website building with its lightning-fast speed, customizable templates, and user-friendly interface, making it the perfect choice for developers looking to create modern websites effortlessly!"
 Categories: "AI"
 NOTION_METADATA:
   {
     "object": "page",
     "id": "2e2eb56e-a1c3-80f2-8e8f-c63df8f9bcbc",
     "created_time": "2026-01-08T11:54:00.000Z",
-    "last_edited_time": "2026-01-08T15:40:00.000Z",
+    "last_edited_time": "2026-01-08T15:47:00.000Z",
     "created_by": {
       "object": "user",
       "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
@@ -47,8 +47,8 @@ NOTION_METADATA:
     "url": "https://www.notion.so/What-is-Hugo-and-how-does-it-work-2e2eb56ea1c380f28e8fc63df8f9bcbc",
     "public_url": null
   }
-UPDATE_TIME: "2026-01-08T15:41:53.583Z"
-last_edited_time: "2026-01-08T15:40:00.000Z"
+UPDATE_TIME: "2026-01-08T18:02:59.967Z"
+last_edited_time: "2026-01-08T15:47:00.000Z"
 ---
 
 **… And a friendly, voice-controlled interface provides you with all the answers. This scenario isn’t just a thing of the future anymore but may be approaching reality thanks to the “Voice First” concept.**
@@ -63,9 +63,9 @@ Watching the Microsoft Copilot event in September 2023 - checking off the ‘Wat
 
 ## The Bridge: Chat Interfaces as an Intermediate Step
 
-![Image](img-2e2eb56e-illustration-good-morning-voice-first_hu933f9d204d1eafc26e29eac2706cc57d_499777_288x0_resize_q55_h1_lanczos_3.webp)
-
 Let’s consider chat interfaces as a transition. They are the first step towards a world where full voice interaction is possible. A purely voice-controlled User Interface (UI) is a fascinating thought, isn’t it? It would fundamentally change the way we interact with technology.
+
+![Image](img-2e2eb56e-illustration-good-morning-voice-first_hu933f9d204d1eafc26e29eac2706cc57d_499777_288x0_resize_q55_h1_lanczos_3.webp)
 
 > Instead of typing away, we will soon let our voice do the talking – ‘Voice First’ is not just a trend, it is tomorrow’s communication.
 
@@ -162,14 +162,20 @@ Hugo can be easily installed on your computer, regardless of your operating syst
 
 When I originally set up this site, I used Azure Multistage Pipelines to build & deploy the site automatically. I recently switched the CI/CD process to replace Azure Pipelines with [**GitHub Actions**](https://github.com/features/actions) and in this post, I want to show you how I did it.
 
->  Info: Interested in deploying Hugo with Azure Pipelines?
+
+{{< callout type="info" emoji="" >}}
+Info: Interested in deploying Hugo with Azure Pipelines?
+{{< /callout >}}
   If you want to read more about how to publish your Hugo site to Azure static sites with Azure Pipelines, you can my original post here: [**Automated Hugo Releases With Azure Pipelines**](https://www.andrewconnell.com/blog/automated-hugo-releases-with-azure-pipelines/).
 
 Before I get into this, let me jump in front of a few questions you may have:
 
 * Why aren’t you use Azure Static Web Apps? First and foremost, Azure Static Web Apps weren’t around when I launched this site. While a good option, at the time of writing this post they have some limitations. I personally prefer my set up as it gives me much more control.
 * Why did I switch to GitHub Actions? GitHub is more natural to me and I like it’s simplicity over Azure DevOps. Azure DevOps is a great platform, but it’s overly complicated for most of my work.
->  The original post on Azure Pipelines already covered CI/CD & my requirements. Please refer to that post if you want to see how I roll things out:
+
+{{< callout type="info" emoji="" >}}
+The original post on Azure Pipelines already covered CI/CD & my requirements. Please refer to that post if you want to see how I roll things out:
+{{< /callout >}}
   * Automated Hugo Releases With Azure Pipelines: CI/CD overview
   * Automated Hugo Releases With Azure Pipelines: Requirements
 ## GitHub Actions for Building & Deploying Hugo Sites
