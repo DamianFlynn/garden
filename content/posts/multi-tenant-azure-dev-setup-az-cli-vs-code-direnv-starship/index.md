@@ -1,13 +1,10 @@
 ---
 title: "Multi-tenant Azure dev setup (AZ CLI + VS Code + direnv + Starship)"
 date: "2026-01-07T11:17:00.000Z"
-lastmod: "2026-01-08T09:05:00.000Z"
+lastmod: "2026-01-08T11:15:00.000Z"
 draft: true
 featuredImage: "./cover-525d0357.jpg"
-Author:
-  [
-    "Damian"
-  ]
+Author: "Damian"
 authors:
   [
     "Damian"
@@ -20,7 +17,7 @@ Tags:
     "IaC",
     "Bicep"
   ]
-Status: "Draft"
+Status: "In Progress"
 summary: "Unlock the secrets to seamless multi-tenant Azure development with this comprehensive guide on using AZ CLI, VS Code, direnv, and Starship to prevent costly mistakes, streamline your workflow, and ensure your deployments are both safe and efficient across multiple environments."
 Categories: "Azure Management"
 NOTION_METADATA:
@@ -28,14 +25,14 @@ NOTION_METADATA:
     "object": "page",
     "id": "525d0357-8eea-4c0a-9115-70e1bc690042",
     "created_time": "2026-01-07T11:17:00.000Z",
-    "last_edited_time": "2026-01-08T09:05:00.000Z",
+    "last_edited_time": "2026-01-08T11:15:00.000Z",
     "created_by": {
       "object": "user",
       "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "fe85bc5f-f8a5-4793-8a2b-cf61594fc401"
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
     },
     "cover": {
       "type": "external",
@@ -57,8 +54,8 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Multi-tenant-Azure-dev-setup-AZ-CLI-VS-Code-direnv-Starship-525d03578eea4c0a911570e1bc690042",
     "public_url": null
   }
-UPDATE_TIME: "2026-01-08T10:39:19.445Z"
-last_edited_time: "2026-01-08T09:05:00.000Z"
+UPDATE_TIME: "2026-01-08T11:16:23.040Z"
+last_edited_time: "2026-01-08T11:15:00.000Z"
 ---
 
 If you work across multiple Azure tenants, you’ll eventually have a near miss. It usually looks like this: you open VS Code, run a quick `az login`, and five minutes later you realise you’re authenticated to the last tenant you used, with the wrong subscription selected.
