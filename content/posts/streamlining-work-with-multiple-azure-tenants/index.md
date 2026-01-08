@@ -1,7 +1,7 @@
 ---
 title: "Streamlining work with Multiple Azure Tenants "
 date: "2026-01-08T11:45:00.000Z"
-lastmod: "2026-01-08T11:47:00.000Z"
+lastmod: "2026-01-08T11:51:00.000Z"
 draft: true
 featuredImage: "./cover-2e2eb56e.jpg"
 Author: "Damian"
@@ -18,21 +18,21 @@ Tags:
     "Bicep"
   ]
 Status: "In Progress"
-summary: "Master the art of managing multiple Azure tenants seamlessly with this comprehensive guide on setting up a safe and efficient development environment using AZ CLI, VS Code, direnv, and Starship. Learn to prevent costly mistakes and streamline your workflow for both Windows and macOS!"
+summary: "Discover how to streamline your workflows across multiple Azure tenants with effective context management techniques, ensuring operational safety and efficiency while avoiding costly mistakes in your cloud deployments."
 Categories: "Azure Management"
 NOTION_METADATA:
   {
     "object": "page",
     "id": "2e2eb56e-a1c3-80bb-a0c7-c09d635e6a9d",
     "created_time": "2026-01-08T11:45:00.000Z",
-    "last_edited_time": "2026-01-08T11:47:00.000Z",
+    "last_edited_time": "2026-01-08T11:51:00.000Z",
     "created_by": {
       "object": "user",
       "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "fe85bc5f-f8a5-4793-8a2b-cf61594fc401"
+      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
     },
     "cover": {
       "type": "external",
@@ -54,8 +54,8 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Streamlining-work-with-Multiple-Azure-Tenants-2e2eb56ea1c380bba0c7c09d635e6a9d",
     "public_url": null
   }
-UPDATE_TIME: "2026-01-08T11:48:39.622Z"
-last_edited_time: "2026-01-08T11:47:00.000Z"
+UPDATE_TIME: "2026-01-08T12:02:18.255Z"
+last_edited_time: "2026-01-08T11:51:00.000Z"
 ---
 
 If you work across multiple Azure tenants, you’ll eventually have a near miss. It usually looks like this: you open VS Code, run a quick `az login`, and five minutes later you realise you’re authenticated to the last tenant you used, with the wrong subscription selected.
