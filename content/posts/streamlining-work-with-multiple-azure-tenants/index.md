@@ -1,9 +1,9 @@
 ---
-title: "Multi-tenant Azure dev setup (AZ CLI + VS Code + direnv + Starship)"
-date: "2026-01-07T11:17:00.000Z"
-lastmod: "2026-01-08T11:15:00.000Z"
+title: "Streamlining work with Multiple Azure Tenants "
+date: "2026-01-08T11:45:00.000Z"
+lastmod: "2026-01-08T11:47:00.000Z"
 draft: true
-featuredImage: "./cover-525d0357.jpg"
+featuredImage: "./cover-2e2eb56e.jpg"
 Author: "Damian"
 authors:
   [
@@ -18,26 +18,26 @@ Tags:
     "Bicep"
   ]
 Status: "In Progress"
-summary: "Unlock the secrets to seamless multi-tenant Azure development with this comprehensive guide on using AZ CLI, VS Code, direnv, and Starship to prevent costly mistakes, streamline your workflow, and ensure your deployments are both safe and efficient across multiple environments."
+summary: "Master the art of managing multiple Azure tenants seamlessly with this comprehensive guide on setting up a safe and efficient development environment using AZ CLI, VS Code, direnv, and Starship. Learn to prevent costly mistakes and streamline your workflow for both Windows and macOS!"
 Categories: "Azure Management"
 NOTION_METADATA:
   {
     "object": "page",
-    "id": "525d0357-8eea-4c0a-9115-70e1bc690042",
-    "created_time": "2026-01-07T11:17:00.000Z",
-    "last_edited_time": "2026-01-08T11:15:00.000Z",
+    "id": "2e2eb56e-a1c3-80bb-a0c7-c09d635e6a9d",
+    "created_time": "2026-01-08T11:45:00.000Z",
+    "last_edited_time": "2026-01-08T11:47:00.000Z",
     "created_by": {
       "object": "user",
       "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
+      "id": "fe85bc5f-f8a5-4793-8a2b-cf61594fc401"
     },
     "cover": {
       "type": "external",
       "external": {
-        "url": "https://storagebucketn8n.blob.core.windows.net/notion/525d0357-8eea-4c0a-9115-70e1bc690042.png"
+        "url": "https://storagebucketn8n.blob.core.windows.net/notion/2e2eb56e-a1c3-80bb-a0c7-c09d635e6a9d.png"
       }
     },
     "icon": {
@@ -51,11 +51,11 @@ NOTION_METADATA:
     },
     "archived": false,
     "properties": {},
-    "url": "https://www.notion.so/Multi-tenant-Azure-dev-setup-AZ-CLI-VS-Code-direnv-Starship-525d03578eea4c0a911570e1bc690042",
+    "url": "https://www.notion.so/Streamlining-work-with-Multiple-Azure-Tenants-2e2eb56ea1c380bba0c7c09d635e6a9d",
     "public_url": null
   }
-UPDATE_TIME: "2026-01-08T11:16:23.040Z"
-last_edited_time: "2026-01-08T11:15:00.000Z"
+UPDATE_TIME: "2026-01-08T11:48:39.622Z"
+last_edited_time: "2026-01-08T11:47:00.000Z"
 ---
 
 If you work across multiple Azure tenants, you’ll eventually have a near miss. It usually looks like this: you open VS Code, run a quick `az login`, and five minutes later you realise you’re authenticated to the last tenant you used, with the wrong subscription selected.
@@ -68,17 +68,7 @@ This is the setup I use to make multi-tenant work boring and safe on both Window
 
 Azure CLI caches tokens and stores its active context in a single folder.
 
-On macOS and Linux:
-
-```plain text
-~/.azure
-```
-
-On Windows:
-
-```plain text
-%USERPROFILE%\.azure
-```
+On macOS and Linux, this is `~/.azure` and on Windows it will be `%USERPROFILE%\.azure`
 
 That’s fine when you live in one tenant.
 
