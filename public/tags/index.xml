@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Jan 2026 12:05:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generative AI</title>
+      <link>//localhost:1313/tags/generative-ai/</link>
+      <pubDate>Thu, 08 Jan 2026 11:54:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/generative-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>//localhost:1313/tags/azure/</link>
+      <pubDate>Thu, 08 Jan 2026 11:45:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bicep</title>
+      <link>//localhost:1313/tags/bicep/</link>
+      <pubDate>Thu, 08 Jan 2026 11:45:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/bicep/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>//localhost:1313/tags/devops/</link>
+      <pubDate>Thu, 08 Jan 2026 11:45:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IaC</title>
+      <link>//localhost:1313/tags/iac/</link>
+      <pubDate>Thu, 08 Jan 2026 11:45:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/iac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identity</title>
+      <link>//localhost:1313/tags/identity/</link>
+      <pubDate>Thu, 08 Jan 2026 11:45:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/identity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IoT</title>
+      <link>//localhost:1313/tags/iot/</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/iot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Governance</title>
+      <link>//localhost:1313/tags/governance/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/governance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>//localhost:1313/tags/linux/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MQTT</title>
+      <link>//localhost:1313/tags/mqtt/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/mqtt/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

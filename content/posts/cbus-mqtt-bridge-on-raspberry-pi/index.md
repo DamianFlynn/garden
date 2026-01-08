@@ -1,25 +1,21 @@
 ---
 title: "CBus MQTT Bridge on Raspberry PI"
 date: "2019-10-10"
-lastmod: "2026-01-06T22:21:00.000Z"
+lastmod: "2024-07-19T15:23:00.000Z"
 draft: false
-featuredImage: "./cover-2e0eb56e.jpg"
-series: "Smart Buildings"
+featuredImage: "./cover-55a555f6.jpg"
+Status: "Published"
 Tags:
   [
     "IoT",
-    "Linux",
-    "MQTT"
+    "Linux"
   ]
-Status: "Published"
-summary: "Unlock the potential of your smart home with the CBus MQTT Bridge on Raspberry Pi, a comprehensive guide that details how to integrate Clipsal's C-Bus lighting system into your IoT setup, enhancing automation and control like never before!"
-Categories: "IoT"
 NOTION_METADATA:
   {
     "object": "page",
-    "id": "2e0eb56e-a1c3-800b-8025-e2b170055919",
-    "created_time": "2026-01-06T17:34:00.000Z",
-    "last_edited_time": "2026-01-06T22:21:00.000Z",
+    "id": "55a555f6-6639-40c4-bac2-306ea96ec881",
+    "created_time": "2024-07-11T14:01:00.000Z",
+    "last_edited_time": "2024-07-19T15:23:00.000Z",
     "created_by": {
       "object": "user",
       "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
@@ -31,23 +27,23 @@ NOTION_METADATA:
     "cover": {
       "type": "file",
       "file": {
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8bc3c4f0-c291-4309-a955-a5876c66b3de/7882270c-803b-4cd6-a007-30ed96485f24/banner.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZUKSQ5GC%2F20260106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260106T225933Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHdZ%2BeR8TBWHRrYEcamSgP12ab4wks%2F6aOTIN3lGsv14AiEAsKnrybeAneWNRhOF4HI0ye4F6QwBBJbxDp3J0gTd%2FX0q%2FwMIaBAAGgw2Mzc0MjMxODM4MDUiDM2QUxy9kNzK0RP0syrcA0qquR9ds7R7%2BuEs%2BNIoW1aTjlaFMSVonSnnfdvVs30PSFR%2B2dpg4VVgCUyXiCSA95D338wqaqAQcgo6StIChki6tH2nRMk3dH2chq0RdKlTmq2ExXBTd3ZOgQ4KaqU7Cf4Zjgkko%2BEqGNJrYQiJsiIRLl7UQ26%2BgAnNfSBiKqI43dZaOvy3VGsHbdYcDzccB%2BZd6bjV4cvvpxWrZHxV3sueQptXrh0sHJr4nsVufdeLbPGUfmMcGehh63Q%2F0TMAZuwihqfOhQMajlKChhPEdqD6U6ZYHRuIhyZuEAyFGNCsBphujGejCOKTV%2BlEhki85RQJtOQHiPL2V3z66yZigyQViQ3LwRkzur7LXb6IwPhCDqCU67btBsCMIFXa9mZbBwL7zei4cI6j7ex6q1YLznKDMB1WdKdOpbFGL5zfOQrCF6XytGK3Ju%2FKunZSfEbNzUlX5FlwToBLNG6bQfG7IZakz9kbl8kn3FCjF4atOLc7PtwYSTjnPGcYculVN%2BV4Zby9DDk4WWv%2Bi6B3orUkbea7BVtpfqkO8CDEiJoa%2BezFKjBqcDXeZNiGobGoZsj%2F2H1nvCoEwqUtIDLk6IfGxFnqxFfnSJEcugObOfPzqwcZT1i%2F50db6LvezQb7MOuh9soGOqUBdLho7s0k8SRF3%2FV33gCyEhIfNX4q8g7oQiuYzYnuhuCDjvBF8gvczi6u%2Fo3z1I4%2Fg3fn2B%2FVx3Bmt41XT4l13UgYRMJdLJNVcHupZ59G5IvJVTyGQOI1VyM2h9tkZJKoOCmR%2B33RHNIMQRWyLLkiN3mwu7iJOu%2Bt0tZDWoxl0KkLPMLTU9om5PHINs715vkNzPjVJXE7MfbPZmk4AuY8nP6jZecP&X-Amz-Signature=f66a3d56a1e54b1610af638a10a01e8963fdb3bee6efec59db9c60d48adce3e5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-        "expiry_time": "2026-01-06T23:59:33.813Z"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8bc3c4f0-c291-4309-a955-a5876c66b3de/7882270c-803b-4cd6-a007-30ed96485f24/banner.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XZFGLRHR%2F20260106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260106T122325Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGFTNuBcKvG%2Fqu6tyoZhaHiCAthGOPmVm2oOlRkNlUb2AiAa0pPJgPLeYdknz9V9O2n0LKhRt8L1pI%2B%2BLyEVKknprSr%2FAwhcEAAaDDYzNzQyMzE4MzgwNSIMV874XB%2BiWfZanK1xKtwDFHnP7nwIwd%2F2xvt263dUfOTRlpiMY40hPDK10aRtiQUFfsnTQpiv88qMsm7flrbTogSoABXPjeUNT28cidFl22wSHC3TPw%2FS0maDNXxWDltGpxXL9wR77hiOUPFjKcHnTEgDhhBOQ462O43ibvfi%2BIsshT0er%2ByhKJb8frAlcWR9wI4lrE9v4%2Bylkfl2LrJ8MjNTwGr%2BJwKyakrK4EFp7GUjFD5q1OvCjv9wMqh%2FxkiJX%2B3Ac2XIhva30lTMRnb9H8VcNTn8UXstXM22UNpLZol4SUrPKLLk6vFAkoOurj1vVaICAB3kIjtSv4MyeqmWnEDauOput2R%2FboeHzukjTYZ4mL4VdmKROu3SMMiZTZshgRn0bMV%2FJfQbjNTGHDrC1hloC0mf4W5yIdIqFhgj6tg10797H6mT%2BfZ1Qao%2BEDxroU3YJuWFBSDorueT9y9HrmcfjvOHt1103audHzoxteqFKWO%2BoSDj%2BrnLzBGmJAlNQCE9iANDYLrcchvG4IUVeBY9oTFxANPFjWyJQCLkDpud14oijx2nlcmgeUGfiUMMj9P%2BO5Dvm0NKSidW2v0QEt5xmzYKWPj6fcrZvTH50dqUgMfzuObw2LyRxjozU2xuf0MuZxEOPR%2Bp%2BqIwqN7zygY6pgGRHTbhlGjdNdN5dFMDxxjGtk7lSjm4m0iPPE9XVCEVQxNXpg6wmJK3SnKcMj%2FCo31220xDefnk11k0T849vBaB%2F38E%2FRaGPK80HxrOh2qGETRLV238eDnvetaW4cPhyx2w38nWIN690AMh0pNSIZF1dUfd8o1wTfzogzuuMtXcNLxkvLBEFgTOZbErVwJkeXVdWDZRC39oHFe%2FOqU4pZvEpmkYU7uX&X-Amz-Signature=a7275bacd019ba7495ca3d7cf8bbb7471304c560aab496933d497c425473b517&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "expiry_time": "2026-01-06T13:23:25.972Z"
       }
     },
     "icon": null,
     "parent": {
       "type": "data_source_id",
-      "data_source_id": "0cb08ce3-4a92-421c-8f01-a3d2151ce62e",
-      "database_id": "f9f77549-5ec7-48f1-a25a-aaeed54650ab"
+      "data_source_id": "235a5f88-c313-46d9-84b5-9f168a1633b7",
+      "database_id": "4bb8f075-358d-4efe-b575-192baa1d62b9"
     },
     "archived": false,
     "properties": {},
-    "url": "https://www.notion.so/CBus-MQTT-Bridge-on-Raspberry-PI-2e0eb56ea1c3800b8025e2b170055919",
+    "url": "https://www.notion.so/CBus-MQTT-Bridge-on-Raspberry-PI-55a555f6663940c4bac2306ea96ec881",
     "public_url": null
   }
-UPDATE_TIME: "2026-01-06T22:59:36.490Z"
-last_edited_time: "2026-01-06T22:21:00.000Z"
+UPDATE_TIME: "2026-01-06T12:25:49.572Z"
+last_edited_time: "2024-07-19T15:23:00.000Z"
 ---
 
 Turn back to 2007; My wife and I built our home, integrating many smart technologies, including the Clipsal C-Bus lighting system. This solution is classified as a Prosumer technology, and is designed to integrate into whole house automation systems.

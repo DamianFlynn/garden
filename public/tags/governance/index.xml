@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Governance on </title>
+    <link>//localhost:1313/tags/governance/</link>
+    <description>Recent content in Governance on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Jan 2026 22:42:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/governance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Azure Arc-Enabled Infrastructure for IoT Edge: Foundation for Azure IoT Operations on K3s</title>
+      <link>//localhost:1313/posts/1-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-operations-on-k3s/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/1-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-operations-on-k3s/</guid>
+      <description>Discover how to build a robust, production-ready IoT edge platform using Azure Arc and K3s, enabling seamless management of distributed infrastructure while enhancing security, compliance, and operational efficiency. Dive into this comprehensive guide to learn best practices for deployment, remote access, and monitoring, ensuring your IoT solutions thrive in today’s hybrid environments.</description>
+    </item>
+  </channel>
+</rss>

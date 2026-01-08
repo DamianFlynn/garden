@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacies on </title>
+    <link>//localhost:1313/privacy/</link>
+    <description>Recent content in Privacies on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 May 2025 09:01:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Privacy Statement</title>
+      <link>//localhost:1313/privacy/my-privacy-statement/</link>
+      <pubDate>Fri, 12 Jul 2024 22:21:00 +0000</pubDate>
+      <guid>//localhost:1313/privacy/my-privacy-statement/</guid>
+      <description>&lt;h3 id=&#34;this-is-my-personal-and-nonprofit-blog-damian-flynn--making-incredible-technology-incredibly-simple&#34;&gt;This is my personal and nonprofit blog: Damian Flynn – ‘Making Incredible Technology, Incredibly Simple.’&lt;/h3&gt;&#xA;&lt;p&gt;My website is built using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a fast and modern static site generator, and hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;. You can find out more about me at &lt;a href=&#34;https://www.damianflynn.com/about&#34;&gt;https://www.damianflynn.com/about&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-personal-data-i-collect&#34;&gt;What personal data I collect&lt;/h2&gt;&#xA;&lt;p&gt;As a static site, I don’t have a backend or database, and I don’t actively collect personal data. However, I do use some third-party services—like analytics or comment systems—which may gather limited information to help me understand how people use the site and to improve your experience.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -42,9 +42,9 @@ NOTION_METADATA:
     "url": "https://www.notion.so/3-Deploying-Azure-IoT-Operations-on-Arc-Enabled-K3s-Production-MQTT-Broker-and-Edge-Data-Platform-c01db88e656a4b88aef6720c9a0038f9",
     "public_url": null
   }
-UPDATE_TIME: "2026-01-08T10:39:24.094Z"
+UPDATE_TIME: "2026-01-08T12:37:19.667Z"
 last_edited_time: "2026-01-06T22:41:00.000Z"
-EXPIRY_TIME: "2026-01-08T11:39:20.100Z"
+EXPIRY_TIME: "2026-01-08T13:37:07.909Z"
 ---
 
 With your Arc-enabled K3s cluster operational and monitored, you're ready to deploy the heart of your edge infrastructure: **Azure IoT Operations**. This platform provides production-grade MQTT brokering, data transformation pipelines, and secure device connectivity—transforming your K3s cluster into a complete edge data platform.
@@ -436,7 +436,7 @@ Click **Create** to begin the deployment helper.
 
 On the **Basics** tab, provide core deployment information:
 
-  ![Image](img-c01db88e-image.png)
+![Image](img-c01db88e-image.png)
 
 **Custom Location Concept**: A custom location is an Azure resource type that represents your edge cluster as a deployment target. When you create Azure resources (like IoT Operations instances), you can target them to custom locations just like you would target VMs to an Azure region.
 
@@ -446,7 +446,7 @@ Click **Next: Configuration**.
 
 On the **Configuration** tab, tune the MQTT broker for your hardware and workload requirements.
 
-  ![Image](img-c01db88e-image.png)
+![Image](img-c01db88e-image.png)
 
 **MQTT Broker Sizing Guidance**:
 
@@ -481,7 +481,7 @@ On the **Dependency management** tab, link the prerequisites you created earlier
 1. In the Add a new schema registry popup:
   * Schema registry name: pwe1iotstore (your storage account name)
   * Schema registry namespace: p-we1iot (your namespace)
-  ![Image](img-c01db88e-image.png)
+![Image](img-c01db88e-image.png)
 
 1. Click Select Azure Storage Container, navigate to your storage account, and select the schemas container.
 ![Image](img-c01db88e-image.png)
@@ -493,7 +493,7 @@ On the **Dependency management** tab, link the prerequisites you created earlier
 
 Select **Secure settings** for production deployments (recommended).
 
-  ![Image](img-c01db88e-image.png)
+![Image](img-c01db88e-image.png)
 
 **Test Settings vs. Secure Settings**:
 
@@ -622,7 +622,7 @@ az iot ops create \
 
 **Parameter Explanation**:
 
-  **Expected Installation Progress**:
+**Expected Installation Progress**:
 
 ```javascript
 Azure IoT Operations
@@ -907,7 +907,7 @@ kubectl get svc -n azure-iot-operations | grep broker
 
 **Expected Services**:
 
-  **LoadBalancer IP**: On K3s, the `aio-broker-insecure` service should show your node's IP address as the external IP. This makes the broker accessible outside the cluster for testing.
+**LoadBalancer IP**: On K3s, the `aio-broker-insecure` service should show your node's IP address as the external IP. This makes the broker accessible outside the cluster for testing.
 
 **Testing MQTT Connectivity** (from another machine):
 

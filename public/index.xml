@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Jan 2026 12:05:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“Voice First” - A Revolution in User Interaction</title>
+      <link>//localhost:1313/posts/voice-first-a-revolution-in-user-interaction/</link>
+      <pubDate>Thu, 08 Jan 2026 11:54:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/voice-first-a-revolution-in-user-interaction/</guid>
+      <description>Discover the revolutionary &amp;ldquo;Voice First&amp;rdquo; concept that promises to transform user interaction by prioritizing speech as the primary interface, enhancing efficiency and accessibility in our daily lives. Join the conversation and explore how Microsoft Copilot is paving the way for a future where technology understands and responds to us like a trusted partner.</description>
+    </item>
+    <item>
+      <title>Streamlining work with Multiple Azure Tenants </title>
+      <link>//localhost:1313/posts/streamlining-work-with-multiple-azure-tenants/</link>
+      <pubDate>Thu, 08 Jan 2026 11:45:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/streamlining-work-with-multiple-azure-tenants/</guid>
+      <description>Discover how to streamline your workflows across multiple Azure tenants with effective context management techniques, ensuring operational safety and efficiency while avoiding costly mistakes in your cloud deployments.</description>
+    </item>
+    <item>
+      <title>2. Arc-Enabled Kubernetes at the Edge: Deploying K3s for Azure IoT Operations</title>
+      <link>//localhost:1313/posts/2-arc-enabled-kubernetes-at-the-edge-deploying-k3s-for-azure-iot-operations/</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2-arc-enabled-kubernetes-at-the-edge-deploying-k3s-for-azure-iot-operations/</guid>
+      <description>Unlock the potential of your edge computing with our comprehensive guide on deploying K3s for Azure IoT Operations—transform your Ubuntu server into a production-ready Kubernetes cluster, enhance observability, and seamlessly integrate with Azure Arc for efficient remote management and monitoring.</description>
+    </item>
+    <item>
+      <title>1. Azure Arc-Enabled Infrastructure for IoT Edge: Foundation for Azure IoT Operations on K3s</title>
+      <link>//localhost:1313/posts/1-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-operations-on-k3s/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/1-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-operations-on-k3s/</guid>
+      <description>Discover how to build a robust, production-ready IoT edge platform using Azure Arc and K3s, enabling seamless management of distributed infrastructure while enhancing security, compliance, and operational efficiency. Dive into this comprehensive guide to learn best practices for deployment, remote access, and monitoring, ensuring your IoT solutions thrive in today’s hybrid environments.</description>
+    </item>
+    <item>
+      <title>3. Deploying Azure IoT Operations on Arc-Enabled K3s: Production MQTT Broker and Edge Data Platform</title>
+      <link>//localhost:1313/posts/3-deploying-azure-iot-operations-on-arc-enabled-k3s-production-mqtt-broker-and-edge-data-platform/</link>
+      <pubDate>Thu, 20 Nov 2025 23:42:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/3-deploying-azure-iot-operations-on-arc-enabled-k3s-production-mqtt-broker-and-edge-data-platform/</guid>
+      <description>Unlock the potential of your edge infrastructure with our comprehensive guide on deploying Azure IoT Operations on Arc-Enabled K3s, featuring production-grade MQTT brokering, data transformation pipelines, and secure device connectivity—all designed to elevate your industrial IoT scenarios to new heights!</description>
+    </item>
+    <item>
+      <title>My Privacy Statement</title>
+      <link>//localhost:1313/privacy/my-privacy-statement/</link>
+      <pubDate>Fri, 12 Jul 2024 22:21:00 +0000</pubDate>
+      <guid>//localhost:1313/privacy/my-privacy-statement/</guid>
+      <description>&lt;h3 id=&#34;this-is-my-personal-and-nonprofit-blog-damian-flynn--making-incredible-technology-incredibly-simple&#34;&gt;This is my personal and nonprofit blog: Damian Flynn – ‘Making Incredible Technology, Incredibly Simple.’&lt;/h3&gt;&#xA;&lt;p&gt;My website is built using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a fast and modern static site generator, and hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;. You can find out more about me at &lt;a href=&#34;https://www.damianflynn.com/about&#34;&gt;https://www.damianflynn.com/about&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-personal-data-i-collect&#34;&gt;What personal data I collect&lt;/h2&gt;&#xA;&lt;p&gt;As a static site, I don’t have a backend or database, and I don’t actively collect personal data. However, I do use some third-party services—like analytics or comment systems—which may gather limited information to help me understand how people use the site and to improve your experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Disclaimer Statement</title>
+      <link>//localhost:1313/disclaimer/my-disclaimer-statement/</link>
+      <pubDate>Fri, 12 Jul 2024 22:19:00 +0000</pubDate>
+      <guid>//localhost:1313/disclaimer/my-disclaimer-statement/</guid>
+      <description>&lt;h3 id=&#34;this-is-the-personal-and-nonprofit-blog-of-damian-flynn-making-incredible-technology-incredibly-simple&#34;&gt;This is the Personal and Nonprofit Blog of Damian Flynn ‘Making Incredible Technology, Incredibly Simple’.&lt;/h3&gt;&#xA;&lt;h1 id=&#34;opinions&#34;&gt;Opinions&lt;/h1&gt;&#xA;&lt;p&gt;This is a personal blog. Any views or opinions represented in this blog are personal and belong solely to the blog owner and do not represent those of people, institutions or organisations that the owner may or may not be associated with in professional or personal capacity, unless explicitly stated.&lt;/p&gt;&#xA;&lt;p&gt;Any views or opinions are not intended to malign any religion, ethnic group, club, organization, company, or individual.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>//localhost:1313/about-me/</link>
+      <pubDate>Wed, 10 Jul 2024 08:38:00 +0000</pubDate>
+      <guid>//localhost:1313/about-me/</guid>
+      <description>&lt;h3 id=&#34;evangelist-thinker-creative-doer&#34;&gt;Evangelist, Thinker, Creative Doer&lt;/h3&gt;&#xA;&lt;h1 id=&#34;makingincredibletechnologyincrediblysimple&#34;&gt;Making Incredible Technology Incredibly Simple!&lt;/h1&gt;&#xA;&lt;p&gt;Principal Azure Cloud Solution Architect, ‘Governed Azure Virtual Datacenter’ Product Owner; working for Innofactor Norway, based in Ballina, Ireland. Specialising on Cloud Governance and Operations Automation, DevOps and Development.&lt;/p&gt;&#xA;&lt;p&gt;I define myself as an evangelist; an entrepreneur &amp;amp; author with an ideology rooted in business insights, technology exploration, pattern analysis and high energy. I envision, theorize and develop system architecture and strategic business platforms, soaked in storytelling and innovative technology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CBus MQTT Bridge on Raspberry PI</title>
+      <link>//localhost:1313/posts/cbus-mqtt-bridge-on-raspberry-pi/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/cbus-mqtt-bridge-on-raspberry-pi/</guid>
+      <description>Unlock the potential of your smart home with the CBus MQTT Bridge on Raspberry Pi, a comprehensive guide that details how to integrate Clipsal&amp;rsquo;s C-Bus lighting system into your IoT setup, enhancing automation and control like never before!</description>
+    </item>
+  </channel>
+</rss>

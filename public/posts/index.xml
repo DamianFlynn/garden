@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Jan 2026 12:05:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“Voice First” - A Revolution in User Interaction</title>
+      <link>//localhost:1313/posts/voice-first-a-revolution-in-user-interaction/</link>
+      <pubDate>Thu, 08 Jan 2026 11:54:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/voice-first-a-revolution-in-user-interaction/</guid>
+      <description>Discover the revolutionary &amp;ldquo;Voice First&amp;rdquo; concept that promises to transform user interaction by prioritizing speech as the primary interface, enhancing efficiency and accessibility in our daily lives. Join the conversation and explore how Microsoft Copilot is paving the way for a future where technology understands and responds to us like a trusted partner.</description>
+    </item>
+    <item>
+      <title>Streamlining work with Multiple Azure Tenants </title>
+      <link>//localhost:1313/posts/streamlining-work-with-multiple-azure-tenants/</link>
+      <pubDate>Thu, 08 Jan 2026 11:45:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/streamlining-work-with-multiple-azure-tenants/</guid>
+      <description>Discover how to streamline your workflows across multiple Azure tenants with effective context management techniques, ensuring operational safety and efficiency while avoiding costly mistakes in your cloud deployments.</description>
+    </item>
+    <item>
+      <title>2. Arc-Enabled Kubernetes at the Edge: Deploying K3s for Azure IoT Operations</title>
+      <link>//localhost:1313/posts/2-arc-enabled-kubernetes-at-the-edge-deploying-k3s-for-azure-iot-operations/</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2-arc-enabled-kubernetes-at-the-edge-deploying-k3s-for-azure-iot-operations/</guid>
+      <description>Unlock the potential of your edge computing with our comprehensive guide on deploying K3s for Azure IoT Operations—transform your Ubuntu server into a production-ready Kubernetes cluster, enhance observability, and seamlessly integrate with Azure Arc for efficient remote management and monitoring.</description>
+    </item>
+    <item>
+      <title>1. Azure Arc-Enabled Infrastructure for IoT Edge: Foundation for Azure IoT Operations on K3s</title>
+      <link>//localhost:1313/posts/1-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-operations-on-k3s/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/1-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-operations-on-k3s/</guid>
+      <description>Discover how to build a robust, production-ready IoT edge platform using Azure Arc and K3s, enabling seamless management of distributed infrastructure while enhancing security, compliance, and operational efficiency. Dive into this comprehensive guide to learn best practices for deployment, remote access, and monitoring, ensuring your IoT solutions thrive in today’s hybrid environments.</description>
+    </item>
+    <item>
+      <title>3. Deploying Azure IoT Operations on Arc-Enabled K3s: Production MQTT Broker and Edge Data Platform</title>
+      <link>//localhost:1313/posts/3-deploying-azure-iot-operations-on-arc-enabled-k3s-production-mqtt-broker-and-edge-data-platform/</link>
+      <pubDate>Thu, 20 Nov 2025 23:42:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/3-deploying-azure-iot-operations-on-arc-enabled-k3s-production-mqtt-broker-and-edge-data-platform/</guid>
+      <description>Unlock the potential of your edge infrastructure with our comprehensive guide on deploying Azure IoT Operations on Arc-Enabled K3s, featuring production-grade MQTT brokering, data transformation pipelines, and secure device connectivity—all designed to elevate your industrial IoT scenarios to new heights!</description>
+    </item>
+    <item>
+      <title>CBus MQTT Bridge on Raspberry PI</title>
+      <link>//localhost:1313/posts/cbus-mqtt-bridge-on-raspberry-pi/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/cbus-mqtt-bridge-on-raspberry-pi/</guid>
+      <description>Unlock the potential of your smart home with the CBus MQTT Bridge on Raspberry Pi, a comprehensive guide that details how to integrate Clipsal&amp;rsquo;s C-Bus lighting system into your IoT setup, enhancing automation and control like never before!</description>
+    </item>
+  </channel>
+</rss>
