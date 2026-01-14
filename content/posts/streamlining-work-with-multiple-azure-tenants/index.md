@@ -1,7 +1,7 @@
 ---
 title: "Streamlining work with Multiple Azure Tenants "
 date: "2026-01-08T11:45:00.000Z"
-lastmod: "2026-01-08T11:51:00.000Z"
+lastmod: "2026-01-14T07:58:00.000Z"
 draft: true
 featuredImage: "./cover-2e2eb56e.jpg"
 Author: "Damian"
@@ -18,14 +18,14 @@ Tags:
     "Bicep"
   ]
 Status: "In Progress"
-summary: "Discover how to streamline your workflows across multiple Azure tenants with effective context management techniques, ensuring operational safety and efficiency while avoiding costly mistakes in your cloud deployments."
+summary: "Unlock the secrets to seamless multi-tenant management in Azure with practical strategies that prevent costly mistakes, enhance your workflow, and ensure operational safety, making your development experience both efficient and secure!"
 Categories: "Azure Management"
 NOTION_METADATA:
   {
     "object": "page",
     "id": "2e2eb56e-a1c3-80bb-a0c7-c09d635e6a9d",
     "created_time": "2026-01-08T11:45:00.000Z",
-    "last_edited_time": "2026-01-08T11:51:00.000Z",
+    "last_edited_time": "2026-01-14T07:58:00.000Z",
     "created_by": {
       "object": "user",
       "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
@@ -54,8 +54,8 @@ NOTION_METADATA:
     "url": "https://www.notion.so/Streamlining-work-with-Multiple-Azure-Tenants-2e2eb56ea1c380bba0c7c09d635e6a9d",
     "public_url": null
   }
-UPDATE_TIME: "2026-01-08T12:37:02.518Z"
-last_edited_time: "2026-01-08T11:51:00.000Z"
+UPDATE_TIME: "2026-01-14T08:00:06.966Z"
+last_edited_time: "2026-01-14T07:58:00.000Z"
 ---
 
 If you work across multiple Azure tenants, you’ll eventually have a near miss. It usually looks like this: you open VS Code, run a quick `az login`, and five minutes later you realise you’re authenticated to the last tenant you used, with the wrong subscription selected.
@@ -70,11 +70,9 @@ Azure CLI caches tokens and stores its active context in a single folder.
 
 On macOS and Linux, this is `~/.azure` and on Windows it will be `%USERPROFILE%\.azure`
 
-That’s fine when you live in one tenant.
+That’s fine when you live in one tenant. It’s a **liability** when you’re switching between customer tenants and using separate identities. The CLI will happily reuse whatever token cache and last subscription it has available. That’s how you end up running commands with more confidence than you should.
 
-It’s a liability when you’re switching between customer tenants and using separate identities. The CLI will happily reuse whatever token cache and last subscription it has available. That’s how you end up running commands with more confidence than you should.
-
-### The fix that actually works
+## The fix that actually works
 
 Azure CLI honours an environment variable called `AZURE_CONFIG_DIR`.
 
@@ -82,10 +80,10 @@ If you set it, the CLI will read and write auth tokens, subscriptions, and conte
 
 I keep separate contexts like:
 
-```plain text
-~/.azure-contexts/fjordkraft.no/
-~/.azure-contexts/elmira/
-~/.azure-contexts/innofactor/
+```bash
+~/.azure-contexts/customer01/
+~/.azure-contexts/work/
+~/.azure-contexts/personal/
 ```
 
 Once you do this, switching projects can also switch your Azure CLI context. That removes a whole category of mistakes.
@@ -105,21 +103,17 @@ If your filesystem is a mess, your context switching will be a mess.
 
 A simple, predictable structure works well.
 
-macOS:
-
-```plain text
+```shell
+# MacOS
 ~/Development/<org>/<repo>
-```
 
-Windows:
-
-```plain text
+# Windows
 C:\Users\<you>\Development\<org>\<repo>
 ```
 
 I like to align `<org>` with the GitHub org name so it stays consistent across machines.
 
-### Use direnv to auto-load tenant variables per repo
+## Use direnv to auto-load tenant variables per repo
 
 `direnv` is a small tool that automatically loads environment variables when you `cd` into a folder, and unloads them when you leave.
 
