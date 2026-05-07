@@ -3,6 +3,7 @@ title: "CBus MQTT Bridge on Raspberry PI"
 date: "2019-10-10"
 lastmod: "2026-01-06T22:21:00.000Z"
 draft: false
+featured: true
 featuredImage: "./cover-2e0eb56e.jpg"
 series: "Smart Buildings"
 Tags:
