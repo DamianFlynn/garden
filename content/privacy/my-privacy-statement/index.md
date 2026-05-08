@@ -1,9 +1,10 @@
 ---
-title: "My Privacy Statement"
+title: "Privacy"
 date: "2024-07-12T22:21:00.000Z"
 lastmod: "2025-05-15T09:01:00.000Z"
-draft: true
-featuredImage: "./cover-8aa8af30.jpg"
+draft: false
+layout: "about"
+url: "/privacy/"
 NOTION_METADATA:
   {
     "object": "page",
@@ -39,7 +40,6 @@ UPDATE_TIME: "2026-01-06T23:44:32.933Z"
 last_edited_time: "2025-05-15T09:01:00.000Z"
 ---
 
-### This is my personal and nonprofit blog: Damian Flynn – ‘Making Incredible Technology, Incredibly Simple.’
 
 My website is built using [Hugo](https://gohugo.io/), a fast and modern static site generator, and hosted on [GitHub Pages](https://pages.github.com/). You can find out more about me at [https://www.damianflynn.com/about](https://www.damianflynn.com/about).
 

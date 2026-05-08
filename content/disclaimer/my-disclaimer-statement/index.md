@@ -1,9 +1,10 @@
 ---
-title: "My Disclaimer Statement"
+title: "Disclaimer"
 date: "2024-07-12T22:19:00.000Z"
 lastmod: "2024-07-12T22:25:00.000Z"
-draft: true
-featuredImage: "./cover-8e68f651.jpg"
+draft: false
+layout: "about"
+url: "/disclaimer/"
 NOTION_METADATA:
   {
     "object": "page",
@@ -39,7 +40,6 @@ UPDATE_TIME: "2026-01-06T23:44:33.637Z"
 last_edited_time: "2024-07-12T22:25:00.000Z"
 ---
 
-### This is the Personal and Nonprofit Blog of Damian Flynn ‘Making Incredible Technology, Incredibly Simple’.
 
 # Opinions
 
