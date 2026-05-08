@@ -3,226 +3,95 @@ title: "About Me"
 date: "2024-07-10T08:38:00.000Z"
 lastmod: "2024-07-12T22:47:00.000Z"
 layout: "about"
-draft: true
-NOTION_METADATA:
-  {
-    "object": "page",
-    "id": "42464b08-9a23-4424-a639-6c013fa6cef6",
-    "created_time": "2024-07-10T08:38:00.000Z",
-    "last_edited_time": "2024-07-12T22:47:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "550f3f90-071d-4a6c-a8de-29d1f5804ee4"
-    },
-    "cover": null,
-    "icon": null,
-    "parent": {
-      "type": "page_id",
-      "page_id": "252a519e-13ee-46c5-b576-691e1026e7e0"
-    },
-    "archived": false,
-    "properties": {},
-    "url": "https://www.notion.so/About-Me-42464b089a234424a6396c013fa6cef6",
-    "public_url": null
-  }
-UPDATE_TIME: "2026-01-06T11:33:19.237Z"
-last_edited_time: "2024-07-12T22:47:00.000Z"
+draft: false
 ---
 
 ### Evangelist, Thinker, Creative Doer
 
-# Making Incredible Technology Incredibly Simple!
+# Making Incredible Technology Incredibly Simple!
 
-Principal Azure Cloud Solution Architect, ‘Governed Azure Virtual Datacenter’ Product Owner; working for Innofactor Norway, based in Ballina, Ireland. Specialising on Cloud Governance and Operations Automation, DevOps and Development.
+Principal Azure Cloud Solution Architect and Practice Lead at Innofactor Norway, based in Ballina, Ireland. I specialise in Cloud Governance, Operations Automation, and DevOps — helping organisations move from ambition to working, sustainable platforms.
 
-I define myself as an evangelist; an entrepreneur & author with an ideology rooted in business insights, technology exploration, pattern analysis and high energy. I envision, theorize and develop system architecture and strategic business platforms, soaked in storytelling and innovative technology.
+I define myself as an evangelist: an entrepreneur, author, and speaker with an ideology rooted in business insight, technology exploration, and high energy. My north star is this — don't limit your challenges, challenge your limits.
 
-30 years of Multinational *Enterprise IT* Experience, leading Cloud implementations since 2009. Recognized for technology knowledge, my passion to share, and an ability to communicate by Microsoft as an MVP since 2011, and Cisco as a Champion since 2014;
+30 years of multinational enterprise IT experience. Cloud implementations since 2009. Recognised by Microsoft as an MVP since 2011 and by Cisco as a Champion since 2014.
 
-You need some consulting experience? Feel free to contact me!
+---
 
-    ### Microsoft MVP
-    
-    Technology experts who passionately share their knowledge with the community
-    
-      ### Infrastructure Code
-    
-    Technology experts who passionately share their knowledge with the community
-    
-    ![Image](img-42464b08-microsoft-mvp-logo-square.png)
+## Areas of Expertise
 
-# Some Interesting Facts About Me
+### Cloud Governance & Architecture
 
-When not working; I admit to having a passion for IoT, leveraging my background in PLC and embedded electronics, I have been certified in professional Building automation technologies including *//Clipsal*, *Control 4*, *Iridium Mobile*; I have even delivered some professional home automation implementation’s.
+Designing governed, cost-aware Azure platforms that teams can actually operate. The goal is never just a working deployment — it is a platform people trust enough to build on. I specialise in the Azure Virtual Datacenter model, landing zones, and policy-driven compliance at scale.
 
-For the enthusiasts, I am currently invested in the *Home Assistant* project; and have previously contributed to projects including *CodeCore Elve* and *Charmed Quark (CQC)*. My code is shared on Github!
+### DevOps & Automation
 
-If and when there is time to play, then the Model Planes, Helicopters and Drones are ready to make an appearance.
+Infrastructure as Code is not a technology choice — it is a team culture choice. I work with organisations to build repeatable, auditable delivery pipelines using Bicep, Terraform, GitHub Actions, and Azure Pipelines. Getting to "it deploys itself" is the milestone worth celebrating.
 
-# My Awesome Story
+### IoT & Smart Systems
 
-Over the last number of years, I have published some white papers and technical articles, was a contributing author to Petri.com, hosting and participating in many webinars, and co-author of multiple Microsoft Cloud related books, and Official Courseware. However, my real passion is meeting and working with people, which I get to embrace as a regular presenter at many international and community events and conferences.
+A lifelong fascination with embedded electronics and building automation sits alongside my enterprise work. I have built and contributed to home automation platforms — from professional C-Bus and KNX implementations to open-source projects like Home Assistant and CodeCore Elve. When the code ships to hardware, the feedback is immediate and honest.
 
-I am Currently focused on Cloud Technologies and the Hybrid Datacentre, Specialising in Azure Governance, and sustainable DevOps; Assisting organization’s on Cloud optimized delivery of Legacy Apps and Microservices, leveraging containers and serverless when possible.
+### Speaking & Community
 
-# MY OWN PROFESSIONAL AND TECHNOLOGY SKILLS
+Meeting people, sharing ideas, and learning in public is the part of this work I would never trade away. I present regularly at international and community events, co-authored Microsoft Cloud courseware and books, and contributed articles to Petri.com. If I am on stage, the goal is always the same: you leave understanding something you did not before.
 
-## Professional Skills
+### Open Source & Standards
 
-**80** **
-Project Management**
+Contributor to Azure Verified Modules and several community automation projects. I believe well-maintained open-source infrastructure tooling shortens the distance between a good idea and a production system — and that sharing the work multiplies its value.
 
-**90** **
-Certifications**
+---
 
-**90** **
-Evangelism \ Communications**
+## Tools & Technologies
 
+Hugo · Azure · Bicep · Terraform · GitHub Actions · Azure Pipelines · Kubernetes · Docker · PowerShell · C# · Python · Home Assistant · KNX · Modbus
 
-## Developer Skills / Platform Technologies
+---
 
-**Azure Resource Manager**
+## My Journey
 
-**90%**
+**Innofactor Norway**
+*Principal Azure Cloud Solution Architect & Azure Practice Lead*
+2016 – Present
 
-**Serverless (Azure Functions)**
+Leading the Azure practice; accountable for architecture, delivery quality, and growing the team's technical depth. Product Owner for the Governed Azure Virtual Datacenter offering. Clients range from public sector to regulated enterprise.
 
-**65%**
+---
 
-**DevOps (Azure / GitHub)**
+**Western Broadband Networks (WestNet)**
+*Co-Founder & Director*
+2004 – 2016
 
-**80%**
+Founding partner of a wireless ISP serving rural west Ireland. Architected and delivered infrastructure for customer delivery and business operations. Negotiated infrastructure contracts, secured key geographical sites, and built long-term partnerships to enable fibre-optic delivery with major utility companies.
 
-**Containers (Docker)**
+---
 
-**80%**
+**Lionbridge Technologies**
+*Systems Architect, Corporate IT Core Infrastructure*
+2008 – 2016
 
-**Web Apps (HTML)**
+Led corporate technology teams delivering IT as a Service. Responsible for design and introduction of new technologies and strategic solutions. Rebuilt desktop management, re-architected core business applications as a SaaS platform with SSO, and automated HR and IT lifecycle activities — reducing procedure times by up to 1000%.
 
-**75%**
+---
 
+**Lionbridge Technologies**
+*Manager, EMEA Regional IT & Corporate IT Infrastructure*
+2003 – 2008
 
-## Language Skills / Software development languages and understanding
+Co-residing between Boston and Ireland, managing global corporate infrastructure. Reduced WAN costs by over 75% while increasing capacity 250% using a self-managed DMVPN solution in partnership with Cisco. Led the integration of a new acquisition in India and established the first Global Service Desk team delivering 24×7 coverage.
 
-**80** **
-PowerShell**
+---
 
-**70** **
-C#**
+**Lionbridge Technologies (VeriTest Division)**
+*Global IT Manager*
+1996 – 2002
 
-**30** **
-Python**
+Joined the startup team establishing a new centre of excellence. Negotiated the largest internet circuit delivered into the northwest of Ireland — a redundant loop with two providers. Relocated to Los Angeles to establish a global IT strategy, consolidated infrastructure across four continents, and oversaw four "Certified For" datacentres in partnership with Compaq, BMC, and Quest.
 
+---
 
-## Developer Skills / Platform Technologies
+## A Little More About Me
 
-**Azure Resource Manager**
+When not working, I admit to a passion for IoT — rooted in my background in PLC and embedded electronics. I hold professional certifications in building automation technologies including Clipsal, Control 4, and Iridium Mobile, and have delivered professional home automation implementations. I am currently invested in the Home Assistant project.
 
-**90%**
-
-**Serverless (Azure Functions)**
-
-**65%**
-
-**DevOps (Azure / GitHub)**
-
-**80%**
-
-**Containers (Docker)**
-
-**80%**
-
-**Web Apps (HTML)**
-
-**75%**
-
-
-## Technology Skills / Smart Everything
-
-**Smart Home (Consumer / Opensource)**
-
-**90%**
-
-**IoT (Prosumer / Industrial / KNX / Modbus)**
-
-**85%**
-
-# MY ONLINE PRESENTATIONS
-
-My mission is to ensure that as you take the time to listen, I focus on delivering the objective of `Making Incredible Technology Incredibly Simple!`
-
-This indirectly imply's you you must also have a mission, a guiding northstar. 
-
-> Don't Limit Your Challanges... Challange Your Limits!
-
-Join me as a guide for your exciting journey Mastering Technology.
-
-
-# My Journey
-
-Lionbridge Technologies
-
-**SYSTEMS ARCHITECT, CORPORATE IT CORE INFRASTRUCTURE**
-
-2008 - 2016
-
-Lead corporate technology teams delivering ‘IT as a Service’. Architect responsible for design and introduction of new technologies and strategic solutions. Mentor, Train and provide technical support to solution owners.
-
-* Led architecture and design of IT Service Management solution based on Microsoft Service Manager, Migrated Incident and Service Management processes from BMC Remedy. Integration 3rd party solutions to cover Asset Management.
-* Re-engineer desktop management solution leverage System Center Configuration Manager to deliver a single standard OS image across the enterprise. Reducing the TCO of support and maintenance for all desktop and applications. Centralized desktop management to helpdesk team, with User State Migration.
-* Collaborating with internal development, re-architected core business applications to successfully redeliver products as a SaaS platform, implemented single sign-on with SAML and WS Federation between Linux and Windows applications, with orchestrated identity synchronization.
-* Optimized HR and IT resource management procedures, automating life cycle activities and audit logs, integration of SAP, AD, and Line of Business applications, leveraged Forefront Identity Management and System Center Orchestrator; reducing procedure times by up to 1000%.
-* Architected technology to enable to successful pilot of a “Virtual Office” initiative. Transitioning employees to a Home Office environment with secure transparent remote access to all corporate services, eliminating all costs associated with Physical Office Space.
-* Identified rationalization opportunity, built business case and influenced senior management across three continents, and four business units to deliver centralized IT service offerings, including eMail, Rights Management, HR and Financial services, establishing an proven enterprise platform
-Lionbridge Technologies
-
-**CORPORATE IT NETWORK MANAGER**
-
-2005 - 2008
-
-Major Organizational restructure following the acquisition of similar sized competitor, Led integration teams focused on alignment and integration of core infrastructure services.
-
-* Managed the integration, migration and consolidation of networking, directory services and messaging platform for 5000 employees, 20,000 vendors, over 2,500 devices.
-* Identified significant business cost saving, successfully piloted with both “Localization” and “Testing” business units, re-engineering processes, to establish first Microsoft based Private Cloud strategy. Initial pilot savings of over $30k/pm based solely on saved hardware leases.
-* Established relationship with Microsoft Virtualization related product groups, influencing product design, to improve Private cloud offerings, building long term ongoing relationships.
-Western Broadband Networks (WestNet)
-
-**Co-FOUNDER & DIRECTOR**
-
-2004 - 2016
-
-Founding partner and Member of the board; drive strategy building a Wireless Internet Service Provider in rural West of Ireland. Architected and delivered infrastructure services supporting customer deliver and business operations. Established strategy partnerships, negotiated infrastructure contracts and liaised with local government bodies to secure key geographical sites. Currently focused on creating long term partnerships to enable Fiber-optic delivery with major utility companies.
-
-Lionbridge Technologies
-
-**MANAGER, EMEA REGIONAL IT & CORPORATE IT INFRASTRUCTURE**
-
-2003 - 2005
-
-Co-Residing between Boston and Ireland; Managed Global Corporate infrastructure.
-
-* Identified opportunity, presented business case to reduce WAN costs by over 75%, and simultaneously increasing initial capacity by 250%. Partnering with Cisco, leveraging existing investment implemented self-managed, internet based Dynamic Multipoint VPN solution.
-* Travelled to India, to lead integration of new acquisition, and establish first Global Service Desk team delivering 24x7 coverage, and reducing support costs by over 65%.
-* Oversaw, relocation of LA datacentre to Boston, introduce VMWare virtualization technologies reducing datacentre footprint by 70%, and hosting costs by 50%.
-* Received company award for contribution to the success of Lionbridge, Awarded by senior management team “Core Value” in global operations for strategic direction and delivery.
-Lionbridge Technologies
-
-**MANAGER, EMEA REGIONAL IT**
-
-2002 - 2003
-
-Led integration and consolidation program for unification of global infrastructure services. Executed and hosted multiple partner audits and compliance reviews. Established clear business architectures for One Lionbridge. Managed all field IT in EMEA creating trusting relationships, evaluating skills and gaps.
-
-Lionbridge Technologies
-
-**GLOBAL IT MANAGER (VERITEST DIVISION)**
-
-1996 - 2002
-
-Joined startup team establishing new center of excellence, responsible for the delivery of all IT related infrastructure and services in a new purpose built facility. Negotiated the largest internet circuit to be delivered into the northwest, partnering with two providers to construct a redundant loop. Site officially opened 18 months later employing 150 engineers and supporting over 700 heterogeneous devices. Relocated to Los Angeles, CA, VeriTest Headquarters. Established global IT strategy, Unified partner service delivery solution. Consolidated global infrastructure, implemented geo-redundancy. IT Service standardization, delivered global Microsoft Active Directory and Exchange platform. Oversaw new HQ establishment with relocation of all IT related infrastructure and services sustaining 100% uptime. Implement 4 “Certified for” datacenters in partnership with Compaq, BMC and Quest, located in LA, Tokyo, Paris and Ballina.
-
-
+If there is time to play, the model planes, helicopters, and drones are ready.
