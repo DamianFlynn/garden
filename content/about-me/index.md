@@ -2,6 +2,7 @@
 title: "About Me"
 date: "2024-07-10T08:38:00.000Z"
 lastmod: "2024-07-12T22:47:00.000Z"
+layout: "about"
 draft: true
 NOTION_METADATA:
   {
