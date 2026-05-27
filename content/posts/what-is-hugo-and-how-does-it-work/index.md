@@ -47,7 +47,7 @@ NOTION_METADATA:
     "url": "https://www.notion.so/What-is-Hugo-and-how-does-it-work-2e2eb56ea1c380f28e8fc63df8f9bcbc",
     "public_url": null
   }
-UPDATE_TIME: "2026-05-27T00:24:10.241Z"
+UPDATE_TIME: "2026-05-27T07:18:25.046Z"
 last_edited_time: "2026-01-08T15:47:00.000Z"
 ---
 
@@ -115,6 +115,10 @@ Hugo’s key features include its lightning-fast speed, ability to handle large 
 [Video: Hugo in 100 Seconds](https://www.youtube.com/watch?v=0RKpf3rK57I)
 
 ### Hugo vs. other static website builders
+
+When compared to other static website builders, Hugo stands out for its speed ( [Speed test on Apple M1](https://gohugo.io/news/hugo-macos-intel-vs-arm/)), ease of use, and wide range of features. It is also highly customizable, making it a top choice for website builders looking for a flexible solution that can be adapted to meet their specific needs. While other static site generators may offer similar features, Hugo’s combination of speed, ease of use, and customization options make it a top choice for many website builders.
+
+![Image](img-2e2eb56e-landing-page.svg)
 
 **
 **[**Video: Top 10 Static Site Generators**](https://www.youtube.com/watch?v=RsxTAuP_EQ8&t=582s)**
