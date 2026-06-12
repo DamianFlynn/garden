@@ -47,7 +47,7 @@ NOTION_METADATA:
     "url": "https://app.notion.com/p/What-is-Hugo-and-how-does-it-work-2e2eb56ea1c380f28e8fc63df8f9bcbc",
     "public_url": null
   }
-UPDATE_TIME: "2026-06-12T13:01:29.028Z"
+UPDATE_TIME: "2026-06-12T18:35:13.394Z"
 last_edited_time: "2026-01-08T15:47:00.000Z"
 ---
 
@@ -142,6 +142,12 @@ Hugo plays a key role in creating static websites by providing a toolset that ma
 **
 
 ![Image](img-2e2eb56e-computing.svg)
+
+## Get Your Website Up and Running
+
+### Installing Hugo
+
+Hugo can be easily installed on your computer, regardless of your operating system. The process is straightforward and [well documented](https://gohugo.io/getting-started/quick-start/)on the official Hugo website. First, you need to download the appropriate installation package for your operating system. Then, follow the instructions to complete the installation process. Once you have Hugo installed, you’re ready to start building your website!
 
 ### Creating a New Website with Hugo
 
