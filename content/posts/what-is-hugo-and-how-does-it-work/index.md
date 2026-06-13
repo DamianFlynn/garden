@@ -47,7 +47,7 @@ NOTION_METADATA:
     "url": "https://app.notion.com/p/What-is-Hugo-and-how-does-it-work-2e2eb56ea1c380f28e8fc63df8f9bcbc",
     "public_url": null
   }
-UPDATE_TIME: "2026-06-13T00:30:27.360Z"
+UPDATE_TIME: "2026-06-13T07:12:11.721Z"
 last_edited_time: "2026-01-08T15:47:00.000Z"
 ---
 
