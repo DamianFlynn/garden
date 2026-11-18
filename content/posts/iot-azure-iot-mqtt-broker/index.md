@@ -112,7 +112,7 @@ Based on your setup, you'll need to specify how clients will connect to your MQT
 * DNS: If you plan to use a hostname, enter it here (e.g., mqtt.yourdomain.com), for testing i will use n013edge.local
 * IP: Enter your cluster's external IP address
   * 10.13.100.11,100.81.128.71 (comma-separated list; local network, Tailscale, and localhost) 
-  ### 3. Additional Information
+### 3. Additional Information
 
 * Secret name: Enter a name like mqtt-tls-secret (this will store the generated certificates)
 * Duration: The default 2160 hours (90 days) is fine for testing

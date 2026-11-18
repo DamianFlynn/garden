@@ -720,7 +720,7 @@ Define and deploy an [OpenTelemetry (OTel) Collector](https://opentelemetry.io/
   curl localhost:8889/metrics (your Prometheus exporter)
   ```
   
-  ### Enable metrics collection for the cluster
+### Enable metrics collection for the cluster
 
 Update the Azure Arc cluster to collect metrics and send them to the previously created Azure Monitor workspace. You also link this workspace with the Grafana instance.
 
@@ -963,7 +963,7 @@ Now, we can view these dashboards and observe out cluster in realtime, for examp
 
 > [!warning] ⚠️ 
 > 
-  ### No Data Displayed?
+### No Data Displayed?
   
   If you open the **Overview** or any of the Kubernetes-related dashboards and **no data appears** — or you see **errors** — it typically means one of the following:
   

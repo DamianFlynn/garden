@@ -6,7 +6,7 @@ slug: 2-arc-enabled-kubernetes-at-the-edge-deploying-k3s-for-azure-iot-operation
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/2-arc-enabled-kubernetes-at-the-edge-deploying-k3s-for-azure-iot-operations/index.md
-neocortex_source_sha: 1de4c2c725e14ef18c1f2f6c8116f13e203bf38da6cf45fb34ab68c72595db2c
+neocortex_source_sha: 7bd23425a37c0bc18eb7b026c1223a048116a511b10118b2ac77949103d7cd98
 description: Unlock the potential of your edge computing with our comprehensive guide
   on deploying K3s for Azure IoT Operations—transform your Ubuntu server into a production-ready
   Kubernetes cluster, enhance observability, and seamlessly integrate with Azure Arc
@@ -22,7 +22,7 @@ featuredImage: hero.png
 
 With your edge server now Arc-enabled and monitored through Azure, the next step is deploying Kubernetes to host Azure IoT Operations workloads. This guide walks through K3s installation, Arc connection, and comprehensive observability setup—transforming your Ubuntu server into a production-ready edge compute platform.
 
-If you completed [Part 1: Azure Arc-Enabled Infrastructure](https://www.notion.so/439b8c4a958e4f6b9c159335ba96c10b), you have secure remote access, centralized monitoring, and update management. Now we'll add Kubernetes orchestration capabilities while maintaining that Azure integration.
+If you completed [Part 1: Azure Arc-Enabled Infrastructure](/posts/1.-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-operations-on-k3s/), you have secure remote access, centralized monitoring, and update management. Now we'll add Kubernetes orchestration capabilities while maintaining that Azure integration.
 
 **What you'll learn:**
 
@@ -963,7 +963,7 @@ Extend the server-level monitoring from Part 1 to include Kubernetes-specific me
   * Azure Monitor managed service for Prometheus (replacing Azure Monitor Workspace)
   * Azure Managed Grafana with built-in Arc Kubernetes integration
   * Container Insights for logs and performance data
-  ### Architecture (Updated 2025)
+### Architecture (Updated 2025)
   
   K3s Cluster (n013edge)
   ├── Azure Monitor Agent (ama-metrics) → Managed Prometheus
@@ -1408,7 +1408,7 @@ The Cluster dashboard shows:
   
   Should return Prometheus metrics.
   
-  ## Production Readiness Checklist
+## Production Readiness Checklist
 
 Before deploying Azure IoT Operations (Part 3), validate your K3s cluster meets all requirements:
 

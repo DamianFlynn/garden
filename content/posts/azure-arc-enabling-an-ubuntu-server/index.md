@@ -321,7 +321,7 @@ az ssh arc --subscription "df56d048-2e20-4ab6-82b7-11643163aa53" --resource-grou
   Check out the [documentation](https://learn.microsoft.com/azure/azure-arc/servers/ssh-arc-overview?WT.mc_id=AZ-MVP-5002324) for more details about the SSH connection. There is also a [troubleshooting guide](https://learn.microsoft.com/azure/azure-arc/servers/ssh-arc-troubleshoot?WT.mc_id=AZ-MVP-5002324).
   
   > 📢 To  authenticate with Microsoft Entra you will need to make sure you have the 'Microsoft Entra based SSH Login - Azure Arc' extension installed on this server, and the role of ‘Virtual machine administrator login’ or ‘Virtual machine user login’ assigned. 
-  ### Browser Cloud Shell
+### Browser Cloud Shell
 
 As my test node just has basic **Password **authentication currently, lets try this with the in browser experience
 

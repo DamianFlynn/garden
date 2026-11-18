@@ -7,7 +7,7 @@ slug: 1-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-o
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/1-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-operations-on-k3s/index.md
-neocortex_source_sha: fe8f6dd17529a74bd59a6624d39bf12fbbff353b6f1c250c8abd4b91fb45d43e
+neocortex_source_sha: af8f808d2fa59f52fa71e45230232c90e5c23f86396ef652ec4050ce1b6ffca2
 description: Discover how to build a robust, production-ready IoT edge platform using
   Azure Arc and K3s, enabling seamless management of distributed infrastructure while
   enhancing security, compliance, and operational efficiency. Dive into this comprehensive
@@ -341,7 +341,7 @@ Latest version of azcmagent is installed.
   * arcproxyd: Azure Arc proxy for outbound connections
   * gcad: Guest Configuration agent for Azure Policy
   * extd: Extension service for VM extensions
-  ### Step 6: Connect to Azure Arc
+### Step 6: Connect to Azure Arc
 
 ```bash
 sudo azcmagent connect \
@@ -1140,7 +1140,7 @@ Syslog
   * Error rate >0.5%: Warning
   * Error rate >2%: Critical
   * 3 consecutive missed heartbeats: Critical
-  ### 4. Saturation: Resource Utilization & Capacity
+### 4. Saturation: Resource Utilization & Capacity
 
 **Why This Matters:**
 

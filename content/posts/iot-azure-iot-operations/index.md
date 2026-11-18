@@ -313,7 +313,7 @@ Now, for the fun part, we will execute each of the commands in the wizard in seq
   az extension add --upgrade --name azure-iot-ops
   ```
   
-  ### Prepare the cluster for Azure IoT Operations deployment. 
+### Prepare the cluster for Azure IoT Operations deployment. 
 
 We will run the provided [az iot ops init](https://learn.microsoft.com/en-us/cli/azure/iot/ops#az-iot-ops-init) command.
 
@@ -831,7 +831,7 @@ kubectl describe node n013edge | egrep -i 'memory pressure|disk pressure|Allocat
   NOTES:
   ```
   
-  ### Check OpenTelemetry Collectors are online
+### Check OpenTelemetry Collectors are online
 
 To check that the OpenTelemetry metrics collection configuration worked correctly, follow these steps:
 

@@ -7,7 +7,7 @@ slug: 3-deploying-azure-iot-operations-on-arc-enabled-k3s-production-mqtt-broker
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/3-deploying-azure-iot-operations-on-arc-enabled-k3s-production-mqtt-broker-and-edge-data-platform/index.md
-neocortex_source_sha: a518227a2b59dd6a1c15b0b1440da914329c6410f1928eba8f960d5a61b4560f
+neocortex_source_sha: a83ef3422cc6ba802e89d545f3a556db37c742bba37acbf5f3d705a3db8827ee
 description: Unlock the potential of your edge infrastructure with our comprehensive
   guide on deploying Azure IoT Operations on Arc-Enabled K3s, featuring production-grade
   MQTT brokering, data transformation pipelines, and secure device connectivity—all
@@ -23,7 +23,7 @@ featuredImage: hero.png
 
 With your Arc-enabled K3s cluster operational and monitored, you're ready to deploy the heart of your edge infrastructure: **Azure IoT Operations**. This platform provides production-grade MQTT brokering, data transformation pipelines, and secure device connectivity—transforming your K3s cluster into a complete edge data platform.
 
-If you completed [Part 1: Azure Arc Infrastructure](https://www.notion.so/439b8c4a958e4f6b9c159335ba96c10b) and [Part 2: K3s Deployment](https://www.notion.so/728ba96c7e6744e19c5294e44fe3ae81), you have a Kubernetes cluster with centralized Azure management, comprehensive monitoring, and workload identity configured. Now we'll deploy the Azure IoT Operations suite that enables industrial IoT scenarios at scale.
+If you completed [Part 1: Azure Arc Infrastructure](/posts/1.-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-operations-on-k3s/) and [Part 2: K3s Deployment](/posts/2.-arc-enabled-kubernetes-at-the-edge-deploying-k3s-for-azure-iot-operations/), you have a Kubernetes cluster with centralized Azure management, comprehensive monitoring, and workload identity configured. Now we'll deploy the Azure IoT Operations suite that enables industrial IoT scenarios at scale.
 
 **What you'll learn:**
 

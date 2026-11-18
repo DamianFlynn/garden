@@ -39,7 +39,7 @@ series:
   ```
   
   
-  # Node Red
+# Node Red
   
   An overview of the objectives here
   
@@ -56,7 +56,7 @@ series:
   
   * NodePort service to open specific ports from the edge node (otedge001) to the outside world
   
-  ## Name Space 
+## Name Space 
   
   Create the Name Space
   
@@ -65,7 +65,7 @@ series:
   namespace/nodered created
   ```
   
-  ## Presistant Storage
+## Presistant Storage
   
   Add a PVC (assumes you have default storage class like `local-path` from K3s) with the following manifest `node-red-pvc.yaml`:
   
@@ -107,7 +107,7 @@ series:
   nodered-pvc   Bound    pvc-2c5110d0-82c0-42fa-99e2-fdf653bdb42c   1Gi        RWO            local-path     <unset>                 5m15s
   ```
   
-  ### Health Checking
+### Health Checking
   
   A PVC stuck in `Pending` typically means the storage provisioner can't fulfill the request. Let me help you troubleshoot this.
   
@@ -130,7 +130,7 @@ series:
   kubectl get storageclass local-path -o yaml
   ```
   
-  ### Deployment
+### Deployment
   
   Create the manifest for the deployment `nodered-deployment.yaml` 
   
@@ -264,7 +264,7 @@ series:
   
   > [!warning] ⚠️ 
   > 
-    # Checking Containers Logs
+# Checking Containers Logs
     
       If your `install-azure-nodes` init container **fails**, the whole Pod will stay in `Init:Error` or `CrashLoopBackoff`, and you can troubleshoot from the init logsHere's what's happening:
     
@@ -330,7 +330,7 @@ series:
   -rw-r--r-- 1 sysadmin sysadmin 24649 Apr 28 13:29 settings.js
   ```
   
-  ## Create the Service
+## Create the Service
   
   Your **Node-RED pod** is running inside the K3s cluster with IP address that's only accessible *within* the cluster (e.g., 10.42.x.x). Without a Service, nothing can reach it reliably because:
   
@@ -413,7 +413,7 @@ series:
   
   Great, but we have a small problem, our edge machine (`otedge001`) is behind NAT or firewalled, and therefore you **can't** reach it directly.
   
-  ### Port Redirection over the SSH Tunnel
+### Port Redirection over the SSH Tunnel
   
   Since you already SSH into the edge using:
   
@@ -460,7 +460,7 @@ series:
   
   ✅ No public IPs needed
   
-  # NodeRED Configuration
+# NodeRED Configuration
   
   1. Drag a "Modbus-Read" node onto the canvas from the palette (should be under the "modbus" category)
   1. Double-click the Modbus-Read node to open its configuration
@@ -592,7 +592,7 @@ series:
   ```
   
   
-  ## Configure MQTT Broker with TLS/SSL
+## Configure MQTT Broker with TLS/SSL
   
   **Step-by-step:**
   
@@ -999,7 +999,7 @@ Each device will send simulated data every 5 seconds., On first message arrival 
 * Automatically create a new OPC UA Node
 * Forward data to Azure MQ Broker
 
-  ## Flows
+## Flows
 
 As part of a framework, I will establish initially 3 flows
 

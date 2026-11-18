@@ -37,7 +37,7 @@ Since you are **Owner** on the edge machine + Azure, you can confirm the broker 
       1. Optional: under Activity logs, you can see connection attempts and provisioning messages for that endpoint.
   ![Image](./img-1f4eb56e-image.png)
   
-  # Verify & Test Azure IoT MQ (Broker) from the Edge (K3s)
+# Verify & Test Azure IoT MQ (Broker) from the Edge (K3s)
 
 > Why netstat doesn’t show port 18883: the broker is exposed as a Kubernetes ClusterIP service (internal only), not a host socket. Use kubectl to verify and test.
 
