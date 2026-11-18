@@ -6,9 +6,11 @@ slug: iot-azure-iot-mqtt-broker
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/iot-azure-iot-mqtt-broker/index.md
-neocortex_source_sha: 0071d058e262af28235bfcc59a2d774e42cf86e36ba408efec5d94064bf4e1fd
-description: ''
+neocortex_source_sha: d59751fa2e224ab70436eefdba6818e950bddb9d0aa7a1f2c60b0fc8506331bc
+description: Azure IoT Operations manages MQTT broker settings in the portal; its
+  default listener is cluster-only and uses Kubernetes service account tokens.
 tags: []
+featuredImage: hero.png
 ---
 
 The MQTT broker of Azure IoT Operations is a central part of the edge solution:

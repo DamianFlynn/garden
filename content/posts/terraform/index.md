@@ -6,9 +6,11 @@ slug: terraform
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/terraform/index.md
-neocortex_source_sha: 206498db03b3f32f67cb862c54df13c0c9e3997d9792ca8b92a93586323ff2cf
-description: ''
+neocortex_source_sha: c658585fdb453bfb149f49beffd1b80443ba79e60af57390eecbb9f155f72fe4
+description: An introduction to Terraform, with a link to a discussion of Terraform
+  and Bicep’s strengths.
 tags: []
+featuredImage: hero.png
 ---
 
 ---

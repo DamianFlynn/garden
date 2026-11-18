@@ -6,9 +6,11 @@ slug: creating-a-python-github-action
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/creating-a-python-github-action/index.md
-neocortex_source_sha: 340b6865b869f7b00540b7d8b9fbbcc52d6bad9532b08a8ef07e2b0f3929ab6e
-description: ''
+neocortex_source_sha: f95f03024fef7273a25df9626dc2cfd041b6f64a15ad20e50692a38f2057211e
+description: Guide to creating a public Python GitHub Action for exporting from Obsidian
+  to Hugo, including repo setup and development using VSCode.
 tags: []
+featuredImage: hero.png
 ---
 
 If you don’t already have a repo, create a new public repo on GitHub. _You cannot create and distribute your GitHub Action from a private repo._

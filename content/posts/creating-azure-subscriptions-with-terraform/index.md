@@ -6,9 +6,11 @@ slug: creating-azure-subscriptions-with-terraform
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/creating-azure-subscriptions-with-terraform/index.md
-neocortex_source_sha: d41fb5df924616ae90c3d8d8b58b11bffa3bb7bc3b2add8acccb7be3c91e4c48
-description: ''
+neocortex_source_sha: 5768cb6dda53547db7265cf82c15c69e79e45da8520b5ae7db37019b142a1fed
+description: The article discusses creating Azure subscriptions with Terraform, including
+  billing contexts, delegated privileges, and evolving billing architectures.
 tags: []
+featuredImage: hero.png
 ---
 
 # Creating Azure Subscriptions with Terraform

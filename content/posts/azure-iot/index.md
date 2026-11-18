@@ -6,12 +6,14 @@ slug: azure-iot
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iot/index.md
-neocortex_source_sha: cd42e377844d7c417d94a3f28923f437944241d1a14374d961b4e6d33c44ae87
-description: ''
+neocortex_source_sha: fe71684c63b7801663996c7223d8ed4f515e7cfcc95a00d84addeb27a4d7dbc5
+description: Verify the Azure IoT MQ broker via the portal and Kubernetes, then test
+  connectivity and TLS trust from a tools pod.
 tags:
 - IoT
 categories:
 - IoT
+featuredImage: hero.png
 ---
 
 

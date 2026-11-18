@@ -6,9 +6,10 @@ slug: hello-hugo
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/hello-hugo/index.md
-neocortex_source_sha: 00eda4c0b1849ad79e9498b716fbf85b166f2ff04965f655800179cf47f278f1
-description: ''
+neocortex_source_sha: 5bff8b26cf60a53a3eb0e92cbdc52075aa7f37d215b2bd516fab9916b9dff142
+description: A post from Obsidian to Hugo includes an image and is part of damianflynn.
 tags: []
+featuredImage: hero.png
 ---
 
 This is a post from Obsidian to Hugo

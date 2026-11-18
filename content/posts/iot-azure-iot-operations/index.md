@@ -6,8 +6,9 @@ slug: iot-azure-iot-operations
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/iot-azure-iot-operations/index.md
-neocortex_source_sha: d1c64d46a13b9b7a3d6e73af28cf5ed29b7de2402b8e1302136a1f6919700c52
-description: ''
+neocortex_source_sha: 4ba423311dd496abb8aa757c77a9af9cfc321e23e31dea9e7dccce5a5f12a6d3
+description: Azure IoT Operations runs on Arc-enabled Kubernetes, with K3s on Ubuntu
+  supporting multi-node deployments and instances bundling core services.
 tags:
 - IaC
 - Linux
@@ -19,6 +20,7 @@ categories:
 - Azure Edge Devices
 series:
 - Azure IoT Operations
+featuredImage: hero.png
 ---
 
 An Azure Arc-enabled Kubernetes cluster is a prerequisite for deploying Azure IoT Operations. This article describes how to prepare a cluster before you deploy Azure IoT Operations. This article includes guidance for Ubuntu

@@ -6,10 +6,13 @@ slug: obsidian2hugo
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/obsidian2hugo/index.md
-neocortex_source_sha: aa29257d0796ff94f6a29fe4cd4de318d7155694eae59d551b47becdc32c52ce
+neocortex_source_sha: c215a578448bc7c579f9bbdc12be272481560499dfd15ea6b4f36965668db5a7
+description: Obsidian2Hugo streamlines publishing Obsidian notes to Hugo by extracting
+  Markdown titles and summaries for front matter and SEO.
 tags:
 - test
 - magic
+featuredImage: hero.png
 ---
 
 My Blog has evolved over the years, initially hosted on Wordpress, but some 6 years back I abandond that plaform for Static Sites, initially with Jekyll and used Github Pages, but that also got sunset in favor of my current generator Hugo.

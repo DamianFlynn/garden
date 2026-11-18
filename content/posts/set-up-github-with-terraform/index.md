@@ -6,9 +6,11 @@ slug: set-up-github-with-terraform
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/set-up-github-with-terraform/index.md
-neocortex_source_sha: 793b1cf6ae6c4f93576b9dbb528bc79393eaa5eda82d15c78a6c7cdae3d04984
-description: ''
+neocortex_source_sha: 79466dcea5e5adc0e6d279a457051de9e41bd5538990695f574cfff523e79d36
+description: A guide to bootstrapping a GitHub organization with Terraform, including
+  permissions, a configuration repository, and branch protection.
 tags: []
+featuredImage: hero.png
 ---
 
 # Bootstrapping a Github Organization
