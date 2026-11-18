@@ -6,7 +6,7 @@ slug: global-transit-network-for-azure-virtual-wan
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/global-transit-network-for-azure-virtual-wan/index.md
-neocortex_source_sha: b2ff35b15b48347e6b80412ab59698c8e875ef525309067493fbf749d32a6a26
+neocortex_source_sha: 7fc709a78cbe1e405f04257d74127e3e4aa7c55cc19d319549963a9a1a467223
 description: Global Transit Network For Azure Virtual WAN
 tags:
 - Az CLI
@@ -14,6 +14,7 @@ tags:
 - Enterprise Agreement
 categories:
 - Network
+featuredImage: hero.png
 ---
 
 The Journey started with the concept of VNets, with work loads, and have evolved in the direction of Subnets, and quickly became a very complex list of islands which were disconnected

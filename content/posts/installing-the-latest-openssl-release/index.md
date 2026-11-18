@@ -6,7 +6,7 @@ slug: installing-the-latest-openssl-release
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/installing-the-latest-openssl-release/index.md
-neocortex_source_sha: 952b7c84a2eb5d192f8f986ef0e33d86d3cec3880647dc560040e7eddf490f42
+neocortex_source_sha: c63ee99eb2e245a2f0a92767563fa910b45499322e94fcad460fc108593f40fb
 description: A simple guide to installing the current version of the OpenSSL utility
   on Ubuntu Linux
 tags:
@@ -18,6 +18,7 @@ categories:
 - OpenSource
 - Identity
 series: Raidus in a Cloud World
+featuredImage: hero.png
 ---
 
 # Installing the Latest OpenSSL release on Ubuntu

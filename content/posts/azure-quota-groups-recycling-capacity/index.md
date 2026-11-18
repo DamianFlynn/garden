@@ -6,7 +6,7 @@ slug: azure-quota-groups-recycling-capacity
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-quota-groups-recycling-capacity/index.md
-neocortex_source_sha: 6b452bcfa8de94181a30da2b4250d0137168926f10087b0ba2f19bf105724be9
+neocortex_source_sha: 61cf0fa529b9d1b878e1260b2746d789f69020f13256d66dd69929170f6aeac0
 description: 'A level 400 look at Azure Quota Groups: how the group limit, allocation
   and deallocation really work, how to reclaim quota from decommissioned subscriptions
   into a pool, how that fits an automated subscription-vending flow, and the three
@@ -19,6 +19,7 @@ tags:
 - subscription-vending
 - landing-zones
 - csp
+featuredImage: hero.png
 ---
 
 The most expensive vCPU in Azure is the one you already had approved, gave back by accident, and now have to ask for again. That is exactly what happens every time an old subscription is cancelled. Years of quota increases, each one a support ticket, a business justification and a few days of waiting, disappear with the subscription. Meanwhile the brand-new subscription that replaces it starts life with default limits, in a region where capacity is tight, and the first deployment into it fails with a quota error the platform team then has to chase.

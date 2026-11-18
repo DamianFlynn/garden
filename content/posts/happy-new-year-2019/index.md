@@ -6,13 +6,14 @@ slug: happy-new-year-2019
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/happy-new-year-2019/index.md
-neocortex_source_sha: 16fefd6105fe026ae33d23e61cfee3db106d381ccfb9b759c8fe8f1a23becae3
+neocortex_source_sha: 06824ec1c5eeb9392bbe4ef55d299f6756cd9386cb7267373737bfc0c5fc05cb
 description: Welcome to 2019
 tags:
 - General
 categories:
 - Career
 - MVP
+featuredImage: hero.png
 ---
 
 First, allow me to thank all of you that are continuing to read this blog; despite the drought which I am predicting has now passed. I have a long list of topics which I wish to address in detail throughout the year; focused on the areas which I am most passionate.

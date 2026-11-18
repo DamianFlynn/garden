@@ -6,7 +6,7 @@ slug: my-journey-to-the-internet-of-things
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/my-journey-to-the-internet-of-things/index.md
-neocortex_source_sha: 0b257aa5a9231266ab2873f8eee2c513a11c661c415848b9bdddd8dccab56a9c
+neocortex_source_sha: 4ee7061fd1681378efed5614a23de726b4e63a735bddc1c5e224b2c20b40b355
 description: While preparing to use the NodeMCU, Reminiscing IoT evolution after 20
   Years
 tags:
@@ -17,6 +17,7 @@ categories:
 - SoC
 - Microcontrollers
 - IoT
+featuredImage: hero.png
 ---
 
 In a previous post, I referred to an embedded device which is called a **NodeMCU**. This device is a developer kit, designed to make it easy to develop and test programs for the embedded *ESP8266 System on a Chip*. Many manufacturers are offering both developer and production kits which leverage this SoC; including the Wemos D1, Lolin, and in my case the NodeMCU. 

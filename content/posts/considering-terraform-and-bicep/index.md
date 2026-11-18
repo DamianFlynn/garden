@@ -6,7 +6,7 @@ slug: considering-terraform-and-bicep
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/considering-terraform-and-bicep/index.md
-neocortex_source_sha: 86c67ac178e44661ac2a2cb26f54799aa302f888c6c24ba2e52474fb137e5bdb
+neocortex_source_sha: 5532c6b102451b3c539827ff155e401f8dcb23284bdb37bf76faeaf78ea3c8d2
 description: Consider the strenghts of Terraform and Bicep as a DSL for cloud architecture
 tags:
 - iac
@@ -15,6 +15,7 @@ tags:
 categories:
 - desired state
 series: Terraform
+featuredImage: hero.png
 ---
 
 As more organizations adopt cloud infrastructure, the demand for infrastructure as code (IAC) solutions has grown. Infrastructure as code allows developers to manage and automate infrastructure deployments using code, making it easier to track changes and maintain consistency.

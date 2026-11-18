@@ -6,7 +6,7 @@ slug: reading-material-wavemaker
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/reading-material-wavemaker/index.md
-neocortex_source_sha: d5447b0a0a1ac3bf6aec36804f79f84ccded81d3d3cc080b84cb322089c60381
+neocortex_source_sha: e9942718cb328ab3f0b1907c984365c80d9dd7f940f23dcffcdac0435d36be36
 description: Careers are what we all invest our energy and emotions in, either positively
   or negatively
 tags:
@@ -14,6 +14,7 @@ tags:
 categories:
 - Career
 - Books
+featuredImage: hero.png
 ---
 
 Careers are what we all invest our energy and emotions in, either positively or negatively. Positive being the belief that we can make significant progress in this or another organisation and that it will give us the wherewithal to have a happy and productive life. Negative in that we can feel that everyone is out to get us, and the slippery pole has been freshly greased to scupper us. That it’s a “not what you know but who you know” world, and, unfortunately, you don’t know anyone. That life’s a bitch and then you die!

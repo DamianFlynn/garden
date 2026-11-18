@@ -6,7 +6,7 @@ slug: azure-iac-function-keys
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iac-function-keys/index.md
-neocortex_source_sha: a89850af5576b5310b300f828f730da042b5295d41bcde6541236e7c4d554788
+neocortex_source_sha: 0193cce6f436c3d534401df8047104b917a1d7c9bf2a9572be341b84846c8f7d
 description: Retrieve the Function Host Keys while deploying an ARM template
 tags:
 - ARM
@@ -16,6 +16,7 @@ tags:
 - IaC
 categories:
 - Azure
+featuredImage: hero.png
 ---
 
 Todays conundrum: As I deploy a new Function Application, I need a simple methodology to retrieve the Host Keys for the function application so that I validate the deployment has been successful; and potentially pass on the key to related services, for example API Management.

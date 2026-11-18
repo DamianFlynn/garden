@@ -6,7 +6,7 @@ slug: iot-nodered-on-arc-enabled-edge
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/iot-nodered-on-arc-enabled-edge/index.md
-neocortex_source_sha: 7f7e30e755880586fd0e569a905041840cf011f348eca1d1c509cec6125e0396
+neocortex_source_sha: bcf5a56995aec2733de1a32d10349e3a54ef931f1b4e51612059d10895692ff7
 description: Learn how to deploy a fully integrated Node-RED environment inside a
   K3s Kubernetes cluster on an Azure Arc-connected edge device. This guide walks you
   through namespace setup, persistent storage, service exposure, and secure access
@@ -21,6 +21,7 @@ categories:
 - Azure Edge Devices
 series:
 - Azure IoT Operations
+featuredImage: hero.png
 ---
 
   

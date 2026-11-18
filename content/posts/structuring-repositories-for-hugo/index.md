@@ -6,7 +6,7 @@ slug: structuring-repositories-for-hugo
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/structuring-repositories-for-hugo/index.md
-neocortex_source_sha: 86ec684d9592fcb19b30c0b89b316f913d2ff18452fa6a39bddc933f0285f576
+neocortex_source_sha: 80065b41a6af0f9d47f9fd37df88f812b86a94134c04da38ac9e0ae2a62efd6f
 description: Leverage agile frameworks to provide a robust synopsis for high level
   overviews. Iterative approaches to corporate strategy foster collaborative thinking
   to further the overall value proposition.
@@ -15,6 +15,7 @@ tags:
 - git
 - staticsite
 series: Sharing Knowledge
+featuredImage: hero.png
 ---
 
 ## Obsidian Vault: repository `DamianFlynn/Cranium`

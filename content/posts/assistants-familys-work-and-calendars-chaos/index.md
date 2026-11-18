@@ -6,7 +6,7 @@ slug: assistants-familys-work-and-calendars-chaos
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/assistants-familys-work-and-calendars-chaos/index.md
-neocortex_source_sha: 1161db976f3a698086676dc8d34d36c02ef1169c83f980f294706f7166a84fc0
+neocortex_source_sha: ea15ae066cef2ccd319faeff54c53d317466e7ee2d694bb01c1bf9083d9f6586
 description: Sorting out the chaos of managing multiple calendars, and putting assistants
   to work
 tags:
@@ -20,6 +20,7 @@ categories:
 - Microsoft Flow
 - Synchronization
 - Exchange
+featuredImage: hero.png
 ---
 
 Assumingly I am not alone, when we sit down as a family and talk about our day, and the plan for the next days or the weekend; only to realize that we have some real scheduling issues; because you totally forgot that you would take the children to an event; while your partner had a long-standing appointment with the hairdresser. 

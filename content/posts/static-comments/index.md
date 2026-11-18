@@ -6,7 +6,7 @@ slug: static-comments
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/static-comments/index.md
-neocortex_source_sha: 290ad773e0fc8b11c27c4007162e8a2cab0e51618deda7433c1de36da99ae9e0
+neocortex_source_sha: 3dcd5628f41ac521c5d7e9f1421dab6302bcd0fe2af55246dda9fd948291ca55
 description: Implementing Comments on a Static Site
 tags:
 - Azure
@@ -20,6 +20,7 @@ categories:
 - Azure
 - Web Sites
 - Cloud
+featuredImage: hero.png
 ---
 
 At this point we are almost ready to go live with our site, however, one of the cornerstones to growing and sharing is communication. 

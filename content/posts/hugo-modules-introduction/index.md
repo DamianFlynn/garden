@@ -6,7 +6,7 @@ slug: hugo-modules-introduction
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/hugo-modules-introduction/index.md
-neocortex_source_sha: 8b1868ba1a2f27872adcad5cf16a15c34200af15b6f4cf93877509c63e860249
+neocortex_source_sha: 043853ad38d332dab384469230e2af441f45c8c081f7d4d9ba7754a46c49bc84
 description: Leverage agile frameworks to provide a robust synopsis for high level
   overviews. Iterative approaches to corporate strategy foster collaborative thinking
   to further the overall value proposition.
@@ -17,6 +17,7 @@ tags:
 categories:
 - Hugo
 series: Sharing Knowledge
+featuredImage: hero.png
 ---
 
 What are Hugo Modules and should you convert your Hugo site to be one?

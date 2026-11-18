@@ -6,7 +6,7 @@ slug: configuring-freeradius-for-802-1x
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/configuring-freeradius-for-802-1x/index.md
-neocortex_source_sha: a24dcfc97ce7ddcbe3a67df524bbfb64045ac9bdb2431206f58403ade92d104b
+neocortex_source_sha: cbe4ee82f3cfd4e5bae1e7301fe97026ddceca85acebbf6e2ec9e64e4d9d920f
 description: Guide to installing an alternative Radius service, for those who may
   have implemented Windows NPS Server - License Free and Open Source, Enterprise Ready
 tags:
@@ -17,6 +17,7 @@ categories:
 - IT Pro/DevOps
 - OpenSource
 - Identity
+featuredImage: hero.png
 ---
 
 In a pervious post, I covered the steps to [deploy the current stable release of FreeRadius, by installing the packages from the NetworkRadius organizations repository](/posts/installing-freeradius/).

@@ -6,7 +6,7 @@ slug: zfs-primer
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/zfs-primer/index.md
-neocortex_source_sha: 62e27e436227f3f3927b9e5356277092e3f65c00b4e735d33cd431ebd54e4356
+neocortex_source_sha: da5acda764d8e300c685c2e792b1b924309ea5362d67118584154057f6269cb4
 description: Find out how to create and organize your content quickly and intuitively
   in FeelIt theme.
 tags:
@@ -14,6 +14,7 @@ tags:
 - zfs
 categories:
 - how-to
+featuredImage: hero.png
 ---
 
 For the last number of years I have ran my home on a Dell Poweredge R620 and R510 combination, spec'ed out with lots of Disk's and RAM with almost zero issues.

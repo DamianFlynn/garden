@@ -6,7 +6,7 @@ slug: creating-a-pfx-from-a-certificate-in-windows
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/creating-a-pfx-from-a-certificate-in-windows/index.md
-neocortex_source_sha: 1d05be462a2a2030b7c34b61e7be43fbdefa538172116b3594a6ede244d35c64
+neocortex_source_sha: c6eaee8b3c23326588f682223374bd6ded51305f39dd12b2e99f9309873b3bb4
 description: Windows stores certificates in a special logical store, in this post
   we check out two methods to export certificates with their private key to PFX files
 tags:
@@ -21,6 +21,7 @@ categories:
 - IT Pro/DevOps
 - OpenSource
 - Identity
+featuredImage: hero.png
 ---
 
 # Exporting Windows Certificates to PFX

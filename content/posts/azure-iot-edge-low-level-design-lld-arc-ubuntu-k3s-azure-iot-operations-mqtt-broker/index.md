@@ -7,7 +7,7 @@ slug: azure-iot-edge-low-level-design-lld-arc-ubuntu-k3s-azure-iot-operations-mq
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iot-edge-low-level-design-lld-arc-ubuntu-k3s-azure-iot-operations-mqtt-broker/index.md
-neocortex_source_sha: db8e85375857f49fca5931229cf92e54054d721f9a2fb9ad31f035a857a70921
+neocortex_source_sha: 0a0d46aad5f718c8474ace729242eb7e01c42001938ad11fecc14f3aca77e239
 description: 'End-to-end low-level design for building an Azure IoT Operations edge:
   Azure Arc-enable Ubuntu, deploy and Arc-connect K3s, install and secure Azure IoT
   Operations, and expose the MQTT broker with NodePort/LoadBalancer and TLS (including
@@ -25,6 +25,7 @@ categories:
 - Azure Edge Devices
 series:
 - Azure IoT Operations
+featuredImage: hero.png
 ---
 
 > Azure IoT Edge LLD for a single or small multi-node Ubuntu environment, built progressively from Azure Arc-enabled Linux host to Arc-connected K3s, then Azure IoT Operations, concluding with MQTT Broker exposure and security. The document prioritizes deterministic, reproducible steps with exact commands, expected outputs, and operational guardrails.

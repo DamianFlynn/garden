@@ -6,7 +6,7 @@ slug: iot-azure-arc-connected-k3s
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/iot-azure-arc-connected-k3s/index.md
-neocortex_source_sha: 3ea4860bb4ce42f35e67e504a659d762b0e5dc8bfd551fc27b2170b29f7b0952
+neocortex_source_sha: c74d546063c79737dfc9e8a03b734a49f153d105f9e39cd0046dd2b6006d7cd6
 description: Transform your on-premises infrastructure into a cloud-integrated powerhouse
   by combining K3s Kubernetes with Azure Arc on an Ubuntu server. This guide walks
   you through every step—from deploying K3s and configuring user access to connecting
@@ -24,6 +24,7 @@ categories:
 - IoT
 series:
 - Azure IoT Operations
+featuredImage: hero.png
 ---
 
 Starting from an Ubuntu server, which has be Arc Enabled, we can use this as a base for the Azure IoT Operations.

@@ -6,7 +6,7 @@ slug: ignite-2019-web-application-gateway-and-firewall
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ignite-2019-web-application-gateway-and-firewall/index.md
-neocortex_source_sha: 049f69cd631fae08ced3176737754a2cf2af3318fcfe828b04daa8f3e7d383dd
+neocortex_source_sha: 1f5dae445cb85304bc0c9cd0df74214855f9828dfef9a386f01a7d0cfc140b9d
 description: Delivering PaaS Services Privately on Azure VNets with Private Link
 tags:
 - Custom Providers
@@ -14,6 +14,7 @@ tags:
 - Service Catalog
 categories:
 - Resource Manager
+featuredImage: hero.png
 ---
 
 Ignite Session: BRK3169

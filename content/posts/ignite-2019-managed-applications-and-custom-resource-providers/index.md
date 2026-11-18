@@ -6,7 +6,7 @@ slug: ignite-2019-managed-applications-and-custom-resource-providers
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ignite-2019-managed-applications-and-custom-resource-providers/index.md
-neocortex_source_sha: 82745ba0664117b4dbb2ff148d4aa6f666be7e5c09214e0b78d76b584efaee5c
+neocortex_source_sha: 28215f3afa40e195c1e583d55cb9478debad9427a6230dde795a233382b523df
 description: Extending Azure Resource Manager and Publishing Custom Offers
 tags:
 - Custom Providers
@@ -14,6 +14,7 @@ tags:
 - Service Catalog
 categories:
 - Resource Manager
+featuredImage: hero.png
 ---
 
 Ignite Session: BRK3227

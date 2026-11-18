@@ -6,7 +6,7 @@ slug: terraform-quick-start
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/terraform-quick-start/index.md
-neocortex_source_sha: f556d09ed5b8a8bfbfaacb125c3d893d4113e06b9df77ec4e86b4d410a638831
+neocortex_source_sha: db9e266d698cf0fe9bbf36f74f6c55f3d0c875da3b4f8b901cb98d89dc46935d
 description: Terraform Cheat Sheet to Getting started
 tags:
 - iac
@@ -14,6 +14,7 @@ tags:
 categories:
 - desired state
 series: Terraform
+featuredImage: hero.png
 ---
 
 # Terraform Starting Quick

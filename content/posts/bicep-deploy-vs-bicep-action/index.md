@@ -6,7 +6,7 @@ slug: bicep-deploy-vs-bicep-action
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/bicep-deploy-vs-bicep-action/index.md
-neocortex_source_sha: 530a214470578ac46696d8c7c69f12ec0ed8e6cd4cf4cadd31e247d595689117
+neocortex_source_sha: a7e33adb75ae60aa1ac458f4266074b655619ba3430b57998c87ab30e1930bad
 description: 'An honest, side-by-side comparison of Microsoft''s official Bicep deployment
   action and task (Azure/bicep-deploy and BicepDeploy@0) with innofactororg/bicep-action:
   architecture, platform coverage, feature grids, stacks, safety, and the strengths
@@ -19,6 +19,7 @@ tags:
 - deployment-stacks
 - iac
 - comparison
+featuredImage: hero.png
 ---
 
 ![A tool versus a workflow](./bicep-deploy-vs-bicep-action/hero.png)

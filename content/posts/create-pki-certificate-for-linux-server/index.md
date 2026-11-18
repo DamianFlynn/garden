@@ -6,7 +6,7 @@ slug: create-pki-certificate-for-linux-server
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/create-pki-certificate-for-linux-server/index.md
-neocortex_source_sha: 2f4698865e0e3a8f0303c7718bdbafe5089be3abf06bbeb270566901e4ca1cd8
+neocortex_source_sha: ac169a2aff1fe0a9936dedc0dcc65b9f79212ddb02e6d9b0d0edd1113f37df19
 description: Using OpenSSL we learn how to create a Certificate Request from  Linux
   node, to issue a certificate from a Windows PKI Server
 tags:
@@ -18,6 +18,7 @@ categories:
 - OpenSource
 - Identity
 series: RADIUS with Azure Active Directory
+featuredImage: hero.png
 ---
 
 # Issuing a Certificate using OpenSSL

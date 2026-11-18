@@ -6,7 +6,7 @@ slug: using-power-automate-to-manage-work-and-personal-calendars
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/using-power-automate-to-manage-work-and-personal-calendars/index.md
-neocortex_source_sha: 447d511656080a9d7ca589421538eb9837cefd82f16f6c68e67e35937868f838
+neocortex_source_sha: bd296479421acc2ec3dddd55099cf62609872f2d6161399e6741e4704322054b
 description: Sorting out the chaos of managing multiple calendars, and putting assistants
   to work
 tags:
@@ -20,6 +20,7 @@ categories:
 - Microsoft Flow
 - Synchronization
 - Exchange
+featuredImage: hero.png
 ---
 
 Its just over 18 months since I originally posted about how I organize and connect my various calendars together with the objective of ensuring that I keep all appointments from the disaster of double booking.

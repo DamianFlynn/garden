@@ -6,7 +6,7 @@ slug: theming-hugo-with-module
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/theming-hugo-with-module/index.md
-neocortex_source_sha: 7aa039df49ffd8d6262763ee5c7abfae6153c0af4892ff90db827e419387dab3
+neocortex_source_sha: c324a7b757f84959ffdcbbf9f984446a09cb0da58b537d05c9334886470b204e
 description: Leverage agile frameworks to provide a robust synopsis for high level
   overviews. Iterative approaches to corporate strategy foster collaborative thinking
   to further the overall value proposition.
@@ -17,6 +17,7 @@ tags:
 categories:
 - Hugo
 series: Sharing Knowledge
+featuredImage: hero.png
 ---
 
 To utilize modules in Hugo for our theme, we first must ensure that our site supports [Hugo Modules](/posts/hugo-modules-introduction/).

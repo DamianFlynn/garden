@@ -6,7 +6,7 @@ slug: azure-arc-enabling-an-ubuntu-server
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-arc-enabling-an-ubuntu-server/index.md
-neocortex_source_sha: 7b82e0be3ddf8aa86707f333c11f050c3af7257a5b44d22719f65d1a5005a342
+neocortex_source_sha: 25d8aa16fd2461b2f254c769e561a11a4dc5090921754a39ce902d2ec8bf342c
 description: Discover how to transform a basic Ubuntu server into a fully Azure Arc-enabled
   edge device. This step-by-step guide walks you through onboarding a Linux server
   into Azure Arc, installing the hybrid agent, establishing secure remote access over
@@ -20,6 +20,7 @@ categories:
 - Azure Edge Devices
 series:
 - Azure IoT Operations
+featuredImage: hero.png
 ---
 
 Azure Arc enables you to extend Azure management capabilities to hybrid environments, including on-premises datacenters and third-party cloud providers. You can use Azure Arc to manage and configure your Windows and Linux server machines and Kubernetes clusters that are hosted outside of Azure. You can also use Azure Arc to introduce Azure data services to hybrid environments.
