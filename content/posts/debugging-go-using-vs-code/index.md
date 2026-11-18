@@ -3,7 +3,7 @@ title: Debugging GO using VS Code
 date: '2023-02-13T00:00:00Z'
 draft: true
 slug: debugging-go-using-vs-code
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/debugging-go-using-vs-code/index.md
 neocortex_source_sha: 5548f0f6bec6142f928d2b6f9166460d0ce37bc476859c541d7eecbbb6911118

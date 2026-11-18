@@ -3,7 +3,7 @@ title: Index En
 date: '2026-07-25'
 draft: true
 slug: azure-devops-wiki-conversion
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-devops-wiki-conversion/index.md
 neocortex_source_sha: 8e0fc731e3ad8d891eb050cd199b78d22b34f0dbae3ca324f712be3d27e3b614

@@ -3,7 +3,7 @@ title: IoT - Azure IoT MQTT Broker
 date: '2025-05-13T07:16:00Z'
 draft: true
 slug: iot-azure-iot-mqtt-broker
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/iot-azure-iot-mqtt-broker/index.md
 neocortex_source_sha: 0071d058e262af28235bfcc59a2d774e42cf86e36ba408efec5d94064bf4e1fd

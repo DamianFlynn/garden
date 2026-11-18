@@ -3,7 +3,7 @@ title: Azure IaC - Function Keys
 date: '2022-11-07T00:00:00Z'
 draft: false
 slug: azure-iac-function-keys
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iac-function-keys/index.md
 neocortex_source_sha: a89850af5576b5310b300f828f730da042b5295d41bcde6541236e7c4d554788

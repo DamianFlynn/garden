@@ -3,7 +3,7 @@ title: Running FastLED on the Dual-Core ESP32
 date: '2019-09-11T00:00:00Z'
 draft: false
 slug: running-fastled-on-the-dual-core-esp32
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/running-fastled-on-the-dual-core-esp32/index.md
 neocortex_source_sha: 9102588e3cae12edc557030ffa49aea971b4e2a3699202c4dd708505b791bde0

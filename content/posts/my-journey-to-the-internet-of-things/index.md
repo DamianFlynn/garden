@@ -3,7 +3,7 @@ title: My Journey to the Internet of Things
 date: '2018-12-06T00:00:00Z'
 draft: false
 slug: my-journey-to-the-internet-of-things
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/my-journey-to-the-internet-of-things/index.md
 neocortex_source_sha: 0b257aa5a9231266ab2873f8eee2c513a11c661c415848b9bdddd8dccab56a9c

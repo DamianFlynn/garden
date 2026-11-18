@@ -3,7 +3,7 @@ title: Streaming Vynil On Sonos
 date: '2021-02-21T00:00:00Z'
 draft: false
 slug: streaming-vynil-on-sonos
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/streaming-vynil-on-sonos/index.md
 neocortex_source_sha: 375bb94b3484cd10e9ed46ff0cd06c2f41a329208aef1c05493a0fdb0ecb511c

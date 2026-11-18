@@ -3,7 +3,7 @@ title: Configuring FreeRadius for 802.1x
 date: '2021-03-07T00:00:00Z'
 draft: false
 slug: configuring-freeradius-for-802-1x
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/configuring-freeradius-for-802-1x/index.md
 neocortex_source_sha: a24dcfc97ce7ddcbe3a67df524bbfb64045ac9bdb2431206f58403ade92d104b

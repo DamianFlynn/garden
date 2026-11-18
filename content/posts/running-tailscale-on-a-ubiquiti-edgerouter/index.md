@@ -3,7 +3,7 @@ title: Sw Tailscale Configuration
 date: '2026-07-28'
 draft: true
 slug: running-tailscale-on-a-ubiquiti-edgerouter
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/running-tailscale-on-a-ubiquiti-edgerouter/index.md
 neocortex_source_sha: 49c413607f66580ba701a1acec6985a96516cfdb308aa2f078812406bca32cfd

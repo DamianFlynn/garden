@@ -3,7 +3,7 @@ title: Azure IaC - Tags as Parameters
 date: '2021-01-17T00:00:00Z'
 draft: false
 slug: azure-iac-tags-as-parameters
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iac-tags-as-parameters/index.md
 neocortex_source_sha: fadd4cbb225410c4b85a5d2cc53f2f3a7eb5edebe8725d6fa89a1e72a0a800df

@@ -3,7 +3,7 @@ title: Global Transit Network For Azure Virtual WAN
 date: '2019-11-02T00:00:00Z'
 draft: true
 slug: global-transit-network-for-azure-virtual-wan
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/global-transit-network-for-azure-virtual-wan/index.md
 neocortex_source_sha: b2ff35b15b48347e6b80412ab59698c8e875ef525309067493fbf749d32a6a26

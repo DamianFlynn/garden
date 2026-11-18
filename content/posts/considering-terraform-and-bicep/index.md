@@ -3,7 +3,7 @@ title: Considering Terraform and Bicep
 date: '2023-02-15T00:00:00Z'
 draft: true
 slug: considering-terraform-and-bicep
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/considering-terraform-and-bicep/index.md
 neocortex_source_sha: 86c67ac178e44661ac2a2cb26f54799aa302f888c6c24ba2e52474fb137e5bdb
@@ -16,8 +16,6 @@ categories:
 - desired state
 series: Terraform
 ---
-
-# Considering Terraform and Bicep
 
 As more organizations adopt cloud infrastructure, the demand for infrastructure as code (IAC) solutions has grown. Infrastructure as code allows developers to manage and automate infrastructure deployments using code, making it easier to track changes and maintain consistency.
 

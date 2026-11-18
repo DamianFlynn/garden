@@ -3,7 +3,7 @@ title: CBus MQTT Bridge on Raspberry PI
 date: '2019-10-10T00:00:00Z'
 draft: false
 slug: cbus-mqtt-bridge-on-raspberry-pi
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/cbus-mqtt-bridge-on-raspberry-pi/index.md
 neocortex_source_sha: 39dc7a9246dfd819d46fc269d55a35406d64a45f7dc4c8e99bb4dee42a03402b
@@ -19,8 +19,6 @@ categories:
 series: Home Automation
 featuredImage: iot-cbus-mqtt_gateway.png
 ---
-
-# CBus MQTT Bridge on Raspberry PI
 
 Turn back to 2007; My wife and I built our home, integrating many smart technologies, including the Clipsal CBus lighting system. This solution is classified as a Prosumer technology, and is designed to integrate into whole house automation systems.
 

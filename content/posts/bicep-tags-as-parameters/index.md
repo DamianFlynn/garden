@@ -3,7 +3,7 @@ title: Bicep - Tags as Parameters
 date: '2021-07-23'
 draft: false
 slug: bicep-tags-as-parameters
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/bicep-tags-as-parameters/index.md
 neocortex_source_sha: 82a07788c2aa6e522313508659f137cfcc194d10c8830a65b9cd44c5aee94618

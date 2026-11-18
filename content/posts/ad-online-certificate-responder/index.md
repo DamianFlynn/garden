@@ -3,7 +3,7 @@ title: AD - Online Certificate Responder
 date: '2021-04-15T00:00:00Z'
 draft: true
 slug: ad-online-certificate-responder
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ad-online-certificate-responder/index.md
 neocortex_source_sha: 4678a987d6a9291e371be89d89871b3ed8e302160ae461b567a505197e602c14

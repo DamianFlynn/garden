@@ -3,7 +3,7 @@ title: Configure VS Code with Azure Cloud Shell
 date: '2019-01-04T00:00:00Z'
 draft: false
 slug: configure-vs-code-with-azure-cloud-shell
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/configure-vs-code-with-azure-cloud-shell/index.md
 neocortex_source_sha: e105761a5d497e715708c6bb838347d1f1afae3e0b756592c7ca798d36ace941

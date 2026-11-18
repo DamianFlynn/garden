@@ -3,7 +3,7 @@ title: ZFS - Primer
 date: '2020-03-05T00:00:00Z'
 draft: false
 slug: zfs-primer
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/zfs-primer/index.md
 neocortex_source_sha: 62e27e436227f3f3927b9e5356277092e3f65c00b4e735d33cd431ebd54e4356

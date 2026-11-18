@@ -3,7 +3,7 @@ title: Hitting Reset
 date: '2018-10-05T00:00:00Z'
 draft: false
 slug: hitting-reset
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/hitting-reset/index.md
 neocortex_source_sha: a1607dabc66f44b2e1f0094f168116dd5972d699402724d8b4abb0684f742354
@@ -17,8 +17,6 @@ categories:
 - Thoughts
 featuredImage: general_personal-reflection-2018.jpg
 ---
-
-# Hitting Reset
 
 10 Years, It is hard to believe that I have been posting thoughts here that long. And how so much has changed since I begun?
 

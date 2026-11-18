@@ -3,7 +3,7 @@ title: Structuring Repositories For Hugo
 date: '2023-02-17T00:00:00Z'
 draft: true
 slug: structuring-repositories-for-hugo
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/structuring-repositories-for-hugo/index.md
 neocortex_source_sha: 86ec684d9592fcb19b30c0b89b316f913d2ff18452fa6a39bddc933f0285f576

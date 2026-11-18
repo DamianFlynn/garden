@@ -3,7 +3,7 @@ title: Hugo Modules Additional Examples
 date: '2022-11-21T00:00:00Z'
 draft: true
 slug: hugo-modules-additional-examples
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/hugo-modules-additional-examples/index.md
 neocortex_source_sha: 091e2170fae01ce2bc6e07fc7dde87f2e95f10ebc295fc24e05d5125d9953579
@@ -16,8 +16,6 @@ categories:
 - Hugo
 series: Sharing Knowledge
 ---
-
-# Hugo Modules Additional Examples
 
 Let’s take a look at some examples of site configurations using Hugo modules.
 

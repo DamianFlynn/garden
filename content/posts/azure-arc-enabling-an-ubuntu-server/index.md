@@ -3,7 +3,7 @@ title: Azure Arc enabling an Ubuntu Server
 date: '2025-04-23T07:53:00Z'
 draft: true
 slug: azure-arc-enabling-an-ubuntu-server
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-arc-enabling-an-ubuntu-server/index.md
 neocortex_source_sha: 7b82e0be3ddf8aa86707f333c11f050c3af7257a5b44d22719f65d1a5005a342

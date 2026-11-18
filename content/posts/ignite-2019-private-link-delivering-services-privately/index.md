@@ -3,7 +3,7 @@ title: Ignite 2019 - Private Link, Delivering Services Privately
 date: '2019-11-07T00:00:00Z'
 draft: false
 slug: ignite-2019-private-link-delivering-services-privately
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ignite-2019-private-link-delivering-services-privately/index.md
 neocortex_source_sha: 9b2b64811484677481461dfe814bfb581665681fc9ddb613b3035411414c89e2

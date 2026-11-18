@@ -3,7 +3,7 @@ title: 'Reading material: WaveMaker'
 date: '2018-11-07T00:00:00Z'
 draft: false
 slug: reading-material-wavemaker
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/reading-material-wavemaker/index.md
 neocortex_source_sha: d5447b0a0a1ac3bf6aec36804f79f84ccded81d3d3cc080b84cb322089c60381

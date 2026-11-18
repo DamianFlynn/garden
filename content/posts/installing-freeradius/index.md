@@ -3,7 +3,7 @@ title: Installing FreeRadius
 date: '2021-03-01T00:00:00Z'
 draft: false
 slug: installing-freeradius
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/installing-freeradius/index.md
 neocortex_source_sha: 480e39fb037eaa0292fe4a86d57eb52807f5578e836d504cefdf323c65df57ff

@@ -3,7 +3,7 @@ title: Installing Docker and Compose on Raspbian Buster
 date: '2019-10-01T00:00:00Z'
 draft: false
 slug: installing-docker-and-compose-on-raspbian-buster
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/installing-docker-and-compose-on-raspbian-buster/index.md
 neocortex_source_sha: 023ce5827c279786d0e917f65ee37d0796e496d2df66d26f03aa2200ed00e897

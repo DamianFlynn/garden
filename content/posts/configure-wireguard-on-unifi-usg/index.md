@@ -3,7 +3,7 @@ title: Configure Wireguard on UniFi USG
 date: '2019-08-17T00:00:00Z'
 draft: false
 slug: configure-wireguard-on-unifi-usg
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/configure-wireguard-on-unifi-usg/index.md
 neocortex_source_sha: 78990533718939a8891a9a55206ec66ea249356bdfc81c82e49902f6adb162fb

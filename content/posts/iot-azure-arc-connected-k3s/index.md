@@ -3,7 +3,7 @@ title: 'IoT - Azure Arc Connected K3s '
 date: '2025-04-24T12:24:00Z'
 draft: true
 slug: iot-azure-arc-connected-k3s
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/iot-azure-arc-connected-k3s/index.md
 neocortex_source_sha: 3ea4860bb4ce42f35e67e504a659d762b0e5dc8bfd551fc27b2170b29f7b0952

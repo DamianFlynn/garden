@@ -3,7 +3,7 @@ title: Theming Hugo with Module
 date: '2022-11-21T00:00:00Z'
 draft: true
 slug: theming-hugo-with-module
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/theming-hugo-with-module/index.md
 neocortex_source_sha: 7aa039df49ffd8d6262763ee5c7abfae6153c0af4892ff90db827e419387dab3
@@ -18,8 +18,6 @@ categories:
 - Hugo
 series: Sharing Knowledge
 ---
-
-# Theming Hugo with Module
 
 To utilize modules in Hugo for our theme, we first must ensure that our site supports [Hugo Modules](/posts/hugo-modules-introduction/).
 

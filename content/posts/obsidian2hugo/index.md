@@ -3,7 +3,7 @@ title: Obsidian2Hugo
 date: '2022-11-07'
 draft: false
 slug: obsidian2hugo
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/obsidian2hugo/index.md
 neocortex_source_sha: aa29257d0796ff94f6a29fe4cd4de318d7155694eae59d551b47becdc32c52ce

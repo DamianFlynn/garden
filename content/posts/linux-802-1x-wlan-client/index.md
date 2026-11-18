@@ -3,7 +3,7 @@ title: Linux 802.1x WLAN Client
 date: '2020-03-21T00:00:00Z'
 draft: true
 slug: linux-802-1x-wlan-client
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/linux-802-1x-wlan-client/index.md
 neocortex_source_sha: a6336abc0c1b338981413047227d7c9b2a8820a206dbbef826f3f3ad740a5071

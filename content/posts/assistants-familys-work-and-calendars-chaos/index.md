@@ -3,7 +3,7 @@ title: Assistants, Family's, Work and Calendars = Chaos
 date: '2018-12-18T00:00:00Z'
 draft: false
 slug: assistants-familys-work-and-calendars-chaos
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/assistants-familys-work-and-calendars-chaos/index.md
 neocortex_source_sha: 1161db976f3a698086676dc8d34d36c02ef1169c83f980f294706f7166a84fc0

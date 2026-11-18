@@ -3,7 +3,7 @@ title: Extracting Certificates from a PFX
 date: '2021-03-05'
 draft: false
 slug: extracting-certificates-from-a-pfx
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/extracting-certificates-from-a-pfx/index.md
 neocortex_source_sha: 938b2d92c622ad10dbcae71322ba74f5d11f7daa30c795411142fd91efdb4c3d

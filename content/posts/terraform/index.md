@@ -3,7 +3,7 @@ title: Lang Terraform
 date: '2026-07-28'
 draft: true
 slug: terraform
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/terraform/index.md
 neocortex_source_sha: 206498db03b3f32f67cb862c54df13c0c9e3997d9792ca8b92a93586323ff2cf

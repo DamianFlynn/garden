@@ -3,7 +3,7 @@ title: IoT - Azure IoT Operations
 date: '2025-04-25T23:07:00Z'
 draft: true
 slug: iot-azure-iot-operations
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/iot-azure-iot-operations/index.md
 neocortex_source_sha: d1c64d46a13b9b7a3d6e73af28cf5ed29b7de2402b8e1302136a1f6919700c52

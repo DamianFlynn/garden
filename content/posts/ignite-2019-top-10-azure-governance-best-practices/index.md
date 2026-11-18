@@ -3,7 +3,7 @@ title: Ignite 2019 - Top 10 Azure Governance Best Practices
 date: '2019-11-07T00:00:00Z'
 draft: true
 slug: ignite-2019-top-10-azure-governance-best-practices
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ignite-2019-top-10-azure-governance-best-practices/index.md
 neocortex_source_sha: c815b6c19d1259f242396d0cc741f43c39704e09f68e3ade459e3427625cfa99

@@ -3,7 +3,7 @@ title: Ignite 2019 - Managed Applications and Custom Resource Providers
 date: '2019-11-07T00:00:00Z'
 draft: true
 slug: ignite-2019-managed-applications-and-custom-resource-providers
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ignite-2019-managed-applications-and-custom-resource-providers/index.md
 neocortex_source_sha: 82745ba0664117b4dbb2ff148d4aa6f666be7e5c09214e0b78d76b584efaee5c

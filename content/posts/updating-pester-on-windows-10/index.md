@@ -3,7 +3,7 @@ title: Updating Pester on Windows 10
 date: '2019-01-29T00:00:00Z'
 draft: false
 slug: updating-pester-on-windows-10
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/updating-pester-on-windows-10/index.md
 neocortex_source_sha: 7ef96fadb62bcb1d4b357322c8d08520c1cef18d8b1db9c1511b6cb8e93b1611

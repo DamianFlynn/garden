@@ -3,7 +3,7 @@ title: 'bicep-action: Plan, Review and Deploy Bicep from Pull Requests'
 date: '2026-11-14'
 draft: true
 slug: bicep-action-plan-review-deploy
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/bicep-action-plan-review-deploy/index.md
 neocortex_source_sha: c0e873a6d4a5309ec77c7ca8d8e59e0c29675107005eac5b2f8daf41df32ce38
@@ -20,8 +20,6 @@ tags:
 - atlantis
 - iac
 ---
-
-# bicep-action: Plan, Review and Deploy Bicep from Pull Requests
 
 ![Plan, review, deploy](https://raw.githubusercontent.com/innofactororg/bicep-action/v1/docs/images/hero.png)
 

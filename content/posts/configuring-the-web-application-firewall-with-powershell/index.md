@@ -3,7 +3,7 @@ title: Configuring the Web Application Firewall with PowerShell
 date: '2019-10-03T00:00:00Z'
 draft: false
 slug: configuring-the-web-application-firewall-with-powershell
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/configuring-the-web-application-firewall-with-powershell/index.md
 neocortex_source_sha: a0fa00ecce99e0c9b73cfa6a0a7a8f905eb5cfa58ee0910b7f451d380ee3cd65

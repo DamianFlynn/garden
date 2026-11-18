@@ -3,7 +3,7 @@ title: Waking Deamons
 date: '2019-01-14T00:00:00Z'
 draft: false
 slug: waking-deamons
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/waking-deamons/index.md
 neocortex_source_sha: 6395a33925268fae601e1c0f2040d0d328f1f652a41d3935bd5b80e96dd8717a

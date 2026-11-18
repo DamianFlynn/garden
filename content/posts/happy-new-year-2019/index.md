@@ -3,7 +3,7 @@ title: '2019: Happy New Year'
 date: '2019-01-02T00:00:00Z'
 draft: false
 slug: happy-new-year-2019
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/happy-new-year-2019/index.md
 neocortex_source_sha: 16fefd6105fe026ae33d23e61cfee3db106d381ccfb9b759c8fe8f1a23becae3

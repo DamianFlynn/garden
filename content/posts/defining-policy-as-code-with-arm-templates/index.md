@@ -3,7 +3,7 @@ title: Defining Policy as Code with ARM Templates
 date: '2018-11-20T00:00:00Z'
 draft: false
 slug: defining-policy-as-code-with-arm-templates
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/defining-policy-as-code-with-arm-templates/index.md
 neocortex_source_sha: 70bf525b6567d33865e5ea324df15c187f46e4842c19d6c363ee6fbdff16c67e

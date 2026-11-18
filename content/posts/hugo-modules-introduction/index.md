@@ -3,7 +3,7 @@ title: Hugo Modules Introduction
 date: '2022-11-21T00:00:00Z'
 draft: true
 slug: hugo-modules-introduction
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/hugo-modules-introduction/index.md
 neocortex_source_sha: 8b1868ba1a2f27872adcad5cf16a15c34200af15b6f4cf93877509c63e860249
@@ -18,8 +18,6 @@ categories:
 - Hugo
 series: Sharing Knowledge
 ---
-
-# Hugo Modules Introduction
 
 What are Hugo Modules and should you convert your Hugo site to be one?
 

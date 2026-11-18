@@ -3,7 +3,7 @@ title: FreeRadius and daloRADIUS?
 date: '2020-03-15T00:00:00Z'
 draft: true
 slug: freeradius-and-daloradius
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/freeradius-and-daloradius/index.md
 neocortex_source_sha: 97b5277be96a230672937a75cc8831c43ecec75fac44ca98c353e177398b8524

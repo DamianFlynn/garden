@@ -3,7 +3,7 @@ title: Create PKI Certificate for Linux Server
 date: '2021-03-03T00:00:00Z'
 draft: false
 slug: create-pki-certificate-for-linux-server
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/create-pki-certificate-for-linux-server/index.md
 neocortex_source_sha: 2f4698865e0e3a8f0303c7718bdbafe5089be3abf06bbeb270566901e4ca1cd8

@@ -3,7 +3,7 @@ title: Constructing a new Home with Jekyll and Azure DevOps
 date: '2018-10-10T00:00:00Z'
 draft: false
 slug: constructing-a-new-home-with-jekyll-and-azure-devops
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/constructing-a-new-home-with-jekyll-and-azure-devops/index.md
 neocortex_source_sha: 86d593a8dfe461707fc016dcc2100599a754b978d0c311c494b60fd6948d5794

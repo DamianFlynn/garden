@@ -3,7 +3,7 @@ title: Set up Girhub with Terraform
 date: '2023-02-15T00:00:00Z'
 draft: true
 slug: set-up-github-with-terraform
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/set-up-github-with-terraform/index.md
 neocortex_source_sha: 793b1cf6ae6c4f93576b9dbb528bc79393eaa5eda82d15c78a6c7cdae3d04984

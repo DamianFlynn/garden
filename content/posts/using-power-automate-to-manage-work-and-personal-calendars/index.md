@@ -3,7 +3,7 @@ title: Using Power Automate to manage Work and Personal Calendars
 date: '2020-04-16T00:00:00Z'
 draft: true
 slug: using-power-automate-to-manage-work-and-personal-calendars
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/using-power-automate-to-manage-work-and-personal-calendars/index.md
 neocortex_source_sha: 447d511656080a9d7ca589421538eb9837cefd82f16f6c68e67e35937868f838

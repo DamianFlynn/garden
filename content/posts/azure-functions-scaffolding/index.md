@@ -3,7 +3,7 @@ title: Azure Functions Scaffolding
 date: '2022-11-07T00:00:00Z'
 draft: false
 slug: azure-functions-scaffolding
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-functions-scaffolding/index.md
 neocortex_source_sha: eb30276c2589ab7f2f440cb3220ca5414b75cc96a6c0df5902da79c04a5eb797

@@ -3,7 +3,7 @@ title: Azure IoT
 date: '2025-05-15T09:53:00Z'
 draft: true
 slug: azure-iot
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iot/index.md
 neocortex_source_sha: cd42e377844d7c417d94a3f28923f437944241d1a14374d961b4e6d33c44ae87

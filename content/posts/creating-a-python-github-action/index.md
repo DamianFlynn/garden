@@ -3,7 +3,7 @@ title: Creating a Python Github Action
 date: '2026-07-28'
 draft: true
 slug: creating-a-python-github-action
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/creating-a-python-github-action/index.md
 neocortex_source_sha: 340b6865b869f7b00540b7d8b9fbbcc52d6bad9532b08a8ef07e2b0f3929ab6e

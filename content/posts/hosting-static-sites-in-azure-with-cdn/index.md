@@ -3,7 +3,7 @@ title: Hosting Static Sites in Azure with CDN
 date: '2018-10-20T00:00:00Z'
 draft: false
 slug: hosting-static-sites-in-azure-with-cdn
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/hosting-static-sites-in-azure-with-cdn/index.md
 neocortex_source_sha: 705f2de733db5b58d82d749ac63934740ce47030da5ca7d5b378287283336ee2

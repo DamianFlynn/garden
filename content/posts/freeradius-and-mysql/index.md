@@ -3,7 +3,7 @@ title: FreeRadius and MySQL
 date: '2020-03-14T00:00:00Z'
 draft: true
 slug: freeradius-and-mysql
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/freeradius-and-mysql/index.md
 neocortex_source_sha: b8ddd08a5be9a57216903d304b48cd562ff703bce3305d59bb745b001a767859

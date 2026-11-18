@@ -3,7 +3,7 @@ title: Change Detection using Oxidized
 date: '2022-11-17T00:00:00Z'
 draft: false
 slug: change-detection-using-oxidized
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/change-detection-using-oxidized/index.md
 neocortex_source_sha: c3afc3c3b7180d4037b82d4d5a276a7babc5cb6c1628d0f3502a5660e58df657

@@ -3,7 +3,7 @@ title: IoT - NodeRED on Arc-Enabled Edge
 date: '2025-04-28T13:16:00Z'
 draft: true
 slug: iot-nodered-on-arc-enabled-edge
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/iot-nodered-on-arc-enabled-edge/index.md
 neocortex_source_sha: 7f7e30e755880586fd0e569a905041840cf011f348eca1d1c509cec6125e0396

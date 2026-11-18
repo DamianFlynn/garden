@@ -4,7 +4,7 @@ title: 'Azure IoT Edge Low-Level Design (LLD): Arc Ubuntu → K3s → Azure IoT 
 date: '2025-10-20T13:42:00Z'
 draft: true
 slug: azure-iot-edge-low-level-design-lld-arc-ubuntu-k3s-azure-iot-operations-mqtt-broker
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iot-edge-low-level-design-lld-arc-ubuntu-k3s-azure-iot-operations-mqtt-broker/index.md
 neocortex_source_sha: db8e85375857f49fca5931229cf92e54054d721f9a2fb9ad31f035a857a70921

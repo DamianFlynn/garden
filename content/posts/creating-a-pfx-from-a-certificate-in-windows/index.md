@@ -3,7 +3,7 @@ title: Creating a PFX from a certificate in Windows
 date: '2021-03-04T00:00:00Z'
 draft: false
 slug: creating-a-pfx-from-a-certificate-in-windows
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/creating-a-pfx-from-a-certificate-in-windows/index.md
 neocortex_source_sha: 1d05be462a2a2030b7c34b61e7be43fbdefa538172116b3594a6ede244d35c64

@@ -3,7 +3,7 @@ title: Static Comments
 date: '2018-10-30T00:00:00Z'
 draft: false
 slug: static-comments
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/static-comments/index.md
 neocortex_source_sha: 290ad773e0fc8b11c27c4007162e8a2cab0e51618deda7433c1de36da99ae9e0

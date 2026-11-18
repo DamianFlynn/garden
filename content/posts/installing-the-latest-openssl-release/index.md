@@ -3,7 +3,7 @@ title: Installing the Latest OpenSSL release
 date: '2021-03-02T00:00:00Z'
 draft: false
 slug: installing-the-latest-openssl-release
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/installing-the-latest-openssl-release/index.md
 neocortex_source_sha: 952b7c84a2eb5d192f8f986ef0e33d86d3cec3880647dc560040e7eddf490f42

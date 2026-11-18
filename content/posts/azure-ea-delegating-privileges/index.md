@@ -3,7 +3,7 @@ title: Azure EA - Delegating Privileges
 date: '2020-04-24T00:00:00Z'
 draft: false
 slug: azure-ea-delegating-privileges
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-ea-delegating-privileges/index.md
 neocortex_source_sha: 68fa78140eb80707960542057d7eabc01395386bfc5384fa83b9a38558b6684b

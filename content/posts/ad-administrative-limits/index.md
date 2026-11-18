@@ -3,7 +3,7 @@ title: AD - Administrative Limits
 date: '2021-07-27T00:00:00Z'
 draft: false
 slug: ad-administrative-limits
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ad-administrative-limits/index.md
 neocortex_source_sha: c53e3dd553a22789e4f8ec9fcc99014b9c031cbbcfe9aae816f6d0fec732a247

@@ -3,7 +3,7 @@ title: 'Azure/bicep-deploy vs bicep-action: A Tool or a Workflow?'
 date: '2026-11-14'
 draft: true
 slug: bicep-deploy-vs-bicep-action
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/bicep-deploy-vs-bicep-action/index.md
 neocortex_source_sha: 530a214470578ac46696d8c7c69f12ec0ed8e6cd4cf4cadd31e247d595689117
@@ -20,8 +20,6 @@ tags:
 - iac
 - comparison
 ---
-
-# Azure/bicep-deploy vs bicep-action: A Tool or a Workflow?
 
 ![A tool versus a workflow](./bicep-deploy-vs-bicep-action/hero.png)
 

@@ -3,7 +3,7 @@ title: Ignite 2019 - Web Application Gateway and Firewall
 date: '2019-11-07T00:00:00Z'
 draft: false
 slug: ignite-2019-web-application-gateway-and-firewall
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ignite-2019-web-application-gateway-and-firewall/index.md
 neocortex_source_sha: 049f69cd631fae08ced3176737754a2cf2af3318fcfe828b04daa8f3e7d383dd

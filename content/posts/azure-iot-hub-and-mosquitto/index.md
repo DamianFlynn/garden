@@ -3,7 +3,7 @@ title: Azure Iot Hub And Mosquitto
 date: '2026-07-27'
 draft: true
 slug: azure-iot-hub-and-mosquitto
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iot-hub-and-mosquitto/index.md
 neocortex_source_sha: 6a1bdc7657e0d64040df368cceeefe48836334b02ccff6907fb09bb671021950

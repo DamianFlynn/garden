@@ -3,7 +3,7 @@ title: Az Billing Subscription
 date: '2022-11-07T00:00:00Z'
 draft: true
 slug: creating-azure-subscriptions-with-terraform
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/creating-azure-subscriptions-with-terraform/index.md
 neocortex_source_sha: d41fb5df924616ae90c3d8d8b58b11bffa3bb7bc3b2add8acccb7be3c91e4c48

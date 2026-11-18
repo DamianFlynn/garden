@@ -3,7 +3,7 @@ title: Azure IaC - Appending Tags
 date: '2020-04-01T00:00:00Z'
 draft: false
 slug: azure-iac-appending-tags
-author: Damian Flynn
+author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iac-appending-tags/index.md
 neocortex_source_sha: 76366fce05cc5fd92918e997a7d2aaf9e8c2bb8d7adde7f10639714de2e78719
