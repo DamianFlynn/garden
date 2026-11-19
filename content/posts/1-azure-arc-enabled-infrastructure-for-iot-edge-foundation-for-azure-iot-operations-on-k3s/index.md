@@ -7,7 +7,7 @@ slug: 1-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-o
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/1-azure-arc-enabled-infrastructure-for-iot-edge-foundation-for-azure-iot-operations-on-k3s/index.md
-neocortex_source_sha: af8f808d2fa59f52fa71e45230232c90e5c23f86396ef652ec4050ce1b6ffca2
+neocortex_source_sha: 6ec0170d3087d62d3e919cf30c72d99ac26b3c5c1495486d5f60309dac847589
 description: Discover how to build a robust, production-ready IoT edge platform using
   Azure Arc and K3s, enabling seamless management of distributed infrastructure while
   enhancing security, compliance, and operational efficiency. Dive into this comprehensive
