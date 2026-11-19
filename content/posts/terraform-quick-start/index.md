@@ -7,6 +7,7 @@ author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/terraform-quick-start/index.md
 neocortex_source_sha: db9e266d698cf0fe9bbf36f74f6c55f3d0c875da3b4f8b901cb98d89dc46935d
+lifecycle: ready
 description: Terraform Cheat Sheet to Getting started
 tags:
 - iac

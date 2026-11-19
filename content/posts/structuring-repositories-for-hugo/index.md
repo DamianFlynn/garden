@@ -7,6 +7,7 @@ author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/structuring-repositories-for-hugo/index.md
 neocortex_source_sha: 80065b41a6af0f9d47f9fd37df88f812b86a94134c04da38ac9e0ae2a62efd6f
+lifecycle: ready
 description: Leverage agile frameworks to provide a robust synopsis for high level
   overviews. Iterative approaches to corporate strategy foster collaborative thinking
   to further the overall value proposition.

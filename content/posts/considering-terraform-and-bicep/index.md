@@ -7,6 +7,7 @@ author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/considering-terraform-and-bicep/index.md
 neocortex_source_sha: 5532c6b102451b3c539827ff155e401f8dcb23284bdb37bf76faeaf78ea3c8d2
+lifecycle: ready
 description: Consider the strenghts of Terraform and Bicep as a DSL for cloud architecture
 tags:
 - iac

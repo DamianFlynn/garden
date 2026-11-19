@@ -7,6 +7,7 @@ author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/hugo-modules-introduction/index.md
 neocortex_source_sha: 043853ad38d332dab384469230e2af441f45c8c081f7d4d9ba7754a46c49bc84
+lifecycle: ready
 description: Leverage agile frameworks to provide a robust synopsis for high level
   overviews. Iterative approaches to corporate strategy foster collaborative thinking
   to further the overall value proposition.

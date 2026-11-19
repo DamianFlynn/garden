@@ -7,6 +7,7 @@ author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/edward-snowden-about-privacy/index.md
 neocortex_source_sha: 011958b77b7539657e412ceac3dbf58671c9932bbee10df8172b81879c64c770
+lifecycle: ready
 description: Edward Snowden compares dismissing privacy concerns to ignoring free
   speech rights, emphasizing the importance of protecting both regardless of personal
   risk.

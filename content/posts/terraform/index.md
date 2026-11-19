@@ -7,6 +7,7 @@ author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/terraform/index.md
 neocortex_source_sha: c658585fdb453bfb149f49beffd1b80443ba79e60af57390eecbb9f155f72fe4
+lifecycle: ready
 description: An introduction to Terraform, with a link to a discussion of Terraform
   and Bicep’s strengths.
 tags: []
