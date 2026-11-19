@@ -1,16 +1,16 @@
 {
   "files": [
     "content/categories/azure/_index.md",
-    "content/categories/azure/hero.png",
+    "content/categories/azure/icon.svg",
     "content/categories/hugo/_index.md",
-    "content/categories/hugo/hero.png",
+    "content/categories/hugo/icon.svg",
     "content/series/azure-iot-operations/_index.md",
     "content/series/azure-iot-operations/hero.png",
     "content/series/building-azure-with-code/_index.md",
     "content/series/building-azure-with-code/hero.png",
     "content/tags/azure/_index.md",
-    "content/tags/azure/hero.png",
+    "content/tags/azure/icon.svg",
     "content/tags/hugo/_index.md",
-    "content/tags/hugo/hero.png"
+    "content/tags/hugo/icon.svg"
   ]
 }
