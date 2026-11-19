@@ -74,5 +74,10 @@
     "using-power-automate-to-manage-work-and-personal-calendars",
     "waking-deamons",
     "zfs-primer"
+  ],
+  "talks": [
+    "agents-need-an-identity",
+    "agents-need-an-identity-innofactor-briefing",
+    "ai-operating-production"
   ]
 }
