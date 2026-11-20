@@ -1,12 +1,12 @@
 ---
 title: 'Azure Quota Groups: Recycling Capacity You Already Own'
-date: '2026-11-14'
-draft: true
+date: '2026-11-02'
+draft: false
 slug: azure-quota-groups-recycling-capacity
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-quota-groups-recycling-capacity/index.md
-neocortex_source_sha: 61cf0fa529b9d1b878e1260b2746d789f69020f13256d66dd69929170f6aeac0
+neocortex_source_sha: 4da07bb6baacc1b66154c2c54f83576d390005866a353f7f81a6543398866d7a
 description: 'A level 400 look at Azure Quota Groups: how the group limit, allocation
   and deallocation really work, how to reclaim quota from decommissioned subscriptions
   into a pool, how that fits an automated subscription-vending flow, and the three

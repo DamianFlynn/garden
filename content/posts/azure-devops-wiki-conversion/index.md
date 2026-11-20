@@ -1,439 +1,369 @@
 ---
-title: Index En
-date: '2026-07-25'
-draft: true
+title: From Azure DevOps Wiki to a Corporate PDF
+date: '2026-10-05'
+draft: false
 slug: azure-devops-wiki-conversion
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-devops-wiki-conversion/index.md
-neocortex_source_sha: 8e0fc731e3ad8d891eb050cd199b78d22b34f0dbae3ca324f712be3d27e3b614
-description: ''
-tags: []
+neocortex_source_sha: 646ff42918d2be5f887ff72d518d081faf3d1bbd2236079cbd4b95eef56e33a5
+description: Keep documentation in Markdown and publish a corporate-style PDF from
+  Azure DevOps Wiki content using Pandoc, templates and the markdown2pdf pipeline.
+tags:
+- azure-devops
+- documentation
+- markdown
+- pandoc
 ---
 
-# Azure DevOps Wiki Conversion
+The project documentation is in good shape. The team has been maintaining an Azure DevOps wiki, the architecture pages link to the detailed design, and the deployment instructions sit alongside the decisions that explain them.
 
-Clone down a copy of the wiki, 
+Then comes the handover request: “Can you send us the design document as a PDF? Please use the company template.”
 
+That is a reasonable request. The recipient might not have access to Azure DevOps. An architecture board may need a fixed version to review, or the customer may need to file the document in a records system. A wiki is useful for the people doing the work; a controlled document is useful for the people accepting it.
 
-```powershell
-function Get-DocfxFolderItems {
-	param(
-		[string]$Path,
-		[string]$Include = '*.md',
-		[string[]]$ExcludeFolders
-	)
+Copying the pages into Word gets the first document out of the door. It also creates another copy to maintain. At the next revision, someone has to work out what changed, paste it again, repair the formatting and check the page numbers.
 
-	# Get .order file in Path, if it exist
-	$orderFile = Join-Path -Path $Path -ChildPath '.order';
+I wanted to keep the Markdown as the source and make the formatted document a build output. The implementation is available in [innofactororg/markdown2pdf](https://github.com/innofactororg/markdown2pdf). It includes an Azure DevOps pipeline and a GitHub Action, both using Pandoc and a LaTeX template to produce a PDF artifact.
 
-	$orderContent = @(
-		if (Test-Path -Path $orderFile -PathType Leaf) {
-			Get-Content -Path $orderFile;
-		}
-	)
+This post walks through the Azure DevOps route, explains where the corporate formatting belongs, and shows how the underlying Pandoc commands fit together.
 
-	# Set lastItem to add items not in .order file
+## Give the wiki a publishing process
 
-$lastItem = $orderContent.Count;
+Consider a design document spread across several wiki pages: an overview, requirements, architecture, security and an operational handover. The team wants to keep editing those pages normally. At agreed points, it needs to publish those sections as one document with a cover, version history, contents page and consistent branding.
 
-# Get all the files in Path, no recurse
+There are two separate decisions here: which content belongs in the document, and how that content should look. The workflow keeps them separate:
 
-$files = @(Get-ChildItem -Path $Path -File -Include $Include -Recurse -Depth 0);
+```text
+Markdown pages + explicit document order
+                  |
+                  v
+Merge content and resolve supported asset paths
+                  |
+                  v
+Apply document metadata, history and replacements
+                  |
+                  v
+Pandoc + corporate LaTeX template -> PDF artifact
+```
 
-# Get items for toc file
+The order file defines the publication. The template defines its presentation. Authors can change the design without adjusting headers and footers on every page, while template changes can be reviewed independently of technical content.
 
-# Process files in the Path
+The output is a snapshot of the source used by that build. Generating it does not approve it: the organisation's review, sign-off and records process still applies.
 
-foreach ($file in @($files | Sort-Object -Property Name)) {
+## Start with the Git repository behind the wiki
 
-# Get the order of the item as specified in .order file
+An Azure DevOps wiki is backed by Git, but the type of wiki matters when arranging the build.
 
-$order = $orderContent.IndexOf($file.BaseName);
+A **project wiki** has its own wiki repository. Use the wiki's **Clone wiki** option to obtain the repository URL, then clone it using your normal authenticated Git setup:
 
-# If item was not in .order file
+```bash
+git clone <wiki-clone-url> wiki-source
+```
 
-if ($order -eq -1) {
+Replace the placeholder; don't put a personal access token into a command that will be saved in a script or build log.
 
-# Set order to last item
+A **code wiki** publishes Markdown from a normal repository and branch. That is a convenient arrangement when you want documentation changes reviewed through pull requests and built by a pipeline in the same repository.
 
-$order = $lastItem;
+The supplied conversion pipeline checks out `self`. It does not automatically discover or export a separate project wiki. For a project wiki, add an authenticated checkout or staging step to bring its Markdown and attachments into the build workspace, or deliberately move to a code-wiki arrangement. Keep that acquisition step explicit so that a successful build cannot quietly publish an outdated copy.
 
-# Increase last item by one
+For the rest of this example, assume the Markdown is available in the pipeline's source repository under `docs/design`.
 
-$lastItem++;
+## Choose the document's reading order
 
-}
+A wiki's navigation tree is not necessarily a good printed document. It may include working notes, obsolete pages or several audiences' material. Alphabetical file order is rarely what a design reviewer needs either.
 
-# The DevOps Wiki allows special characters in file and folder names, but this is not supported by docfx build
+The converter uses a `document.order` file to select the pages and their sequence:
 
-if ($file.BaseName -match '\%') {
+```text
+docs/
+  design/
+    document.order
+    Overview.md
+    Requirements.md
+    Architecture.md
+    Security.md
+    Operations.md
+    images/
+      architecture.png
+```
 
-Write-Warning -Message "The '%' character is unsupported by docfx build: '$($file.FullName)'";
+For this document, `docs/design/document.order` contains:
 
-}
+```text
+# Customer design and handover
+Overview.md
+Requirements.md
+Architecture.md
+Security.md
+Operations.md
+```
 
-if ($ExcludeFolders -notcontains $file.BaseName) {
+Each entry names a file relative to the document folder, including its extension. Lines beginning with `#` are comments. Nested paths can be listed explicitly when the content spans subfolders.
 
-$childFolder = Join-Path -Path $Path -ChildPath $file.BaseName;
+Azure DevOps also uses `.order` files for wiki navigation. Those are not interchangeable with `document.order`: the converter expects an explicit list of Markdown paths, not a recursive walk of the wiki's navigation files.
 
-$items = @(
+My early experiments used PowerShell helpers named `Get-DocfxFolderItems`, `Get-DocfxItem` and `Invoke-DocfxTocProcessing` to inspect the wiki hierarchy and its `.order` files. That was useful for exploring the source structure. The implementation shared here uses the simpler publication manifest instead; you don't need those helpers or DocFX to run it.
 
-# If a folder exist with same name as file basename
+This gives the author an editorial decision to review in Git. A new wiki page doesn't become part of the customer deliverable merely because it exists.
 
-if (Test-Path -Path $childFolder -PathType Container) {
+## Add the Azure DevOps pipeline
 
-# Get child items of that folder
+Copy the repository's [Azure DevOps pipeline](https://github.com/innofactororg/markdown2pdf/blob/main/.azuredevops/markdown2pdf.yml) into the source repository, for example as:
 
-Get-DocfxFolderItems -Path $childFolder -Include $Include -ExcludeFolders $ExcludeFolders;
+```text
+.pipelines/docs.design.yml
+```
 
-}
+Use the full supplied pipeline, not just the variable block below. For this scenario, its variables would look like this:
 
-)
+```yaml
+variables:
+  FIRST_CHANGE_DESCRIPTION: Initial design draft
+  FOLDER: docs/design
+  GIT_LOG_LIMIT: 15
+  HISTORY_FILE: history.txt
+  MAIN_AUTHOR: Architecture Team
+  ORDER_FILE: document.order
+  OUT_FILE: solution-design.pdf
+  PROJECT: CUSTOMER-001
+  REPLACE_FILE: replace.json
+  SKIP_GIT_COMMIT_HISTORY: false
+  SUBTITLE: Solution Design and Operational Handover
+  TITLE: Customer Platform
+  WORKFLOW_VERSION: v3
+```
 
-$href = $file.FullName.Replace($Script:BasePath, '').Replace('\', '/').Trim('/');
+The next sections define the optional `history.txt` and `replace.json` used here. Leave their variables empty if you don't want those features.
 
-# Create the item object
+`FOLDER` tells the converter where the content lives. `ORDER_FILE` selects the publication manifest. `TITLE`, `SUBTITLE` and `PROJECT` provide document metadata, while `OUT_FILE` names the PDF published as a pipeline artifact.
 
-[pscustomobject]@{
+`WORKFLOW_VERSION` selects the converter scripts and template assets fetched from GitHub. The repository's example uses `v3`. For a controlled publishing process, choose and review a specific version; use an immutable commit reference where your standards require it. A template change can alter the deliverable even when none of its Markdown changes.
 
-Order = $order;
+The supplied pipeline performs these jobs:
 
-Name = $file.BaseName -replace '-', ' ' -replace '%3A', ':' -replace '%3C', '<' -replace '%3E', '>' -replace '%2A', '*' -replace '%3F', '?' -replace '%7C', '|' -replace '%2D', '-' -replace '%22', '"';
+1. Checks out the source with `fetchDepth: 0`, making Git history available for the document history feature.
+2. Caches TeX Live and installs the conversion dependencies.
+3. Fetches the converter, LaTeX template and branding images from the selected implementation version.
+4. Runs the conversion with the configured inputs.
+5. Publishes the resulting PDF with `PublishPipelineArtifact@1`.
 
-Href = $href;
+Create a pipeline in Azure DevOps using **Existing Azure Pipelines YAML file**, select the copied file, and run it manually for the first test. The agent needs access both to the source content and to the external locations used to download the tools and template.
 
-Items = $items;
+For Azure Repos Git, configure **build validation in the branch policies** if you want the PDF generated during pull-request review. Don't rely on the sample YAML's `pr:` block to configure Azure Repos PR validation; the branch policy is the relevant control there. Configure a normal CI trigger separately if you also want builds after merges.
 
-#TopicHref = '';
+The finished PDF is a downloadable artifact on the run. Publishing it to SharePoint, a customer portal or a records system is a separate delivery step, with its own access and approval requirements.
 
-}
+## Make the template match the document standard
 
-}
+The implementation has three main presentation assets:
 
-}
+- [`tools/designdoc.tex`](https://github.com/innofactororg/markdown2pdf/blob/main/tools/designdoc.tex): the LaTeX document template.
+- `tools/designdoc-cover.png`: the cover image.
+- `tools/designdoc-logo.png`: the page-header logo.
 
-}
+The template provides a title page, version history, table of contents and styled content pages. Headers carry the logo and document context; footers provide page numbering. The converter supplies metadata such as title, project, authors and date.
 
-function Get-DocfxItem {
+That is the place to implement the approved fonts, colours, margins and page furniture. Keep those choices out of individual Markdown pages so authors aren't maintaining formatting instructions alongside the design.
 
-param(
+The supplied assets are Innofactor-specific. To publish under another organisation's standard, maintain a reviewed customisation or fork, and update the pipeline's download locations to use it. Copying a different template into the documentation folder is not enough if the pipeline still fetches the upstream assets on every run.
 
-[pscustomobject]$Item,
+Also inspect `tools/convert.sh`. Some presentation and policy values are supplied there rather than in the `.tex` file, including an Innofactor-specific confidentiality statement. Changing the logo alone does not make the document appropriate for another company or for public distribution.
 
-[int]$Depth = 0
+A template can reproduce a corporate layout, but that does not automatically make a document compliant. If the standard requires a document identifier, classification, approver table or specific revision fields, add and review those explicitly. Check the generated PDF against an approved sample before treating the template as ready for formal use.
 
-)
+## Decide what “version history” means
 
-if ($Depth -eq 0) {
+The converter supports three sources for the history page, in priority order:
 
-$spaces = '';
+1. An explicit history file, when supplied and found.
+2. The fallback author and initial change description when Git history is deliberately skipped.
+3. Git commit history for the documentation folder, falling back to the initial entry when no history is available.
 
-$content = "- $($Item.hRef)";
+Git history is useful during drafting, but commit messages are not always suitable for a customer-facing revision table. “Fix typo” and “move diagram again” record the work without describing a formal issue of the document.
 
-} else {
+For a controlled deliverable, I would use `docs/design/history.txt`:
 
-#$spaces = ''.PadLeft($($Depth * 2), ' ');
+```text
+1.0|Oct 26, 2023|Architecture Team|Initial design issued for review
+1.1|Oct 28, 2023|Architecture Team|Updated network design following review
+```
 
-$spaces = ''.PadLeft($(1 * 2), ' ');
+The format is `Version|Date|Author|Description`, one entry per line, without a header row. These are illustrative entries, not dates generated by the pipeline.
 
-$content = "`n";
+Set `HISTORY_FILE: history.txt` to use it. If you prefer Git-derived history during development, leave that setting empty, keep `SKIP_GIT_COMMIT_HISTORY: false`, and use `GIT_LOG_LIMIT` to bound the number of entries.
 
-$content += "$($spaces)- $($Item.Href)";
+Neither option proves that a revision was approved. Record approval through the process your organisation actually uses, and retain the issued PDF with its source revision and build reference.
 
-}
+## Reuse content without maintaining customer-specific copies
 
-if ($Item.Items.Count -gt 0) {
+A common documentation problem is a largely reusable design with a few customer-specific names. The converter's replacement file lets the publishing step substitute those values.
 
-$items = @(
+For example, a Markdown paragraph might contain:
 
-foreach ($child in $Item.Items | Sort-Object -Property Order) {
+```markdown
+The primary services for {organization name} run in {data center name}.
+```
 
-Get-DocfxItem -Item $child -Depth $($Depth + 1);
+With `docs/design/replace.json`:
 
-}
-
-)
-
-$content += "`n";
-
-$content += "$($spaces) $($items)";
-
-}
-
-$content;
-
-}
-
-  
-  
-
-function Invoke-DocfxTocProcessing {
-
-param(
-
-[string]$Path,
-
-[string]$Include = '*.md',
-
-[string[]]$ExcludeFolders = @()
-
-)
-
-# Todo:
-
-# read .md files and get metadata: title and order
-
-# support replace for custom documents to customer
-
-#
-
-# Example:
-
-# Invoke-DocfxTocProcessing -Path 'C:\Repos\innofactor\Internal\Docs\markdown'
-
-  
-
-# Get the folders in Path (no recurse)
-
-$ExcludeFolders += '.*';
-
-$ExcludeFolders += 'obj';
-
-$ExcludeFolders += 'pdf';
-
-$basePaths = @(Get-ChildItem -Path $Path -Directory -Exclude $ExcludeFolders -Recurse -Depth 0);
-
-  
-
-# Create toc file in root Path
-
-$tocPath = Join-Path -Path $Path -ChildPath 'pandoc.yml';
-
-Write-Host -Object "Creating '$($tocPath)'";
-
-$i = 0;
-
-$tocContent = $basePaths | ForEach-Object {
-
-$i++;
-
-if ($i -eq $basePaths.Count) {
-
-" - $($_.Name)/";
-
-} else {
-
-" - $($_.Name)/`n";
-
-}
-
-}
-
-$null = Set-Content -Path $tocPath -Value "$($tocContent -join '')" -Force;
-
-  
-
-# Create toc files in each basepath of root path
-
-foreach ($basePath in $basePaths) {
-
-$Script:BasePath = $basePath.FullName;
-
-$items = Get-DocfxFolderItems -Path $basePath.FullName -Include $Include -ExcludeFolders $ExcludeFolders;
-
-$tocPath = Join-Path -Path $basePath.FullName -ChildPath 'toc.yml';
-
-$tocContent = $(
-
-foreach ($item in @($items | Sort-Object -Property Order)) {
-
-$content = Get-DocfxItem -Item $item;
-
-"$content`n";
-
-}
-
-)
-
-# Get the file in root Path that match basepath Name
-
-$basePathFiles = @(Get-ChildItem -Path $Path -File -Include "$($basePath.Name).md" -Recurse -Depth 0);
-
-$tocContent = $(
-
-if ($basePathFiles.Count -eq 1) {
-
-" - ../$($basePathFiles[0].Name)`n$($tocContent -join '')";
-
-} else {
-
-"$($tocContent -join '')";
-
-}
-
-);
-
-  
-
-Write-Host -Object "Creating '$($tocPath)'";
-
-$null = Set-Content -Path $tocPath -Value "$tocContent" -Force;
-
-}
-
+```json
+{
+  "{organization name}": "Contoso",
+  "{data center name}": "WE1"
 }
 ```
 
+Set `REPLACE_FILE: replace.json` to apply the replacements to the merged content before conversion. Keep that configuration with the publication so reviewers can see which values were used.
 
-## Pandoc Defaults File
-The [`--defaults`](https://pandoc.org/MANUAL.html#option--defaults) option may be used to specify a package of options to apply on our conversion, in the form of a YAML file.
+This is simple text substitution, not a full document templating language. The implementation uses shell and `sed` processing, so test values containing slashes, ampersands or other special characters before relying on them. Don't use the file as a secret store; the substituted text is going into a distributed document.
 
-Fields that are omitted will just have their regular default values. So a defaults file can be as simple as one line:
+## Write Markdown that survives the move to paper
 
-```
-verbosity: INFO
-```
+A browser can scroll horizontally. A portrait A4 page cannot. A few authoring habits make the generated PDF much more useful.
 
-In fields that expect a file path (or list of file paths), the following syntax may be used to interpolate environment variables:
+Keep tables narrow, give diagrams readable labels, and split large comparison matrices into smaller sections. Use proper Markdown headings rather than formatting ordinary paragraphs to resemble headings. Let the generated contents page describe the document instead of carrying a wiki-specific contents widget into print.
 
-```
-csl:  ${HOME}/mycsldir/special.csl
-```
+Use explicit relative image paths where possible:
 
-`${USERDATA}` may also be used; this will always resolve to the user data directory that is current when the defaults file is parsed, regardless of the setting of the environment variable `USERDATA`.
-
-`${.}` will resolve to the directory containing the defaults file itself. This allows you to refer to resources contained in that directory:
-
-```
-epub-cover-image: ${.}/cover.jpg
-epub-metadata: ${.}/meta.xml
-resource-path:
-- .             # the working directory from which pandoc is run
-- ${.}/images   # the images subdirectory of the directory
-                # containing this defaults file
+```markdown
+![Platform architecture](./images/architecture.png)
 ```
 
-This environment variable interpolation syntax _only_ works in fields that expect file paths.
+The converter rewrites supported relative paths as it merges pages, and the repository specifically recommends paths starting with `./`. It is not a complete Azure DevOps wiki-rendering engine. Check attachments, page links, anchors and any wiki-specific syntax against the output. Turning a path into an absolute build-agent path does not make it a useful link for the recipient of a PDF.
 
-Defaults files can be placed in the `defaults` subdirectory of the user data directory and used from any directory. For example, one could create a file specifying defaults for writing letters, save it as `letter.yaml` in the `defaults` subdirectory of the user data directory, and then invoke these defaults from any directory using `pandoc --defaults letter` or `pandoc -dletter`.
+The implementation also supports fenced admonitions through its Pandoc filter:
 
-When multiple defaults are used, their contents will be combined.
+```markdown
+::: warning
+Confirm the recovery procedure before scheduling the production cutover.
+:::
+```
 
-Note that, where command-line arguments may be repeated ([`--metadata-file`](https://pandoc.org/MANUAL.html#option--metadata-file), [`--css`](https://pandoc.org/MANUAL.html#option--css), [`--include-in-header`](https://pandoc.org/MANUAL.html#option--include-in-header), [`--include-before-body`](https://pandoc.org/MANUAL.html#option--include-before-body), [`--include-after-body`](https://pandoc.org/MANUAL.html#option--include-after-body), [`--variable`](https://pandoc.org/MANUAL.html#option--variable), [`--metadata`](https://pandoc.org/MANUAL.html#option--metadata), [`--syntax-definition`](https://pandoc.org/MANUAL.html#option--syntax-definition)), the values specified on the command line will combine with values specified in the defaults file, rather than replacing them.
+The supported classes are `warning`, `important`, `note`, `caution` and `tip`. Check how these appear in both your wiki and PDF; support in the converter does not guarantee identical rendering in every Markdown viewer.
 
-## Concatenate multiple markdown
-To concatenate multiple files in a specific order, we can leverage the `defaults.yaml` file, with the `input-files:` option. 
+The supplied template is designed for portrait A4 and does not offer a per-page landscape switch. Wide tables and diagrams need an editorial decision, not just a smaller font. Section numbering is not enabled automatically by the supplied conversion command either; agree a consistent approach before numbering headings manually.
 
-Here is a simple example file called `defaults.yaml` with the following content:
+## Where the original Pandoc commands fit
+
+The pipeline wraps tools that can also be used directly. These commands are useful for understanding the conversion or testing a formatting change without first wiring up a complete publishing process.
+
+### Combine pages in an explicit order
+
+Pandoc can read an ordered list of inputs from a defaults file. For example, save this as `defaults.yaml`:
 
 ```yaml
 input-files:
-  - file1.md
-  - file3.md
-  - file2.md
+  - Overview.md
+  - Requirements.md
+  - Architecture.md
+verbosity: INFO
 ```
 
-Then call pandoc with `pandoc --defaults defaults.yaml`
+Then run Pandoc from the folder containing those files:
 
-DevOps Wiki,
-## Page Formatting
-Create the following `head.tex` file, to define some settings for pandoc to apply during converstion. 
+```bash
+pandoc --defaults defaults.yaml -o output.docx
+```
+
+This illustrates the same principle as `document.order`, but the formats are different. `defaults.yaml` is Pandoc configuration; `document.order` is input to the repository's merge script. They are not two files you must maintain for the supplied pipeline.
+
+Defaults files can also hold resource paths and other conversion settings. Pandoc supports `${.}` in path-valued fields to refer to the defaults file's directory, which helps when keeping configuration and supporting assets together. See the [Pandoc defaults documentation](https://pandoc.org/MANUAL.html#defaults-files) for the available fields.
+
+### Use a Word reference document when Word is the deliverable
+
+Sometimes the official handover format is DOCX, or the recipient needs to make tracked edits. Pandoc's Word route uses a reference document:
+
+```bash
+pandoc --defaults defaults.yaml --reference-doc=reference.docx -o output.docx
+```
+
+Save the approved template as a `.docx`, rather than passing a `.dotx` directly. Put `reference.docx` in the working folder or pass its explicit path.
+
+Pandoc uses the reference document's styles and document properties; it does not fill an arbitrary existing Word document as though it were a mail-merge template. Check the result against the corporate standard, especially when it contains custom cover content or mandatory tables.
+
+This is a separate output route. The `markdown2pdf` implementation described above renders through LaTeX and XeLaTeX; it does not take a corporate Word template and automatically turn that into its PDF layout.
+
+### Apply LaTeX settings to the PDF route
+
+For local PDF experiments, a header include such as `head.tex` can hold page and link settings:
 
 ```tex
 \usepackage{fancyvrb,newverbs}
-% set up page geometry
 \usepackage[top=2cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
-
-% change background color for inline code in
-% markdown files. The following code does not work well for
-% long text as the text will exceed the page boundary
-\definecolor{bgcolor}{HTML}{DADADA}
-\let\oldtexttt\texttt
-
-\renewcommand{\texttt}[1]{
-  \colorbox{bgcolor}{\oldtexttt{#1}}
-}
-
-%% color and other settings for the hyperref package
 \hypersetup{
     bookmarksopen=true,
+    colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
-    urlcolor=NavyBlue,
+    urlcolor=blue
 }
 ```
 
-We can then reference the file with 
+Apply it when generating a PDF:
 
-```sh
-pandoc --defaults defaults.yaml -H head.tex -o output.docx
+```bash
+pandoc --defaults defaults.yaml --pdf-engine=xelatex -H head.tex -o output.pdf
 ```
 
+This requires Pandoc and a suitable TeX installation. A LaTeX header does not style DOCX output; use the reference document for that. In the automated implementation, make the equivalent changes in the reviewed template and metadata rather than maintaining a competing set of local overrides.
 
-## Word Template
-With the option `--reference-doc=FILE` parameter, we have the option to define a `docx` (Word) or `odt` (LibreOffice) document which is used as a format template file.
+### Inspect code highlighting and link colours
 
-This setting will enable **Pandoc** to apply the formatting from our template Word files to the created output. 
+Pandoc can list its syntax-highlighting styles and recognised languages:
 
-Copy a `docx` file (not a `dotx` template, save the template as document) and name it as `reference.docx` in either
-* The current folder
-* A folder of your choice, defined by using `--data-dir` 
-
-Note: The system default folder for `data-dir` is
-- On Linux or MacOS the folder is  `$HOME/.pandoc` 
-- On Windows use  `C:\Users\USERNAME\AppData\Roaming\pandoc`
-
-The results of running Pandoc with the following command, is a document that follow the style of our company documents: fonts, font colors, and even the company logo
-
-```sh
-pandoc --defaults defaults.yaml -H head.tex --reference-doc=reference.docx -o skbo.docx
-```
-
-## Highlighting
-
-Pandoc supports block code syntax highlighting for many languages and offers several highlight themes. To list the highlight themes that Pandoc provides, use the following command:
-
-```fallback
+```bash
 pandoc --list-highlight-styles
-```
-
-To list all the languages that Pandoc supports, use the following command:
-
-```fallback
 pandoc --list-highlight-languages
 ```
 
-To use syntax highlighting for different languages, you need to specify the language in the block quote and use `--highlight-style`, e.g.,:
+For a standalone experiment using its built-in highlighting:
 
-```fallback
+```bash
 pandoc --pdf-engine=xelatex --highlight-style zenburn test.md -o test.pdf
 ```
 
-In the above command, we use the `zenburn` theme, I also recommend using the `tango` or `breezedark` theme.
+Or combine the defaults file with numbered sections and a different highlight style:
 
-## Add colors to links
-
-According to the Pandoc user guide, we can add colors to different links via the `colorlinks` option to separate the links from the normal texts. To customize the color of different types of links, Pandoc offers different options:
-
-> linkcolor, filecolor, citecolor, urlcolor, toccolor color for internal links, external links, citation links, linked URLs, and links in table of contents, respectively: uses options allowed by xcolor, including the dvipsnames, svgnames, and x11names lists
-
-For example, to set the URL color to `NavyBlue` and set the TOC color to `Red`, we can use the following command:
-
-```fallback
-pandoc -V colorlinks -V urlcolor=NavyBlue -V toccolor=Red test.md -o test.pdf
+```bash
+pandoc --defaults defaults.yaml --pdf-engine=xelatex -H head.tex \
+  -N --highlight-style=espresso -V colorlinks -o output.pdf
 ```
 
-Note that the `urlcolor` option will not color the raw URL links in the text. To color those raw links, you can enclose those links with `<>`, e.g., `<www.google.com>`.
+Language labels on fenced code blocks help Pandoc choose the right syntax rules. The shared converter uses `--listings`, so its code presentation is controlled through the LaTeX listings configuration; changing a `--highlight-style` example is not the same as changing that pipeline's code styling.
 
+Link colours can be tested independently too:
 
-Finally, my docuements have some code snippets embedded, so we can also tell pandoc to apply a little extra formatting on these for us
-
-```sh
-pandoc --defaults defaults.yaml -H head.tex --reference-doc=reference.docx -N --highlight-style=espresso -V colorlinks  -o output.docx
+```bash
+pandoc --pdf-engine=xelatex -V colorlinks -V urlcolor=blue \
+  -V toccolor=red test.md -o test.pdf
 ```
 
-[Converting Markdown to Beautiful PDF with Pandoc - jdhao's digital space](https://jdhao.github.io/2019/05/30/markdown2pdf_pandoc/)
+The text must be recognised as a link. Use Markdown links or an explicit autolink such as `<https://example.com>` rather than assuming that every URL-looking string will become one.
+
+These commands explain the building blocks. For repeated delivery, the versioned pipeline should remain the publishing route, so the document doesn't depend on whichever combination of flags someone last used locally.
+
+## Review the artifact before issuing it
+
+For the first run, choose a small but representative document: several pages, an image, a table and a code block. Inspect the PDF rather than treating a green pipeline result as evidence of document quality.
+
+Check that the pages appear in the intended order, images resolve, table columns fit and code is legible. Confirm that the cover, history, confidentiality text and branding are appropriate for the recipient. Test links from the downloaded PDF, outside the build agent and ideally without access to the source wiki.
+
+After that first review, the publishing loop becomes manageable: edit the Markdown, review the change, build the PDF and retain the version that was actually issued. If you want artifacts on every relevant change, include order files, history files, replacement files and pipeline configuration in your trigger or branch-policy path filters, not just `.md` files.
+
+## Use the implementation
+
+The complete project is available at [innofactororg/markdown2pdf](https://github.com/innofactororg/markdown2pdf), with [Azure DevOps setup instructions](https://github.com/innofactororg/markdown2pdf/tree/main/.azuredevops) and a [GitHub Action example](https://github.com/innofactororg/markdown2pdf#usage) for documentation hosted on GitHub. The code and documentation are released under the BSD 3-Clause License; retain the relevant notices when adapting them.
+
+The useful starting point is one document, one explicit order file and one reviewed template. Keep the wiki as the place the team works, and publish a PDF from the reviewed source when someone needs a formal copy. The next revision can then follow the same process without rebuilding the document by hand in Word.
+
+### References
+
+- [markdown2pdf source and usage](https://github.com/innofactororg/markdown2pdf)
+- [Azure DevOps pipeline implementation](https://github.com/innofactororg/markdown2pdf/blob/main/.azuredevops/markdown2pdf.yml)
+- [Conversion script](https://github.com/innofactororg/markdown2pdf/blob/main/tools/convert.sh)
+- [Pandoc user guide](https://pandoc.org/MANUAL.html)
+- [Converting Markdown to Beautiful PDF with Pandoc — jdhao](https://jdhao.github.io/2019/05/30/markdown2pdf_pandoc/)
 
 ---
 <!-- enrich:containment -->

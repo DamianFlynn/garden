@@ -1,13 +1,12 @@
 ---
 title: Theming Hugo with Module
-date: '2022-11-21T00:00:00Z'
-draft: true
+date: '2022-11-21 00:00:00+00:00'
+draft: false
 slug: theming-hugo-with-module
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/theming-hugo-with-module/index.md
-neocortex_source_sha: c324a7b757f84959ffdcbbf9f984446a09cb0da58b537d05c9334886470b204e
-lifecycle: ready
+neocortex_source_sha: e872f3a7b17e70502c34326ac4ce9fdf97f5dd21b379ccd2cf5d71d66394fda4
 description: Leverage agile frameworks to provide a robust synopsis for high level
   overviews. Iterative approaches to corporate strategy foster collaborative thinking
   to further the overall value proposition.
@@ -21,7 +20,7 @@ series: Sharing Knowledge
 featuredImage: hero.png
 ---
 
-To utilize modules in Hugo for our theme, we first must ensure that our site supports [Hugo Modules](/posts/hugo-modules-introduction/).
+To utilize modules in Hugo for our theme, we first must ensure that our site supports Hugo Modules.
 
 > You can quickly verify that you site is configured for Hugo Modules, as it should contain a  `go.mod` file in the repository root.
 

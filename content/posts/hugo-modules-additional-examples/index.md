@@ -25,7 +25,7 @@ Let’s take a look at some examples of site configurations using Hugo modules.
 
 A major dependency of a site is of course it's theme. 
 
-So far we have added a [Hugo Theme Module](/posts/theming-hugo-with-module/) to our [Hugo Module](/posts/hugo-modules-introduction/) based site.
+So far we have added a [Hugo Theme Module](/posts/theming-hugo-with-module/) to our Hugo Module based site.
 
 Quickly recapping, To initialize the site as a module and add the theme we run the following commands from the site’s root directory.
 

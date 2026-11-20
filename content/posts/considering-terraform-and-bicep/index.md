@@ -1,13 +1,12 @@
 ---
 title: Considering Terraform and Bicep
-date: '2023-02-15T00:00:00Z'
-draft: true
+date: '2023-02-15 00:00:00+00:00'
+draft: false
 slug: considering-terraform-and-bicep
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/considering-terraform-and-bicep/index.md
-neocortex_source_sha: 5532c6b102451b3c539827ff155e401f8dcb23284bdb37bf76faeaf78ea3c8d2
-lifecycle: ready
+neocortex_source_sha: f5b4e6f5127a77cb095fec9df78329229875bca9e7e94ae2e00fc226e2804c7c
 description: Consider the strenghts of Terraform and Bicep as a DSL for cloud architecture
 tags:
 - iac
@@ -15,7 +14,7 @@ tags:
 - bicep
 categories:
 - desired state
-series: Terraform
+series: Building Azure With Code
 featuredImage: hero.png
 ---
 
@@ -53,7 +52,7 @@ In conclusion, Bicep offers several benefits over ARM. Its simpler syntax, bette
 
 ## Considerating Terraform
 
-Both [Terraform](/posts/lang-terraform/)  and bicep use a declarative language, which means that it focuses on the desired end-state rather than the specific steps needed to achieve it. This makes it easier to manage and automate infrastructure changes.
+Both Terraform  and bicep use a declarative language, which means that it focuses on the desired end-state rather than the specific steps needed to achieve it. This makes it easier to manage and automate infrastructure changes.
 
 Both options are very popular, and very powerful. At one point in time, Terraform was a poor option for working with Azure, and Bicep did not even exist (its just 2 years young). 
 

@@ -1,21 +1,17 @@
 ---
-title: Sw Tailscale Configuration
-date: '2026-07-28'
-draft: true
+title: Running Tailscale on a Ubiquiti EdgeRouter
+date: '2024-12-14'
+draft: false
 slug: running-tailscale-on-a-ubiquiti-edgerouter
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/running-tailscale-on-a-ubiquiti-edgerouter/index.md
-neocortex_source_sha: c8f5b2dd64bdf6d44331de7202582ba76c777a58534570ef4daf495e16d853a6
+neocortex_source_sha: ea6070a40170714ac2b684728a8bf8c2af1b769d1ef84ff363537c52dea525dc
 description: A guide to running and maintaining Tailscale on a Ubiquiti EdgeRouter
   to simplify secure home network access.
 tags: []
 featuredImage: hero.png
 ---
-
-# Running Tailscale on a Ubiquiti EdgeRouter
-#BlogPost #draft
-
 
 Having grown up in the world of 'on premise' computing, I have always prioritized data privacy in my home network. 
 
@@ -24,6 +20,10 @@ Though there may not be much of interest to hackers, there is still personal dat
 When WireGuard emerged a few years ago, I quickly switched to an Edge Router X to make it my default VPN technology. Though WireGuard had some scaling challenges to manage, it was still significantly easier to use than what I was used to. 
 
 Then Tailscale came along, which made WireGuard even more user-friendly with additional security features like key rotation and single sign-on. While I’ve been using Tailscale on all of my systems, including Linux, macOS, and iOS, I recently decided to shift the endpoint to the edge of my network to make connectivity even easier.
+
+> [!Note] December 2024 Update
+> My EdgeRouter passed away, it served me well, and has been replaced by a UniFi Cloud Gateway Max, And is quite happy to assume the `tailscale` responsibility
+
 
 > [!Note] June 2024 Update
 > Latest builds now support the `tailscale update` command, which makes the maintenance trivial.

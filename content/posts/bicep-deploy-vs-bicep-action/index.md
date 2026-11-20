@@ -1,14 +1,14 @@
 ---
-title: 'Azure/bicep-deploy vs bicep-action: A Tool or a Workflow?'
-date: '2026-11-14'
-draft: true
+title: 'bicep-deploy vs bicep-action: A Tool or a Workflow?'
+date: '2026-11-16'
+draft: false
 slug: bicep-deploy-vs-bicep-action
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/bicep-deploy-vs-bicep-action/index.md
-neocortex_source_sha: a7e33adb75ae60aa1ac458f4266074b655619ba3430b57998c87ab30e1930bad
+neocortex_source_sha: a992d2e634f964014deff56f8bd437539d7dce406e79ecd9220d7ad47a0013f8
 description: 'An honest, side-by-side comparison of Microsoft''s official Bicep deployment
-  action and task (Azure/bicep-deploy and BicepDeploy@0) with innofactororg/bicep-action:
+  action and task (Azure/bicep-deploy) with Innofactors Bicep Action (InnofactorOrg/Bicep-Action):
   architecture, platform coverage, feature grids, stacks, safety, and the strengths
   and weaknesses of each.'
 tags:
@@ -19,8 +19,11 @@ tags:
 - deployment-stacks
 - iac
 - comparison
+series: Building Azure With Code
 featuredImage: hero.png
 ---
+
+# Azure/bicep-deploy vs bicep-action: A Tool or a Workflow?
 
 ![A tool versus a workflow](./bicep-deploy-vs-bicep-action/hero.png)
 
