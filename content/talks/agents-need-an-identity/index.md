@@ -1,12 +1,12 @@
 ---
 title: Agents need an identity, and your IT department will say no
 date: '2026-11-10'
-draft: true
+draft: false
 slug: agents-need-an-identity
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/agents-need-an-identity/index.md
-neocortex_source_sha: e1ec51ce9efd376d4568773edfb34123b3bb9f5a11ec795e87c752a0d7985e46
+neocortex_source_sha: ffd4ca5b2af870fb82b80e2f212b74ac2c46ee255c92b3e1c336ebc7fe8da747
 format: talk
 publishDate: '2026-11-07'
 events:

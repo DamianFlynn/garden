@@ -1,7 +1,7 @@
 ---
 title: Azure and GitHub Community Day
 description: ''
-draft: true
+draft: false
 params:
   url: https://www.meetup.com/microsoft-azure-community/
 organiser: Microsoft Azure Community

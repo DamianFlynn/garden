@@ -1,6 +1,6 @@
 ---
 title: Innofactor Platforms Tech Briefing
 description: ''
-draft: true
+draft: false
 featuredImage: icon.png
 ---

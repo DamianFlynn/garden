@@ -1,12 +1,12 @@
 ---
 title: Letting AI operate production Azure — what it gets wrong
 date: '2026-11-10'
-draft: true
+draft: false
 slug: ai-operating-production
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ai-operating-production/index.md
-neocortex_source_sha: c3681787d472741b2852794a42965e08f93067c8eb5be25a10fe8b6aa016c73e
+neocortex_source_sha: d6e6e0d87966a118ebc984f15dfcfb03945528d59b7212e3886465f795b47372
 format: talk
 publishDate: '2026-11-07'
 events:

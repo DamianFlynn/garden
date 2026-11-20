@@ -1,12 +1,12 @@
 ---
 title: Agents need an identity, and your IT department will say no
 date: '2026-11-13'
-draft: true
+draft: false
 slug: agents-need-an-identity-innofactor-briefing
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/agents-need-an-identity-innofactor-briefing/index.md
-neocortex_source_sha: b2a36e71dee9ea4c940849d360918434dc9f9f2362d2a17b983e3e4a34ec6416
+neocortex_source_sha: 30df3868c968403bbcda22c6216f38c83c230bea0c1e8619fba52ecbfaf576f3
 format: talk
 publishDate: '2026-11-07'
 events:
