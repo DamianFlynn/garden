@@ -6,13 +6,15 @@ slug: ad-administrative-limits
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ad-administrative-limits/index.md
-neocortex_source_sha: c53e3dd553a22789e4f8ec9fcc99014b9c031cbbcfe9aae816f6d0fec732a247
+neocortex_source_sha: 2cd677dc51767e3f644cd591cd1189abda031320bdfeec71b118979d97573560
 description: Active Directory Database limits restricts your ability to manage objects
   - Learn how to quickly fix the problem
 tags:
-- AD
+- Active Directory
+- PKI
+- PowerShell
 categories:
-- Administration
+- Identity and Security
 featuredImage: sw_active-directory_administrative-limits.jpg
 ---
 

@@ -6,18 +6,19 @@ slug: iot-azure-iot-operations
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/iot-azure-iot-operations/index.md
-neocortex_source_sha: 4ba423311dd496abb8aa757c77a9af9cfc321e23e31dea9e7dccce5a5f12a6d3
+neocortex_source_sha: 3d348318a6ef735e59c169118598d11d4bb05f1751cb7cbaa95d467a1f13997f
 description: Azure IoT Operations runs on Arc-enabled Kubernetes, with K3s on Ubuntu
   supporting multi-node deployments and instances bundling core services.
 tags:
-- IaC
-- Linux
-- IoT
-- DevOps
-- Docker
+- Azure IoT Operations
+- Kubernetes
+- Prometheus
+- OpenTelemetry
+- Azure Key Vault
+- Observability
+- Bash
 categories:
-- IoT
-- Azure Edge Devices
+- IoT and Edge
 series:
 - Azure IoT Operations
 featuredImage: hero.png

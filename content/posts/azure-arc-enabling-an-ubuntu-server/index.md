@@ -6,7 +6,7 @@ slug: azure-arc-enabling-an-ubuntu-server
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-arc-enabling-an-ubuntu-server/index.md
-neocortex_source_sha: 25d8aa16fd2461b2f254c769e561a11a4dc5090921754a39ce902d2ec8bf342c
+neocortex_source_sha: 7776fffc860151a8ab5687bcc5cdf7cc1293b35908387a45986591d8765e4062
 description: Discover how to transform a basic Ubuntu server into a fully Azure Arc-enabled
   edge device. This step-by-step guide walks you through onboarding a Linux server
   into Azure Arc, installing the hybrid agent, establishing secure remote access over
@@ -14,10 +14,12 @@ description: Discover how to transform a basic Ubuntu server into a fully Azure 
   for IoT, hybrid cloud, or secure remote administration, this post equips you with
   the tools to bridge your edge environments seamlessly with Azure.
 tags:
-- IaC
+- Azure Arc
 - Linux
+- SSH
+- Bash
 categories:
-- Azure Edge Devices
+- IoT and Edge
 series:
 - Azure IoT Operations
 featuredImage: hero.png

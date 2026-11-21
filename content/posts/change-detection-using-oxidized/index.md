@@ -6,16 +6,20 @@ slug: change-detection-using-oxidized
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/change-detection-using-oxidized/index.md
-neocortex_source_sha: 91f685128657d73ca43468b6c9c2a786e8f9a22218219365254ae2e342e5eb74
+neocortex_source_sha: c58509d712cc70063ac6dff12d50da5923c12d92454a42748e1914ca241b53bb
 description: Oxidized is a Linux based service which has the ability to monitor a
   device's configuration, including software and hardware. Current configuration is
   backed up from each device and stored to a GIT repository to maintain history of
   changes.
 tags:
-- General
+- Docker
+- Oxidized
+- Change Detection
+- Site Reliability Engineering
+- Ubiquiti
+- Git
 categories:
-- Career
-- Cisco Champion
+- Networking
 featuredImage: hero.png
 ---
 

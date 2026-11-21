@@ -6,18 +6,18 @@ slug: azure-ea-delegating-privileges
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-ea-delegating-privileges/index.md
-neocortex_source_sha: 68fa78140eb80707960542057d7eabc01395386bfc5384fa83b9a38558b6684b
+neocortex_source_sha: 01f526339a78626a0b53475a50e950f0a3a368b65e019d1d3aaadb9d7382c002
 description: Delegating Azure Enterprise Agreement Owner privileges to a Service Principal
   (SPN)
 tags:
-- ARM
-- Azure
+- Subscription Vending
+- Entra ID
+- PowerShell
 - Enterprise Agreement
-- EA
-- SPN
-- Delegation
+- Bash
 categories:
-- Identity
+- Governance
+- Identity and Security
 featuredImage: azure-billing-ea_privilege_delegation.jpg
 ---
 

@@ -6,14 +6,17 @@ slug: streaming-vynil-on-sonos
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/streaming-vynil-on-sonos/index.md
-neocortex_source_sha: 375bb94b3484cd10e9ed46ff0cd06c2f41a329208aef1c05493a0fdb0ecb511c
+neocortex_source_sha: ec241fef934420cca1f2eea3c42e6e2eb15ed78cbbf3b875979b62f050add3f1
 description: Mixup some Vyinl Oldies, a little Ice to cast, and a PI for some energy,
   and your ready to go
 tags:
+- Raspberry Pi
 - Linux
-- RaspberryPI
+- Sonos
+- Icecast
+- Bash
 categories:
-- IoT
+- Smart Home
 series: Home Automation
 featuredImage: iot-audio-usb_streamer.jpg
 ---

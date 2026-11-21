@@ -6,19 +6,19 @@ slug: azure-quota-groups-recycling-capacity
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-quota-groups-recycling-capacity/index.md
-neocortex_source_sha: 4da07bb6baacc1b66154c2c54f83576d390005866a353f7f81a6543398866d7a
+neocortex_source_sha: a2c46aa9e2db355e50959ca60f50e1a9322e1ce3893079fa48d92177eea11af6
 description: 'A level 400 look at Azure Quota Groups: how the group limit, allocation
   and deallocation really work, how to reclaim quota from decommissioned subscriptions
   into a pool, how that fits an automated subscription-vending flow, and the three
   limits that decide whether you can use it at all: CSP, compute only, and region
   access.'
 tags:
-- azure
-- quota
-- quota-groups
-- subscription-vending
-- landing-zones
-- csp
+- Subscription Vending
+- Landing Zones
+- Quota Groups
+categories:
+- Azure
+- Governance
 featuredImage: hero.png
 ---
 

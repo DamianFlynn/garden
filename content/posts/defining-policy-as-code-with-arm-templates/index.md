@@ -6,20 +6,14 @@ slug: defining-policy-as-code-with-arm-templates
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/defining-policy-as-code-with-arm-templates/index.md
-neocortex_source_sha: eacb2fec01da3b6bd5a0383bcbe5635dbc5edad7bf92b6d91942526b47f38583
+neocortex_source_sha: 48b1fe4b73fa012533319355bbf3c8826a0dda692ed592a315b02b1e03811564
 description: Defining your Policy's as Code in Azure Resource Manager Templates
 tags:
-- Azure
-categories:
-- Cloud Strategy
-- Developer
-- IT Pro/DevOps
-- Community
-- ARM
 - Azure Policy
-- Azure
-- Resource Manager
-- Cloud
+- ARM Templates
+categories:
+- Governance
+- Infrastructure as Code
 featuredImage: hero.png
 ---
 

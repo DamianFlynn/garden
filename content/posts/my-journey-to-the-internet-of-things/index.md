@@ -6,17 +6,14 @@ slug: my-journey-to-the-internet-of-things
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/my-journey-to-the-internet-of-things/index.md
-neocortex_source_sha: 4ee7061fd1681378efed5614a23de726b4e63a735bddc1c5e224b2c20b40b355
+neocortex_source_sha: bb41baffa6852dc1d725dc24ac31b66cef720e8de70b537f217c17eb804fb2e1
 description: While preparing to use the NodeMCU, Reminiscing IoT evolution after 20
   Years
 tags:
-- Internet of Things
+- ESP8266
+- Arduino
 categories:
-- Developer
-- Smart Home
-- SoC
-- Microcontrollers
-- IoT
+- IoT and Edge
 featuredImage: hero.png
 ---
 

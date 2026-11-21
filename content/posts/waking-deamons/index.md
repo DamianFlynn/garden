@@ -6,20 +6,15 @@ slug: waking-deamons
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/waking-deamons/index.md
-neocortex_source_sha: 6395a33925268fae601e1c0f2040d0d328f1f652a41d3935bd5b80e96dd8717a
+neocortex_source_sha: f0bb885f747947d3fcd416c34e392da35ed09d713e25cbc419ab974c13fa4568
 description: Starting Services on Linux at boot
 tags:
-- Azure
+- Linux
+- Raspberry Pi
+- systemd
+- Bash
 categories:
-- Cloud Strategy
-- Developer
-- IT Pro/DevOps
-- Community
-- ARM
-- Azure Policy
-- Azure
-- Resource Manager
-- Cloud
+- DevOps and Tooling
 featuredImage: banner.png
 ---
 

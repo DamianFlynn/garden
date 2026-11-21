@@ -6,14 +6,14 @@ slug: ignite-2019-web-application-gateway-and-firewall
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ignite-2019-web-application-gateway-and-firewall/index.md
-neocortex_source_sha: 1f5dae445cb85304bc0c9cd0df74214855f9828dfef9a386f01a7d0cfc140b9d
+neocortex_source_sha: 71530997ea3ebbbb620f28b484f48cba35795b16acb8f1517dc9d80e71d25c5a
 description: Delivering PaaS Services Privately on Azure VNets with Private Link
 tags:
-- Custom Providers
-- Managed Applications
-- Service Catalog
+- Application Gateway
+- Web Application Firewall
+- Microsoft Ignite
 categories:
-- Resource Manager
+- Networking
 featuredImage: hero.png
 ---
 

@@ -6,20 +6,13 @@ slug: static-comments
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/static-comments/index.md
-neocortex_source_sha: 3dcd5628f41ac521c5d7e9f1421dab6302bcd0fe2af55246dda9fd948291ca55
+neocortex_source_sha: d05aeaaaa69d5b03e63ac1c511783989960ea8f94e2bbf88eddc54954149f807
 description: Implementing Comments on a Static Site
 tags:
-- Azure
+- Static Sites
+- GitHub
 categories:
-- Developer
-- IT Pro/DevOps
-- Web
-- OpenSource
-- Git / GitHub
-- Continuous Deployment
-- Azure
-- Web Sites
-- Cloud
+- DevOps and Tooling
 featuredImage: hero.png
 ---
 

@@ -6,20 +6,15 @@ slug: configure-vs-code-with-azure-cloud-shell
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/configure-vs-code-with-azure-cloud-shell/index.md
-neocortex_source_sha: e105761a5d497e715708c6bb838347d1f1afae3e0b756592c7ca798d36ace941
+neocortex_source_sha: 66b0ecca3dc39b9047d6a86d3f5a2ba6a1427d151bcb4a68ef7475d3e249f94d
 description: Integrate Azure Directly into your work flow with VS Code
 tags:
-- Azure
+- VS Code
+- PowerShell
+- Azure Cloud Shell
 categories:
-- Cloud Strategy
-- Developer
-- IT Pro/DevOps
-- Community
-- ARM
-- Azure Policy
+- DevOps and Tooling
 - Azure
-- Resource Manager
-- Cloud
 featuredImage: banner.png
 ---
 

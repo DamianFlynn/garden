@@ -6,18 +6,18 @@ slug: installing-freeradius
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/installing-freeradius/index.md
-neocortex_source_sha: b6eeed6f5960078124f5d0e41943a40865569c76c57f00615483a31564cc7f7d
+neocortex_source_sha: 6d81874723ed36e355bbbd1b3d592253f980454ccad4a4bcc3aaeae5c4bedc12
 description: Guide to installing an alternative Radius service, for those who may
   have implemented Windows NPS Server - License Free and Open Source, Enterprise Ready
 tags:
+- RADIUS
 - Linux
-- Networking
-- Azure
+- FreeRADIUS
 categories:
-- IT Pro/DevOps
-- OpenSource
-- Identity
-series: RADIUS with Azure Active Directory
+- Networking
+- Identity and Security
+series:
+- RADIUS in a Cloud World
 featuredImage: hero.png
 ---
 

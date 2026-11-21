@@ -6,16 +6,13 @@ slug: running-fastled-on-the-dual-core-esp32
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/running-fastled-on-the-dual-core-esp32/index.md
-neocortex_source_sha: 9102588e3cae12edc557030ffa49aea971b4e2a3699202c4dd708505b791bde0
+neocortex_source_sha: b6e17e13c92f4fd5adb47f639cf020446574a9ec105d72f5d725119d8bd67423
 description: Building the FastLED solution with Platform.IO to run on the ESP32
 tags:
-- Internet of Things
+- ESP32
+- FastLED
 categories:
-- Developer
-- Smart Home
-- SoC
-- Microcontrollers
-- IoT
+- IoT and Edge
 featuredImage: banner.png
 ---
 

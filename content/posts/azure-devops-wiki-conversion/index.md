@@ -6,14 +6,18 @@ slug: azure-devops-wiki-conversion
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-devops-wiki-conversion/index.md
-neocortex_source_sha: 646ff42918d2be5f887ff72d518d081faf3d1bbd2236079cbd4b95eef56e33a5
+neocortex_source_sha: e313d57575e8fb37125d8281b27c04655bd8215d5e332193d9e6f788f05398b1
 description: Keep documentation in Markdown and publish a corporate-style PDF from
   Azure DevOps Wiki content using Pandoc, templates and the markdown2pdf pipeline.
 tags:
-- azure-devops
-- documentation
-- markdown
-- pandoc
+- Azure DevOps
+- Git
+- Markdown
+- Pandoc
+- Bash
+- DevOps
+categories:
+- DevOps and Tooling
 ---
 
 The project documentation is in good shape. The team has been maintaining an Azure DevOps wiki, the architecture pages link to the detailed design, and the deployment instructions sit alongside the decisions that explain them.

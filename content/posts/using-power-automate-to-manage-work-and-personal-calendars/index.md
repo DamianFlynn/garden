@@ -6,20 +6,17 @@ slug: using-power-automate-to-manage-work-and-personal-calendars
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/using-power-automate-to-manage-work-and-personal-calendars/index.md
-neocortex_source_sha: bd296479421acc2ec3dddd55099cf62609872f2d6161399e6741e4704322054b
+neocortex_source_sha: 47370b3a56a47ac85f475bd106929ab99eb9d0d7f0350ea1763802782cf82941
 description: Sorting out the chaos of managing multiple calendars, and putting assistants
   to work
 tags:
-- Internet of Things
+- Power Automate
+- Google Calendar
+- Calendars
+- Exchange
+- Microsoft 365
 categories:
 - Smart Home
-- Siri
-- Alexa
-- Google Home
-- Azure
-- Microsoft Flow
-- Synchronization
-- Exchange
 featuredImage: hero.png
 ---
 

@@ -6,19 +6,22 @@ slug: bicep-action-plan-review-deploy
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/bicep-action-plan-review-deploy/index.md
-neocortex_source_sha: 678f495a593f81e582a0001920fc2ff3edaf1fb73d64da62cc1477ec5a8f1fc5
+neocortex_source_sha: 4fd8773afd34fbc9182eff1386ab583c451f2f29b5ce5375f338466fc827cd89
 description: What bicep-action is, how it brings the Atlantis plan-review-apply workflow
   to Azure Bicep on both GitHub Actions and Azure DevOps, what the plan checks, how
   it keeps the deployment identical to the reviewed plan, and how to run it for one
   environment or many. Free, open source and running in production.
 tags:
-- azure
-- bicep
-- github-actions
-- azure-devops
-- deployment-stacks
-- atlantis
-- iac
+- Bicep
+- GitHub Actions
+- Azure DevOps
+- Deployment Stacks
+- Atlantis
+- What-If
+- Human in the Loop
+- DevOps
+categories:
+- Infrastructure as Code
 series: Building Azure With Code
 featuredImage: hero.png
 ---

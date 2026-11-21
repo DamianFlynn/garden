@@ -6,11 +6,14 @@ slug: debugging-go-using-vs-code
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/debugging-go-using-vs-code/index.md
-neocortex_source_sha: 73c6357093368bca67865ef1be3a91099545502bc69897c1530de944807a7b39
+neocortex_source_sha: c0850a2d332e35e47162322b40aebd47d1dd2d45b7b7735969031a5347d125d4
 description: A tutorial on debugging Go applications in VS Code using the Go and Delve
   extensions, with a sample app that generates JSON.
 tags:
-- golang
+- VS Code
+- Go
+categories:
+- DevOps and Tooling
 featuredImage: hero.png
 ---
 

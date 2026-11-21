@@ -6,14 +6,12 @@ slug: ignite-2019-top-10-azure-governance-best-practices
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ignite-2019-top-10-azure-governance-best-practices/index.md
-neocortex_source_sha: f01c68338f3b62b00e1fbf21a1eabfb960a7664e831fe77afd7f9df877caa391
+neocortex_source_sha: 9a60901bee42532bb497e47c4ddf2d5cf502a48f4146259074b61bfd0b3986a3
 description: Top 10 Azure Governance and Adoption Best Practices
 tags:
-- Custom Providers
-- Managed Applications
-- Service Catalog
+- Microsoft Ignite
 categories:
-- Resource Manager
+- Governance
 featuredImage: hero.png
 ---
 

@@ -6,14 +6,16 @@ slug: zfs-primer
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/zfs-primer/index.md
-neocortex_source_sha: de55eaa840f4f70e260b54c7e89376f10e8fed2927b2022c68fed7021f212160
+neocortex_source_sha: 6e8f2d2aef9eacbafed7ba58136e1c0f01277fb350cd10078eb568ead773e69f
 description: Practical ZFS notes from my Linux and Proxmox home server, from choosing
   disks and creating a pool to organising datasets and sharing storage over NFS.
 tags:
-- linux
-- zfs
+- Linux
+- ZFS
+- Proxmox
+- Bash
 categories:
-- how-to
+- DevOps and Tooling
 featuredImage: hero.png
 ---
 

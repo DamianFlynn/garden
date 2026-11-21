@@ -6,14 +6,14 @@ slug: global-transit-network-for-azure-virtual-wan
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/global-transit-network-for-azure-virtual-wan/index.md
-neocortex_source_sha: 7fc709a78cbe1e405f04257d74127e3e4aa7c55cc19d319549963a9a1a467223
+neocortex_source_sha: 6b4b5f7bc40b8821e85f7c4c26360b8ea9dca824d1b11d75adaa534eba08958b
 description: Global Transit Network For Azure Virtual WAN
 tags:
-- Az CLI
-- PowerShell
-- Enterprise Agreement
+- Virtual WAN
+- VPN
+- Azure Firewall
 categories:
-- Network
+- Networking
 featuredImage: hero.png
 ---
 

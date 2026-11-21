@@ -6,16 +6,17 @@ slug: constructing-a-new-home-with-jekyll-and-azure-devops
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/constructing-a-new-home-with-jekyll-and-azure-devops/index.md
-neocortex_source_sha: a2cf79ec81557cd2a4a3333870d322272237af1a4095505776346e22aaf4f619
+neocortex_source_sha: 16cb056ebd5d1c91335bd6d80759d0760500fb96deef1f3e838fc873d507253a
 description: Building a new Static Site in Markdown, using Jekyll, GIT Flow and Azure
   DevOps
 tags:
-- Azure
 - Azure DevOps
-- Git
+- Static Sites
 - Jekyll
+- Git
+- DevOps
 categories:
-- Knowledge Sharing
+- DevOps and Tooling
 featuredImage: hero.png
 ---
 

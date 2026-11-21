@@ -6,9 +6,20 @@ slug: azure-iot-hub-and-mosquitto
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iot-hub-and-mosquitto/index.md
-neocortex_source_sha: 6a1bdc7657e0d64040df368cceeefe48836334b02ccff6907fb09bb671021950
+neocortex_source_sha: 85bf488988bf1c173aef5f5c780304a8b3b9c27c2caf8312edbca582f17522c1
 description: ''
-tags: []
+tags:
+- Azure IoT Hub
+- MQTT
+- ESP32
+- Mosquitto
+- Azure IoT Edge
+- Arduino
+- Raspberry Pi
+- Bash
+- Python
+categories:
+- IoT and Edge
 ---
 
 ## References

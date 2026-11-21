@@ -7,16 +7,23 @@ slug: 3-deploying-azure-iot-operations-on-arc-enabled-k3s-production-mqtt-broker
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/3-deploying-azure-iot-operations-on-arc-enabled-k3s-production-mqtt-broker-and-edge-data-platform/index.md
-neocortex_source_sha: 4aa9e1ce6a96d68620103c430f8f7fecb28bba77b46f03ab23973df842686e8f
+neocortex_source_sha: 67397de0a6167a6e7daed0329b40fd84faab9f6fb6813917c42265484f640a20
 description: Unlock the potential of your edge infrastructure with our comprehensive
   guide on deploying Azure IoT Operations on Arc-Enabled K3s, featuring production-grade
   MQTT brokering, data transformation pipelines, and secure device connectivity—all
   designed to elevate your industrial IoT scenarios to new heights!
 tags:
-- Azure
-- IoT
-- DevOps
-categories: IoT
+- Azure IoT Operations
+- MQTT
+- Kubernetes
+- K3s
+- Azure Key Vault
+- OpenTelemetry
+- Prometheus
+- Observability
+- Bash
+categories:
+- IoT and Edge
 series: Azure IoT Operations
 featuredImage: hero.png
 ---

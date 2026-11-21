@@ -6,16 +6,16 @@ slug: cbus-mqtt-bridge-on-raspberry-pi
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/cbus-mqtt-bridge-on-raspberry-pi/index.md
-neocortex_source_sha: 39dc7a9246dfd819d46fc269d55a35406d64a45f7dc4c8e99bb4dee42a03402b
+neocortex_source_sha: 2f036385121429845b76a51a16fffdf74ca3f0906cb35e54d0ca2b10530e63af
 description: Installing C-Gate on a Raspberry Pi, and adding a MQTT Bridge.
 tags:
 - MQTT
-- CBUS
-- Linux
-- RaspberryPI
-- NodeJS
+- Raspberry Pi
+- C-Bus
+- Node.js
+- Bash
 categories:
-- IoT
+- Smart Home
 series: Home Automation
 featuredImage: iot-cbus-mqtt_gateway.png
 ---

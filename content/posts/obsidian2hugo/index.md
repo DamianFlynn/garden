@@ -6,12 +6,15 @@ slug: obsidian2hugo
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/obsidian2hugo/index.md
-neocortex_source_sha: c215a578448bc7c579f9bbdc12be272481560499dfd15ea6b4f36965668db5a7
+neocortex_source_sha: 26beb521c8b94a4f43f0f2afd3a48a0203c4f409f18d883131eb1fd02a4143fb
 description: Obsidian2Hugo streamlines publishing Obsidian notes to Hugo by extracting
   Markdown titles and summaries for front matter and SEO.
 tags:
-- test
-- magic
+- Hugo
+- Static Sites
+- Obsidian
+categories:
+- DevOps and Tooling
 featuredImage: hero.png
 ---
 

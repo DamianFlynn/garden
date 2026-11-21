@@ -6,15 +6,13 @@ slug: hitting-reset
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/hitting-reset/index.md
-neocortex_source_sha: a1607dabc66f44b2e1f0094f168116dd5972d699402724d8b4abb0684f742354
+neocortex_source_sha: 0035476ba664b4d5901b532196d635cab8109110220fa24d5b5fa0c3a484e6f4
 description: 18 years, from Ops to the Cloud, Development to Identity, Aquisations
   to Mergers, Los Angeles to Beijing, MVP to Champion. It is time to refocus.
 tags:
-- Career
 - MVP
-- Cisco Champion
 categories:
-- Thoughts
+- Community
 featuredImage: general_personal-reflection-2018.jpg
 ---
 

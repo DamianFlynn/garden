@@ -6,16 +6,17 @@ slug: hugo-modules-additional-examples
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/hugo-modules-additional-examples/index.md
-neocortex_source_sha: 27fa2acee5e438c2995cb336fd7e166f2f4b31c02d2317e7377113c661aeb42e
+neocortex_source_sha: 40f30ebbe7cde508d365587123c150b91ad37b5eb7b8b34d084132bda872044d
 description: Examples show how to use Hugo modules to add themes, mount specific files,
   import assets from other repositories, and combine modules.
 tags:
-- Static Site
 - Hugo
-- Git
+- Static Sites
+- Hugo Modules
+- GitHub
 categories:
-- Hugo
-series: Sharing Knowledge
+- DevOps and Tooling
+series: []
 featuredImage: hero.png
 ---
 

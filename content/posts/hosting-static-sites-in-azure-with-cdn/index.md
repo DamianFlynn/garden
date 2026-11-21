@@ -6,16 +6,16 @@ slug: hosting-static-sites-in-azure-with-cdn
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/hosting-static-sites-in-azure-with-cdn/index.md
-neocortex_source_sha: 705f2de733db5b58d82d749ac63934740ce47030da5ca7d5b378287283336ee2
+neocortex_source_sha: 6567b870791567d4d02bed9a73e23d619f162d37221d72231f0d7b1d0029c882
 description: Laying the foundation in Azure for a Static Site
 tags:
-- ARM
+- Static Sites
+- ARM Templates
 - Azure CDN
 - Azure Storage
-- Azure Static Website
 categories:
-- Cloud
-series: Blogging Journey
+- Azure
+series: []
 featuredImage: iac_bicep_tags-as-parameters.png
 ---
 

@@ -6,13 +6,14 @@ slug: configuring-the-web-application-firewall-with-powershell
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/configuring-the-web-application-firewall-with-powershell/index.md
-neocortex_source_sha: a0fa00ecce99e0c9b73cfa6a0a7a8f905eb5cfa58ee0910b7f451d380ee3cd65
+neocortex_source_sha: 507e7ec0e6b14ce0d0a50211645a9bc27e06262fd3c8e47fc45211ac9859688e
 description: A quick guide on how to connect and work with the Azure WAF from PowerShell
 tags:
-- Powershell
-- Azure Web Application Gateway
+- Application Gateway
+- PowerShell
+- Web Application Firewall
 categories:
-- Cloud
+- Networking
 series: Building Azure With Code
 featuredImage: banner.png
 ---

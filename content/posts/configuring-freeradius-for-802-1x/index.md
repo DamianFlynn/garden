@@ -6,17 +6,22 @@ slug: configuring-freeradius-for-802-1x
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/configuring-freeradius-for-802-1x/index.md
-neocortex_source_sha: cbe4ee82f3cfd4e5bae1e7301fe97026ddceca85acebbf6e2ec9e64e4d9d920f
+neocortex_source_sha: ad6ceabfd74927bb4af1fee4fe474aa3b285018b3c514ca286dbd765d8727a82
 description: Guide to installing an alternative Radius service, for those who may
   have implemented Windows NPS Server - License Free and Open Source, Enterprise Ready
 tags:
+- RADIUS
+- PKI
 - Linux
-- Networking
-- Azure
+- FreeRADIUS
+- 802.1X
+- Wi-Fi
+- Bash
 categories:
-- IT Pro/DevOps
-- OpenSource
-- Identity
+- Networking
+- Identity and Security
+series:
+- RADIUS in a Cloud World
 featuredImage: hero.png
 ---
 

@@ -6,17 +6,20 @@ slug: linux-802-1x-wlan-client
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/linux-802-1x-wlan-client/index.md
-neocortex_source_sha: a6336abc0c1b338981413047227d7c9b2a8820a206dbbef826f3f3ad740a5071
+neocortex_source_sha: 71524629b9f83810b302c703d71e586ae103a1dc4a17269020f67f4498b395a2
 description: Guide to installing an alternative Radius service, for those who may
   have implemented Windows NPS Server - License Free and Open Source, Enterprise Ready
 tags:
+- RADIUS
+- PKI
 - Linux
-- Networking
-- Azure
+- 802.1X
+- Wi-Fi
 categories:
-- IT Pro/DevOps
-- OpenSource
-- Identity
+- Networking
+- Identity and Security
+series:
+- RADIUS in a Cloud World
 featuredImage: banner.png
 ---
 

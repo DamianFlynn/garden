@@ -6,20 +6,18 @@ slug: assistants-familys-work-and-calendars-chaos
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/assistants-familys-work-and-calendars-chaos/index.md
-neocortex_source_sha: ea15ae066cef2ccd319faeff54c53d317466e7ee2d694bb01c1bf9083d9f6586
+neocortex_source_sha: 54595e65a7ef36a878caa272a9255e69f01268ec4535e4e1dd5456d80a5c9165
 description: Sorting out the chaos of managing multiple calendars, and putting assistants
   to work
 tags:
-- Internet of Things
+- Power Automate
+- Google Calendar
+- Calendars
+- Voice Assistants
+- Exchange
+- Microsoft 365
 categories:
 - Smart Home
-- Siri
-- Alexa
-- Google Home
-- Azure
-- Microsoft Flow
-- Synchronization
-- Exchange
 featuredImage: hero.png
 ---
 

@@ -6,17 +6,14 @@ slug: azure-iac-tags-as-parameters
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iac-tags-as-parameters/index.md
-neocortex_source_sha: fadd4cbb225410c4b85a5d2cc53f2f3a7eb5edebe8725d6fa89a1e72a0a800df
+neocortex_source_sha: 20c786b8dc47ed4fe9e264ccf4d6af2b0d3eed489c6644fd572c789291838d50
 description: Deploying infrastructure ARM Templates to Azure, but using Tags and thier
   respective value as the parameter configuration settings
 tags:
-- ARM
-- Azure
-- Template
-- Functions
-- IaC
+- ARM Templates
+- Resource Tags
 categories:
-- Azure
+- Infrastructure as Code
 series: Building Azure With Code
 featuredImage: iac-state-azure_tags.png
 ---

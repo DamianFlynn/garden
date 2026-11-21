@@ -6,17 +6,14 @@ slug: installing-docker-and-compose-on-raspbian-buster
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/installing-docker-and-compose-on-raspbian-buster/index.md
-neocortex_source_sha: 023ce5827c279786d0e917f65ee37d0796e496d2df66d26f03aa2200ed00e897
+neocortex_source_sha: ccc0088f15ee739ef78f1c7101274fcb5dca8144c0b0df0276a291a3d10a9436
 description: Steps to install Docker and Docker-compose on a Raspbian Buster PI.
 tags:
-- Az CLI
-- PowerShell
-- Enterprise Agreement
-- Automation
-- SPN
+- Docker
+- Raspberry Pi
+- Linux
 categories:
-- Development
-- Governance
+- DevOps and Tooling
 featuredImage: banner.png
 ---
 

@@ -6,18 +6,16 @@ slug: extracting-certificates-from-a-pfx
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/extracting-certificates-from-a-pfx/index.md
-neocortex_source_sha: 938b2d92c622ad10dbcae71322ba74f5d11f7daa30c795411142fd91efdb4c3d
+neocortex_source_sha: eff09e9081c7f2d768aeebd546feabe41228b045100495218e4b034d2795fa9a
 description: PFX files enable to transportation of certificates between systems, however
   many services require separate files for both public and private certificates
 tags:
-- Linux
-- Networking
-- Azure
+- PKI
+- OpenSSL
 categories:
-- IT Pro/DevOps
-- OpenSource
-- Identity
-series: Raidus in a Cloud World
+- Identity and Security
+series:
+- RADIUS in a Cloud World
 featuredImage: banner.png
 ---
 

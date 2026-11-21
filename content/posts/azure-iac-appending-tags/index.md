@@ -6,16 +6,13 @@ slug: azure-iac-appending-tags
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iac-appending-tags/index.md
-neocortex_source_sha: 76366fce05cc5fd92918e997a7d2aaf9e8c2bb8d7adde7f10639714de2e78719
+neocortex_source_sha: f67e43ff655399c45452f673b477852e06bef67b0f7e36e5c9981ce01d54acdd
 description: 'Dynamically appending Tags to our ARM template with the union function '
 tags:
-- ARM
-- Azure
-- Template
-- Functions
-- IaC
+- ARM Templates
+- Resource Tags
 categories:
-- Azure
+- Infrastructure as Code
 series: Building Azure With Code
 featuredImage: banner.png
 ---

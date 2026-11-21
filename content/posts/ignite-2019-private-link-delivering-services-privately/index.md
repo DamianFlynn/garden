@@ -6,12 +6,13 @@ slug: ignite-2019-private-link-delivering-services-privately
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ignite-2019-private-link-delivering-services-privately/index.md
-neocortex_source_sha: e3ef51a37902ec95aa39f6c58d53ff670449a861c30698149978cb0c5526d688
+neocortex_source_sha: b2a8204e2382e2078d3e780aa4d0ae5cfe5348a05b0da131fdf9ae81bfba80b2
 description: Delivering PaaS Services Privately on Azure VNets with Private Link
 tags:
 - Private Link
+- Microsoft Ignite
 categories:
-- Network
+- Networking
 featuredImage: hero.png
 ---
 

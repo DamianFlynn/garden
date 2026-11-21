@@ -6,20 +6,14 @@ slug: updating-pester-on-windows-10
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/updating-pester-on-windows-10/index.md
-neocortex_source_sha: 7ef96fadb62bcb1d4b357322c8d08520c1cef18d8b1db9c1511b6cb8e93b1611
+neocortex_source_sha: 983e2a368d075fdfd6e1c606ac75037dbb8a55f665bbee5eb2c9e1b81d4f4f94
 description: Updating Pester, May need more than a Force!
 tags:
-- Azure
+- PowerShell
+- Pester
+- Windows
 categories:
-- Cloud Strategy
-- Developer
-- IT Pro/DevOps
-- Community
-- ARM
-- Azure Policy
-- Azure
-- Resource Manager
-- Cloud
+- DevOps and Tooling
 featuredImage: banner.png
 ---
 

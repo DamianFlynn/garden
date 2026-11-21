@@ -1,22 +1,23 @@
 ---
 title: Azure Functions Scaffolding
 date: '2022-11-07T00:00:00Z'
-draft: false
+draft: true
 slug: azure-functions-scaffolding
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-functions-scaffolding/index.md
-neocortex_source_sha: c9a47bb1d69004e83220df1fa5fa4e97a6c1bc879ccbfe19c06915b116552ea6
+neocortex_source_sha: 40fa33c85de90bd225611462c2ddf3588d602318991211748272d9bddaff217e
 description: Dependency injection is an approach to solve inversion of control that
   facilitates components that are easier to test and mock. To better understand dependency
   injection, this article walks through the creation of a simple DI framework and
   explains step-by-step how it works.
 tags:
-- General
+- Azure Functions
+- ARM Templates
+- C#
 categories:
-- Career
-- MVP
-- Cisco Champion
+- Azure
+- Infrastructure as Code
 featuredImage: hero.png
 ---
 

@@ -6,14 +6,13 @@ slug: reading-material-wavemaker
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/reading-material-wavemaker/index.md
-neocortex_source_sha: e9942718cb328ab3f0b1907c984365c80d9dd7f940f23dcffcdac0435d36be36
+neocortex_source_sha: 22aee81284bca38774ee8edba39307ff8a710f48e2634ecf13178d6c2862fe23
 description: Careers are what we all invest our energy and emotions in, either positively
   or negatively
 tags:
-- General
-categories:
-- Career
 - Books
+categories:
+- Community
 featuredImage: hero.png
 ---
 

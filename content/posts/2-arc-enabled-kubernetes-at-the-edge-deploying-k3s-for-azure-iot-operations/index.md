@@ -6,16 +6,22 @@ slug: 2-arc-enabled-kubernetes-at-the-edge-deploying-k3s-for-azure-iot-operation
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/2-arc-enabled-kubernetes-at-the-edge-deploying-k3s-for-azure-iot-operations/index.md
-neocortex_source_sha: d935ef33c840e4ee6bd0ee6298f6e50ccc7e338f671c9163e17142656c6277d4
+neocortex_source_sha: c224a5d02bec59de0747ef5305f7971b72a7e220a3f89e53dc9771de79c7a13a
 description: Unlock the potential of your edge computing with our comprehensive guide
   on deploying K3s for Azure IoT Operations—transform your Ubuntu server into a production-ready
   Kubernetes cluster, enhance observability, and seamlessly integrate with Azure Arc
   for efficient remote management and monitoring.
 tags:
-- Azure
-- IoT
-- DevOps
-categories: IoT
+- Azure IoT Operations
+- Azure Arc
+- Kubernetes
+- K3s
+- Azure Monitor
+- Grafana
+- Observability
+- Bash
+categories:
+- IoT and Edge
 series: Azure IoT Operations
 featuredImage: hero.png
 ---

@@ -6,17 +6,20 @@ slug: freeradius-and-daloradius
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/freeradius-and-daloradius/index.md
-neocortex_source_sha: 97b5277be96a230672937a75cc8831c43ecec75fac44ca98c353e177398b8524
+neocortex_source_sha: 319cde06d76d5173daaf29b52f069dbb9bcb432a711b1df9158c5037e3548297
 description: Guide to installing an alternative Radius service, for those who may
   have implemented Windows NPS Server - License Free and Open Source, Enterprise Ready
 tags:
+- RADIUS
 - Linux
-- Networking
-- Azure
+- FreeRADIUS
+- daloRADIUS
+- MySQL
 categories:
-- IT Pro/DevOps
-- OpenSource
-- Identity
+- Networking
+- Identity and Security
+series:
+- RADIUS in a Cloud World
 featuredImage: banner.png
 ---
 

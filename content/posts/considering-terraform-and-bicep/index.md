@@ -6,14 +6,14 @@ slug: considering-terraform-and-bicep
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/considering-terraform-and-bicep/index.md
-neocortex_source_sha: f5b4e6f5127a77cb095fec9df78329229875bca9e7e94ae2e00fc226e2804c7c
+neocortex_source_sha: 44baf2869151c35753ed4cf2972482090905198e58320cfe7bbfa63ce3b67ebe
 description: Consider the strenghts of Terraform and Bicep as a DSL for cloud architecture
 tags:
-- iac
-- terraform
-- bicep
+- Terraform
+- Bicep
+- ARM Templates
 categories:
-- desired state
+- Infrastructure as Code
 series: Building Azure With Code
 featuredImage: hero.png
 ---

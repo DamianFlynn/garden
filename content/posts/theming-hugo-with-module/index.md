@@ -6,17 +6,18 @@ slug: theming-hugo-with-module
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/theming-hugo-with-module/index.md
-neocortex_source_sha: e872f3a7b17e70502c34326ac4ce9fdf97f5dd21b379ccd2cf5d71d66394fda4
+neocortex_source_sha: 76121c2b93d9aa922fc0a5cff72bb6db34f211c4ddcc3e60a6a74df8962da97c
 description: Leverage agile frameworks to provide a robust synopsis for high level
   overviews. Iterative approaches to corporate strategy foster collaborative thinking
   to further the overall value proposition.
 tags:
-- git
-- hugo
-- staticsite
-categories:
 - Hugo
-series: Sharing Knowledge
+- Static Sites
+- Hugo Modules
+- GitHub
+categories:
+- DevOps and Tooling
+series: []
 featuredImage: hero.png
 ---
 

@@ -6,7 +6,7 @@ slug: agents-need-an-identity-innofactor-briefing
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/agents-need-an-identity-innofactor-briefing/index.md
-neocortex_source_sha: 30df3868c968403bbcda22c6216f38c83c230bea0c1e8619fba52ecbfaf576f3
+neocortex_source_sha: a3acb30f6e16618cc57544dd736aa083ba3fc63d43ddc1b326df0c5a563fa7ee
 format: talk
 publishDate: '2026-11-07'
 events:
@@ -21,7 +21,11 @@ description: 'A practitioner''s account of giving AI agents their own identity: 
   it breaks down, how an AI gateway bridges Entra and legacy backends, and a governance
   model that holds up.'
 tags:
-- mvp
+- MVP
+- Entra ID
+categories:
+- AI and Agents
+- Identity and Security
 featuredImage: 01-title.jpg
 ---
 

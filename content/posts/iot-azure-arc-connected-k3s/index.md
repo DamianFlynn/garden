@@ -6,7 +6,7 @@ slug: iot-azure-arc-connected-k3s
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/iot-azure-arc-connected-k3s/index.md
-neocortex_source_sha: c74d546063c79737dfc9e8a03b734a49f153d105f9e39cd0046dd2b6006d7cd6
+neocortex_source_sha: 213babb8627f3c5d2fd985502f6a6d818a049111372e61c02c3d321ad881d732
 description: Transform your on-premises infrastructure into a cloud-integrated powerhouse
   by combining K3s Kubernetes with Azure Arc on an Ubuntu server. This guide walks
   you through every step—from deploying K3s and configuring user access to connecting
@@ -15,13 +15,16 @@ description: Transform your on-premises infrastructure into a cloud-integrated p
   or hybrid IoT solutions, this tutorial gives you a production-grade environment
   with the flexibility of the cloud and control of local resources.
 tags:
-- IaC
+- Azure Arc
+- Kubernetes
 - Linux
-- Docker
-- IoT
+- K3s
+- Azure Monitor
+- Grafana
+- Observability
+- Bash
 categories:
-- Azure Edge Devices
-- IoT
+- IoT and Edge
 series:
 - Azure IoT Operations
 featuredImage: hero.png

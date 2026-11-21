@@ -6,7 +6,7 @@ slug: ai-operating-production
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ai-operating-production/index.md
-neocortex_source_sha: d6e6e0d87966a118ebc984f15dfcfb03945528d59b7212e3886465f795b47372
+neocortex_source_sha: eddf2fa41333dd4caaeff6b5e96373596ce37435a52edfb7db01a3830364174a
 format: talk
 publishDate: '2026-11-07'
 events:
@@ -22,7 +22,11 @@ slides_resource: slides.html.deck
 description: Real failure stories from AI-assisted Azure operations, each with the
   guardrail that fixed it, and the patterns that worked.
 tags:
-- mvp
+- MVP
+- Site Reliability Engineering
+categories:
+- AI and Agents
+- Infrastructure as Code
 featuredImage: 00-title.jpg
 ---
 

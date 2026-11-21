@@ -6,16 +6,15 @@ slug: ad-online-certificate-responder
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/ad-online-certificate-responder/index.md
-neocortex_source_sha: 2a57a13362e7e3907381a649e512f9c0e41518f15a33f59df20eaf9566d57ec1
+neocortex_source_sha: 0d3c0bbc4266f2450692aa86ec63ac32464db1e2de3c4bdc1939f5cd3c4f7e44
 description: Certificate Revocation Lists are typically published to a HTTP site as
   static files, however the OCSP service provides an always current, API to the PKI
   environment to validate certificate health
 tags:
-- IaaS
 - PKI
-- Delegation
+- Active Directory
 categories:
-- Azure
+- Identity and Security
 featuredImage: hero.png
 ---
 

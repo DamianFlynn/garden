@@ -1,22 +1,19 @@
 ---
 title: Bicep - Tags as Parameters
 date: '2021-07-23'
-draft: false
+draft: true
 slug: bicep-tags-as-parameters
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/bicep-tags-as-parameters/index.md
-neocortex_source_sha: 82a07788c2aa6e522313508659f137cfcc194d10c8830a65b9cd44c5aee94618
+neocortex_source_sha: b845440e83418256c3b4a55bcb64fb6588aa24818c894b15c417c84df42a3483
 description: Deploying infrastructure ARM Templates to Azure, but using Tags and their
   respective value as the parameter configuration settings
 tags:
-- ARM
-- Azure
-- Template
-- Functions
-- IaC
+- Bicep
+- Resource Tags
 categories:
-- Cloud
+- Infrastructure as Code
 series: Building Azure With Code
 featuredImage: iac_bicep_tags-as-parameters.png
 ---

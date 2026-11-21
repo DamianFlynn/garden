@@ -6,13 +6,12 @@ slug: happy-new-year-2019
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/happy-new-year-2019/index.md
-neocortex_source_sha: 06824ec1c5eeb9392bbe4ef55d299f6756cd9386cb7267373737bfc0c5fc05cb
+neocortex_source_sha: 7c62ff0c308c3ba5a58be48993734385a6da0e72036f70d880dfcdbc861ae91e
 description: Welcome to 2019
 tags:
-- General
-categories:
-- Career
 - MVP
+categories:
+- Community
 featuredImage: hero.png
 ---
 

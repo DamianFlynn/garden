@@ -6,13 +6,15 @@ slug: configure-wireguard-on-unifi-usg
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/configure-wireguard-on-unifi-usg/index.md
-neocortex_source_sha: 78990533718939a8891a9a55206ec66ea249356bdfc81c82e49902f6adb162fb
+neocortex_source_sha: 5a8515cf7b3802b851e71d744fb8cd4e0c83bbff3ed53d05fd91de1da8ca950c
 description: Installing and Configuring Wireguard on the UniFi Security Gateway
 tags:
-- Networking
+- VPN
+- WireGuard
+- UniFi
+- Ubiquiti
 categories:
-- IT Pro/DevOps
-- Cloud
+- Networking
 featuredImage: banner.png
 ---
 

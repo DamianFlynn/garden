@@ -6,17 +6,20 @@ slug: freeradius-and-mysql
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/freeradius-and-mysql/index.md
-neocortex_source_sha: b8ddd08a5be9a57216903d304b48cd562ff703bce3305d59bb745b001a767859
+neocortex_source_sha: c89df7423a0c5f18f449cec72a2501b3632b292ff7a89fd6259558bc7e4501ee
 description: Guide to installing an alternative Radius service, for those who may
   have implemented Windows NPS Server - License Free and Open Source, Enterprise Ready
 tags:
+- RADIUS
 - Linux
-- Networking
-- Azure
+- FreeRADIUS
+- MySQL
+- Bash
 categories:
-- IT Pro/DevOps
-- OpenSource
-- Identity
+- Networking
+- Identity and Security
+series:
+- RADIUS in a Cloud World
 featuredImage: banner.png
 ---
 

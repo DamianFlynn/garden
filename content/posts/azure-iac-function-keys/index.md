@@ -1,21 +1,18 @@
 ---
 title: Azure IaC - Function Keys
 date: '2022-11-07T00:00:00Z'
-draft: false
+draft: true
 slug: azure-iac-function-keys
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/azure-iac-function-keys/index.md
-neocortex_source_sha: 0193cce6f436c3d534401df8047104b917a1d7c9bf2a9572be341b84846c8f7d
+neocortex_source_sha: d5e58091cbb5689ed1784683d9841c29fac4cbe2e7477214979259d6a2445068
 description: Retrieve the Function Host Keys while deploying an ARM template
 tags:
-- ARM
-- Azure
-- Template
-- Functions
-- IaC
+- ARM Templates
+- Azure Functions
 categories:
-- Azure
+- Infrastructure as Code
 featuredImage: hero.png
 ---
 

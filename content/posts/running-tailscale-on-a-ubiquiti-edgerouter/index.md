@@ -6,10 +6,17 @@ slug: running-tailscale-on-a-ubiquiti-edgerouter
 author: damian
 authorLink: https://linkedin.com/in/damianflynn
 neocortex_id: areas/damianflynn/content/running-tailscale-on-a-ubiquiti-edgerouter/index.md
-neocortex_source_sha: ea6070a40170714ac2b684728a8bf8c2af1b769d1ef84ff363537c52dea525dc
+neocortex_source_sha: a386140f39b08074a4ae411556561eeba8dde5e2e380cd04b1f2f5a421ae24a0
 description: A guide to running and maintaining Tailscale on a Ubiquiti EdgeRouter
   to simplify secure home network access.
-tags: []
+tags:
+- VPN
+- Tailscale
+- WireGuard
+- UniFi
+- Ubiquiti
+categories:
+- Networking
 featuredImage: hero.png
 ---
 
